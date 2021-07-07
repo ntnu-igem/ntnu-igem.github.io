@@ -1,0 +1,87 @@
+File links for all references in wiki,
+for now mostly pictures and css-stylings. (30.06.21)
+
+To upload files in general, write the following in the box "Destination filename":
+T--NTNU-Trondheim--
+before the filename you'd like, and then the file type you're uploading.
+
+To reference templates (the css files you upload in a very nasty manner)
+for your pages, use the following method:
+1. Main shell: {{Template:NTNU-Trondheim
+            +
+2. Specific CSS-file /File/Directory}}
+
+
+###########################
+         IMAGES
+###########################
+
+########### TEAM MEMBERS ##########
+
+https://2021.igem.org/File:T--NTNU-Trondheim--Anine.jpg (original link)
+https://2021.igem.org/wiki/images/9/91/T--NTNU-Trondheim--Anine.jpg (non-formatted file)
+
+
+########## HEADER PHOTOS ##########
+
+## Team-page
+https://2021.igem.org/File:T--NTNU-Trondheim--Team.jpg (original link)
+https://2021.igem.org/wiki/images/1/1e/T--NTNU-Trondheim--Team.jpg (non-formatted file)
+
+
+########## ADVISORS ############
+
+https://2021.igem.org/File:T--NTNU-Trondheim--Gunvor.png (original link)
+https://2021.igem.org/wiki/images/b/b3/T--NTNU-Trondheim--Gunvor.png (non-formatted file)
+
+https://2021.igem.org/File:T--NTNU-Trondheim--Husnain.png (original link)
+https://2021.igem.org/wiki/images/4/41/T--NTNU-Trondheim--Husnain.png (non-formatted file)
+
+https://2021.igem.org/File:T--NTNU-Trondheim--Lisa.png (original link)
+https://2021.igem.org/wiki/images/b/bb/T--NTNU-Trondheim--Lisa.png (non-formatted file)
+
+https://2021.igem.org/File:T--NTNU-Trondheim--Rahmi.png (original link)
+https://2021.igem.org/wiki/images/6/65/T--NTNU-Trondheim--Rahmi.png (non-formatted file)
+
+
+####### LOGO ++ #######
+
+https://2021.igem.org/File:T--NTNU-Trondheim--Logo_ensfarget.png (original link)
+https://2021.igem.org/wiki/images/0/02/T--NTNU-Trondheim--Logo_ensfarget.png (non-formatted file)
+
+https://2021.igem.org/File:T--NTNU-Trondheim--Molecule.png (original link)
+https://2021.igem.org/wiki/images/1/1a/T--NTNU-Trondheim--Molecule.png (non-formatted file)
+
+
+##########################
+         CSS
+##########################
+
+### Bottom ###
+https://2021.igem.org/Template:NTNU-Trondheim/Test/bottom (original link)
+https://2021.igem.org/Template:NTNU-Trondheim/Test/bottom?action=raw&ctype=text/css (referencing)
+https://2021.igem.org/Template:NTNU-Trondheim/Test/bottom?action=edit (editing)
+
+### Navbar ###
+https://2021.igem.org/Template:NTNU-Trondheim/Test/navbar (original link)
+https://2021.igem.org/Template:NTNU-Trondheim/Test/navbar?action=raw&ctype=text/css (referencing)
+https://2021.igem.org/Template:NTNU-Trondheim/Test/navbar?action=edit (editing)
+
+### Header ###
+https://2021.igem.org/Template:NTNU-Trondheim/Test/header (original link)
+https://2021.igem.org/Template:NTNU-Trondheim/Test/header?action=raw&ctype=text/css (referencing)
+https://2021.igem.org/Template:NTNU-Trondheim/Test/header?action=edit (editing)
+
+### Remove old header ###
+https://2021.igem.org/Template:NTNU-Trondheim/Test/removeoldheader (original link)
+https://2021.igem.org/Template:NTNU-Trondheim/Test/removeoldheader?action=raw&ctype=text/css (referencing)
+https://2021.igem.org/Template:NTNU-Trondheim/Test/removeoldheader?action=edit (editing)
+
+### Fix Things ###
+https://2021.igem.org/Template:NTNU-Trondheim/Test/fixthings  (original link)
+https://2021.igem.org/Template:NTNU-Trondheim/Test/fixthings?action=raw&ctype=text/css (referencing)
+
+### Template for all templates ###
+https://2021.igem.org/Template:NTNU-Trondheim/Test/template (original link)
+https://2021.igem.org/Template:NTNU-Trondheim/Test/template?action=raw&ctype=text/css (referencing)
+https://2021.igem.org/Template:NTNU-Trondheim/Test/template?action=edit (editing)

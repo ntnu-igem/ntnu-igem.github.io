@@ -1,0 +1,93 @@
+:root {
+    --color-1: #f0f8ff;
+    --color-4: #ced7e0;
+    --color-8: #3D517A;
+    --color-9: #263354;
+    --color-10: #141b2e;
+    --contrast: #da9319;
+    --navbar-text: 1rem;
+    --navbar-molecule: 0.9rem;
+}
+
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif; /* må fikse dette senere, feil font*/
+}
+
+.navbar {
+    position:sticky;
+    top:0;
+    z-index: 999;
+    background: var(--color-9);
+    display: flex;
+    flex-direction: row;
+    padding: 0 3rem;
+    color: var(--contrast);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.navbar_button_wrapper {
+    float: left;
+    overflow: hidden;
+}
+.navbar_button_wrapper:hover .navbar_button_dropdown {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-auto-flow: row;
+    animation: fadeIn 1s;
+
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity:0;
+    }
+    100% {
+        opacity:1;
+    }
+}
+
+.navbar_button {
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-weight: bold; /* gotta fix this*/
+    align-items: center;
+    font-size: var(--navbar-text);
+    padding: 0 2rem;
+}
+.navbar_button:hover {
+    background-color: var(--color-8);
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.navbar_logo {
+    margin: 0.3rem 1rem 0.3rem 0rem;
+    height: 2.5rem;
+
+}
+
+.navbar_button_arrow {
+    height: var(--navbar-molecule);
+    margin-left: 0.3rem;
+}
+
+.navbar_button_dropdown {
+    display: none;
+    position: absolute;
+    background-color: var(--color-9);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+}
+
+.navbar_button_dropdown_element {
+    padding: 0.7rem 2rem;
+}
+
+.navbar_button_dropdown_element:hover {
+    background-color: var(--color-8);
+    text-decoration: underline;
+    cursor: pointer;
+}
