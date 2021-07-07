@@ -63,6 +63,10 @@ h3 {
 
 }
 
+#button_next {
+    order:1;
+}
+
 .team_member_button > * {
     width: 100%;
 }

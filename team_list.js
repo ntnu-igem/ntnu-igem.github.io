@@ -7,6 +7,7 @@ const teamList = [{ name: "Vic", study: "Biotechnology - Systems Biology", respo
 
 const updateFields = (index) => {
     // Update all the fields with the info of teamList[index]:
+    document.getElementById("name").innerHTML = teamList[index].name;
     document.getElementById("study").innerHTML = teamList[index].study;
     document.getElementById("responsibilities").innerHTML = teamList[index].responsibilities;
     document.getElementById("motivation").innerHTML = teamList[index].motivation;
@@ -33,3 +34,29 @@ document.getElementById("button_next").onclick = () => {
     updateFields(index);
 }
 
+
+for (const i in teamList) {
+
+    const member = teamList[i];
+
+    const element = document.getElementById("team_list");
+    const button = document.createElement("button");
+
+    button.setAttribute("class", "team_member_button");
+    const img = document.createElement("img");
+
+    img.setAttribute("src", member.imgUrl);
+
+    button.appendChild(img);
+
+    element.appendChild(button);
+
+
+
+}
+
+/*
+
+<button class="team_member_button">
+                <img src="Pictures/adrian.jpg" class="team_member_list_pic" /></button>
+*/
