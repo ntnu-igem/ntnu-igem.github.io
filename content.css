@@ -42,6 +42,10 @@ h3 {
     margin:0;
 }
 
+#study {
+    text-align:left;
+}
+
 .team_member_list {
     display:flex;
     flex-direction: row;
