@@ -68,7 +68,7 @@ h3 {
 }
 
 #button_next {
-    order:1;
+    order:1; /*next button at the end of teamList*/
 }
 
 .team_member_button > * {
@@ -77,6 +77,11 @@ h3 {
 
 .team_member_button:hover {
     opacity: 0.8;
+    cursor: pointer;
+}
+
+.team_member_button_active {
+    border: 4px solid purple;
 }
 
 .team_member_arrow > img {

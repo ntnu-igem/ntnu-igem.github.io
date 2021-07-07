@@ -5,24 +5,28 @@ const teamList = [{ name: "Vic", study: "Biotechnology - Systems Biology", respo
     name: "Andrea", study: "Biotechnology", responsibilities: "Sponsors", motivation: "money", imgUrl: "Pictures/andrea.jpg"
 }]
 
-const updateFields = (index) => {
+const updateFields = (newIndex) => {
+    console.log({ newIndex })
     // Update all the fields with the info of teamList[index]:
-    document.getElementById("name").innerHTML = teamList[index].name;
-    document.getElementById("study").innerHTML = teamList[index].study;
-    document.getElementById("responsibilities").innerHTML = teamList[index].responsibilities;
-    document.getElementById("motivation").innerHTML = teamList[index].motivation;
-    document.getElementById("name_pic").setAttribute("src", teamList[index].imgUrl);
-}
+    document.getElementById("name").innerHTML = teamList[newIndex].name;
+    document.getElementById("study").innerHTML = teamList[newIndex].study;
+    document.getElementById("responsibilities").innerHTML = teamList[newIndex].responsibilities;
+    document.getElementById("motivation").innerHTML = teamList[newIndex].motivation;
+    document.getElementById("name_pic").setAttribute("src", teamList[newIndex].imgUrl);
 
-updateFields(index);
+    //Remove and add classes to active and unactive buttons
+    document.getElementById("member_button_" + index).setAttribute("class", "team_member_button");
+    document.getElementById("member_button_" + newIndex).setAttribute("class", "team_member_button team_member_button_active");
+    index = newIndex;
+
+}
 
 document.getElementById("button_prev").onclick = () => {
     console.log("hehe");
 
     if (index <= 0) return;
 
-    index--;
-    updateFields(index);
+    updateFields(index - 1);
 }
 
 document.getElementById("button_next").onclick = () => {
@@ -30,33 +34,30 @@ document.getElementById("button_next").onclick = () => {
 
     if (index >= (teamList.length - 1)) return;
 
-    index++;
-    updateFields(index);
+    updateFields(index + 1);
 }
 
 
-for (const i in teamList) {
-
+for (const iString in teamList) {
+    const i = parseInt(iString) // JS = Ugly 
     const member = teamList[i];
 
     const element = document.getElementById("team_list");
     const button = document.createElement("button");
 
     button.setAttribute("class", "team_member_button");
+    button.setAttribute("id", "member_button_" + i);
     const img = document.createElement("img");
 
     img.setAttribute("src", member.imgUrl);
 
     button.appendChild(img);
 
+    button.onclick = () => {
+        updateFields(i)
+    };
     element.appendChild(button);
-
-
 
 }
 
-/*
-
-<button class="team_member_button">
-                <img src="Pictures/adrian.jpg" class="team_member_list_pic" /></button>
-*/
+updateFields(index);
