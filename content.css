@@ -116,36 +116,27 @@ h3 {
     margin: 0 0 0.5rem 0;
 }
 
-.team_sponsors_wrapper {
+/*
+.team_sponsors_button {
     position: relative;
     display:flex;
     justify-content: center;
     align-items: center;
-    overflow:hidden;
     padding: 1.4rem;
-}
-
-.team_sponsors_el:hover{
-
-    width:110%;
-    height:110%;
-}
+}*/
 
 .team_sponsors {
-    display: grid;
-    grid-template-columns: repeat(5,14rem);
-    grid-template-rows: repeat(3,10rem);
-    width: 15rem;
-    grid-gap: 0.4rem;
-    grid-auto-flow: column;
-    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
-.team_sponsors_el {
-    width:calc(100%-2*1.4rem);
-    height:calc(100%-2*1.4rem);
+.team_sponsors_button {
+    margin-right: 0.4rem;
+    margin-bottom: 0.4rem;
+    width: 14rem;
+    height:10rem;
     padding: 1.4rem;
-    position:absolute;
     opacity: 0.8;
     display: flex;
     justify-content: center;
@@ -154,51 +145,46 @@ h3 {
 }
 
 
-.team_sponsors_wrapper:nth-child(1) > .team_sponsors_el{
+.team_sponsors_button:nth-child(1){
     background-color: var(--contrast);
 }
 
-.team_sponsors_wrapper:nth-child(5) > .team_sponsors_el {
+.team_sponsors_button:nth-child(5) {
     background-color: var(--contrast);
 }
 
-.team_sponsors_wrapper:nth-child(10) > .team_sponsors_el {
+.team_sponsors_button:nth-child(10) {
     background-color: var(--contrast);
 }
 
-.team_sponsors_wrapper:nth-child(12) > .team_sponsors_el{
+.team_sponsors_button:nth-child(12){
     background-color: var(--contrast);
 }
 
-.team_sponsors_wrapper:nth-child(3) > .team_sponsors_el{
+.team_sponsors_button:nth-child(3){
     background-color: var(--color-8);
 }
 
-.team_sponsors_wrapper:nth-child(11) > .team_sponsors_el{
+.team_sponsors_button:nth-child(11){
     background-color: var(--color-8);
 }
 
-.team_sponsors_wrapper:nth-child(15) > .team_sponsors_el{
+.team_sponsors_button:nth-child(15){
     background-color: var(--color-8);
 }
 
-.team_sponsors_wrapper:nth-child(13) > .team_sponsors_el{
+.team_sponsors_button:nth-child(13){
     background-color: var(--color-9);
 }
 
-.team_sponsors_wrapper:nth-child(7)> .team_sponsors_el {
+.team_sponsors_button:nth-child(7) {
     background-color: var(--color-9);
 }
 
-.team_sponsors_wrapper:nth-child(9) > .team_sponsors_el{
+.team_sponsors_button:nth-child(9){
     background-color: var(--color-9);
-}
-
-.team_sponsors_button {
-    overflow:hidden;
 }
 
 .team_sponsors_button > img {
-    height:100%;
     width:100%;
 }
