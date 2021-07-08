@@ -95,29 +95,41 @@
 
     <main>
         <h2>Meet our team</h2>
-        <h3 class="team_member_name" id="name">Fanny Berstad</h3>
-        <div class="team_members">
-            <img src="Pictures/anine.jpg" class="team_member_picture" id="name_pic" />
-            <div class="team_member_text">
-                <h4>Field of Study:</h4>
-                <p id="study">Msc. in Industrial Mathematics</p>
-                <h4>Responsibilities:</h4>
-                <p id="responsibilities">Wiki, hardware, software</p>
-                <h4>Motivation:</h4>
-                <p id="motivation">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-                    Ipsum has been the
-                    industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
-                    and scrambled it to make a type specimen book. It has survived not only five centuries, but also the
-                    leap into electronic typesetting, remaining essentially unchanged.</p>
+        <div class="team_wrapper">
+            <div class="team">
+                <h3 class="team_member_name" id="name">Fanny Berstad</h3>
+                <div class="team_members">
+                    <img src="Pictures/anine.jpg" class="team_member_picture" id="name_pic" />
+                    <div class="team_member_text">
+                        <h4>Field of Study:</h4>
+                        <p id="study">Msc. in Industrial Mathematics</p>
+                        <h4>Responsibilities:</h4>
+                        <p id="responsibilities">Wiki, hardware, software</p>
+                        <h4>Motivation:</h4>
+                        <p id="motivation">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                            Lorem
+                            Ipsum has been the
+                            industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
+                            of
+                            type
+                            and scrambled it to make a type specimen book. It has survived not only five centuries, but
+                            also
+                            the
+                            leap into electronic typesetting, remaining essentially unchanged.</p>
+                    </div>
+                </div>
+                <div class="team_member_list" id="team_list">
+                    <button class="team_member_button team_member_arrow" id="button_prev">
+                        <img src="Pictures/molekyl.png" style="transform:rotate(90deg)" />
+                    </button>
+                    <button class="team_member_button team_member_arrow" id="button_next">
+                        <img src="Pictures/molekyl.png" style="transform:rotate(270deg)" />
+                    </button>
+                </div>
             </div>
-        </div>
-        <div class="team_member_list" id="team_list">
-            <button class="team_member_button team_member_arrow" id="button_prev">
-                <img src="Pictures/molekyl.png" style="transform:rotate(90deg)" />
-            </button>
-            <button class="team_member_button team_member_arrow" id="button_next">
-                <img src="Pictures/molekyl.png" style="transform:rotate(270deg)" />
-            </button>
+            <div id="team_minigame">
+                <img src="Pictures/H2S.svg" id="minigame_H2S_molecule" />
+            </div>
         </div>
         <h2>Meet our advisors</h2>
         <div class="team_advisors">
@@ -300,6 +312,7 @@
         </div>
     </div>
     <script src="team_list.js"></script>
+    <script src="minigame.js"></script>
 </body>
 
 
