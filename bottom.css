@@ -55,6 +55,7 @@
 }
 
 .bottombar_sponsors_button {
+    display:flex;
     align-items: center;
     justify-content: center;
 }
@@ -94,6 +95,7 @@
 }
 
 .bottombar_socials_button {
+    display:flex;
     align-items: center;
     justify-content: center;
 }
