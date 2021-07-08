@@ -54,6 +54,7 @@ body {
     justify-content: center;
     font-weight: bold; /* gotta fix this*/
     align-items: center;
+    white-space: nowrap;
     font-size: var(--navbar-text);
     padding: 0 2rem;
 }
