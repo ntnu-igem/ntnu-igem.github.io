@@ -53,14 +53,24 @@ for (const iString in teamList) {
 
     const element = document.getElementById("team_list");
     const button = document.createElement("button");
-
     button.setAttribute("class", "team_member_button");
     button.setAttribute("id", "member_button_" + i);
+    
+    const imgContainer = document.createElement("div");
+    imgContainer.setAttribute("class", "team_member_button_image");
+    
     const img = document.createElement("img");
-
     img.setAttribute("src", member.imgUrl);
+    imgContainer.appendChild(img)
+    button.appendChild(imgContainer);
 
-    button.appendChild(img);
+    const tooltip = document.createElement("div");
+    tooltip.setAttribute("class", "team_member_button_tooltip");
+    const tooltipContent = document.createElement("div");
+    tooltipContent.setAttribute("class", "team_member_button_tooltip_content");
+    tooltipContent.innerHTML = member.name.split(" ")[0]; // First name
+    tooltip.appendChild(tooltipContent);
+    button.appendChild(tooltip);
 
     button.onclick = () => {
         updateFields(i)
