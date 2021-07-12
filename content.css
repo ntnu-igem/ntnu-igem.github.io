@@ -167,11 +167,16 @@ h3 {
     width: 14rem;
     height:10rem;
     padding: 1.4rem;
-    opacity: 0.8;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: var(--color-4);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.team_sponsors_button:hover {
+    transform: scale(1.2);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 
