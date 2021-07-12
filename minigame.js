@@ -61,8 +61,8 @@ function step(timestamp) {
     ctx.clearRect(0, 0, canvasGfx.width, canvasGfx.height);
     const relativeRect = canvasGfx.getBoundingClientRect();
 
-    const localMouseX = mouseX - relativeRect.left - 0.5 * fishWidth;
-    const localMouseY = mouseY - relativeRect.top - 0.5 * fishHeight;
+    const localMouseX = ((mouseX - relativeRect.left) / (relativeRect.right - relativeRect.left)) * minigameWidth - 0.5 * fishWidth;
+    const localMouseY = ((mouseY - relativeRect.top) / (relativeRect.bottom - relativeRect.top)) * minigameHeight - 0.5 * fishHeight;
 
     /*    if ((localMouseX - 0.5 * fishWidth) <= 0 || (localMouseX + 0.5 * fishWidth) >= minigameWidth || (localMouseY - 0.5 * fishHeight) <= 0 || (localMouseY + 0.5 * fishHeight) >= minigameHeight) {
             prevTimestamp = timestamp;
