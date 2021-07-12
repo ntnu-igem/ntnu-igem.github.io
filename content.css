@@ -89,19 +89,13 @@ h3 {
     border: 3px solid var(--color-9);
 }
 
-.team_member_button:hover .team_member_button_tooltip {
-    visibility: initial; /* unsets `visibility: hidden` */
-}
-
-.team_member_button_tooltip {
+.team_member_button::after {
+    content: attr(data-tooltip);
     visibility: hidden;
     position: absolute;
-    top: calc(var(--buttonSize) + 0.5em);
+    top: var(--buttonSize);
     left: 50%; 
-    transform: translateX(-50%);
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    transform: translateX(-50%) translateY(0.5em);
     padding: 0.3em;
     font-weight: bold;
     background: var(--color-9);
@@ -109,6 +103,9 @@ h3 {
     border-radius: 0.25em;
 }
 
+.team_member_button:hover::after {
+    visibility: initial; /* unsets `visibility: hidden` */
+}
 
 #button_next {
     order:1; /*next button at the end of teamList*/

@@ -55,7 +55,8 @@ for (const iString in teamList) {
     const button = document.createElement("button");
     button.setAttribute("class", "team_member_button");
     button.setAttribute("id", "member_button_" + i);
-    
+    button.setAttribute("data-tooltip", member.name.split(" ")[ 0]) // Fist name
+
     const imgContainer = document.createElement("div");
     imgContainer.setAttribute("class", "team_member_button_image");
     
@@ -63,11 +64,6 @@ for (const iString in teamList) {
     img.setAttribute("src", member.imgUrl);
     imgContainer.appendChild(img)
     button.appendChild(imgContainer);
-
-    const tooltip = document.createElement("div");
-    tooltip.setAttribute("class", "team_member_button_tooltip");
-    tooltip.innerHTML = member.name.split(" ")[0]; // First name
-    button.appendChild(tooltip);
 
     button.onclick = () => {
         updateFields(i)
