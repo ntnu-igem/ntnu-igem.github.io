@@ -66,10 +66,7 @@ for (const iString in teamList) {
 
     const tooltip = document.createElement("div");
     tooltip.setAttribute("class", "team_member_button_tooltip");
-    const tooltipContent = document.createElement("div");
-    tooltipContent.setAttribute("class", "team_member_button_tooltip_content");
-    tooltipContent.innerHTML = member.name.split(" ")[0]; // First name
-    tooltip.appendChild(tooltipContent);
+    tooltip.innerHTML = member.name.split(" ")[0]; // First name
     button.appendChild(tooltip);
 
     button.onclick = () => {

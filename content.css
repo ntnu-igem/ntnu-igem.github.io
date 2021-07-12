@@ -96,22 +96,19 @@ h3 {
 .team_member_button_tooltip {
     visibility: hidden;
     position: absolute;
-    top: 0;
-    left: 50%; /* center by creating a div inside which overflows */
-    width: 0;
+    top: calc(var(--buttonSize) + 0.5em);
+    left: 50%; 
+    transform: translateX(-50%);
     display: flex;
     align-items: center;
     justify-content: center;
-    transform: translateY(calc(var(--buttonSize) + 0.5em));
-}
-
-.team_member_button_tooltip_content {
     padding: 0.3em;
     font-weight: bold;
     background: var(--color-9);
     color: var(--color-1);
     border-radius: 0.25em;
 }
+
 
 #button_next {
     order:1; /*next button at the end of teamList*/
