@@ -18,18 +18,13 @@ h3 {
     flex-wrap: wrap;
 }
 
-.team_minigame {
+#team_minigame {
     position:relative;
-    width:350px;
-    height:260px;
-    border: 2px solid blueviolet;
+    outline: 2px solid blueviolet;
 }
 
-#minigame_H2S_molecule {
-    position:absolute;
-    top:40px;
-    left:30px;
-    width: 20px;
+#team_minigame:hover {
+    cursor: none;
 }
 
 .team_member_name {
