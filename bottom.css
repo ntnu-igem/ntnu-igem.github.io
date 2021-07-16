@@ -6,6 +6,8 @@
     width:100%;
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 
@@ -37,70 +39,96 @@
     padding:1rem;
 }
 
-.bottombar_sponsors_el {
-
+.bottombar_sponsors_button {
     background-color: var(--color-1);
     width: 3rem;
     height:3rem;
-    opacity: 0.8;
     margin-right: 0.4rem;
     margin-bottom:0.4rem;
     padding:0.5rem;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
     border-radius: 50%;
-    overflow:hidden;
-}
-
-.bottombar_sponsors_button {
     display:flex;
     align-items: center;
     justify-content: center;
+    /*overflow:hidden;*/
 }
 
 .bottombar_sponsors_pic {
-    width:100%;
-    height:100%;
+    width:100%;    
 }
 
 
 .bottombar_socials {
-    position: absolute;
-    right:2rem;
+    right:2rem; 
 }
 
 .bottombar_socials_grid {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: flex-end;
     padding:1rem;
     width: 15rem;
     margin-bottom: 0.3rem;
     margin-top: 1rem;
 }
 
-.bottombar_socials_el {
+.bottombar_socials_button {
     background-color: var(--color-1);
-    opacity: 0.8;
     width:3rem;
     height:3rem;
     padding: 0.4rem;
     margin-right: 0.4rem;
     margin-bottom:0.4rem;
-    display: flex;
     border-radius: 50%;
-    overflow:hidden;
-}
 
-.bottombar_socials_button {
     display:flex;
     align-items: center;
     justify-content: center;
+    overflow:hidden;
 }
 
 .bottombar_socials_pic {
     width:100%;
-    height: 100%;
 }
+/*
+@media only screen and (max-width: 600px){
+    .bottombar {
+    }
+
+    .bottombar_sponsors {
+        width: 8rem;
+    }
+
+    .bottombar_sponsors_grid {
+        padding: 0;
+        margin:0;
+    }
+    
+    .bottombar_text {
+        font-size: 20%;
+        margin:0;
+    }
+    .bottombar_sponsors_button {
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+
+    .bottombar_socials {
+        position:initial;
+        width:8rem;
+        right:0.2rem;
+    }
+
+    .bottombar_socials_grid {
+        max-width:10rem;
+        padding:0;
+        margin:0;
+
+    }
+    .bottombar_socials_button {
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+    
+}*/
