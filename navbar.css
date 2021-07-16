@@ -111,3 +111,14 @@ body {
     text-decoration: underline;
     cursor: pointer;
 }
+
+.dropdown {
+    display:none;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .navbar {
+        display:none;
+    }
+}
