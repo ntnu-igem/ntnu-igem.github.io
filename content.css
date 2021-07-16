@@ -231,12 +231,12 @@ h3 {
     }
 
     h2 {
-        font-size: 2rem;
+        font-size: 1.8rem;
         margin-bottom: 0.3em;
     }
 
     .team_member_name {
-        font-size: 1.5rem;
+        font-size: 1.3rem;
     }
 
     .team_member_text {
@@ -251,5 +251,10 @@ h3 {
 
     .team_member_picture {
         height: 15rem;
+    }
+
+    .team_member_button {
+        height:42px;
+        width:42px;
     }
 }
