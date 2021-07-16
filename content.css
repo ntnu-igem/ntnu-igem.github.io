@@ -48,15 +48,16 @@ h3 {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    column-gap: 2em;
 }
 
 .team_member_text {
-    margin-left: 2rem;
     width: 22rem;
+    margin-top:0.5em;
 }
 .team_member_text p {
-    margin-bottom: 1.5rem;
-    margin-top: 0.2rem;
+    margin-bottom: 1.5em;
+    margin-top: 0.2em;
     text-align: justify;
 }
 .team_member_text h4 {
@@ -267,7 +268,7 @@ h3 {
     .team_advisors h4 {
         font-size: 0.7rem;
     }
-    .team_sponsors_button {
+    .team_sponsors_button { 
         width:5.5em;
         height:4em;
         padding:1em;
