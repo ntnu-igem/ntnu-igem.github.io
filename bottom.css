@@ -59,7 +59,7 @@
 
 
 .bottombar_socials {
-    right:2rem; 
+    width: min(30rem, 50%);
 }
 
 .bottombar_socials_grid {
@@ -93,23 +93,20 @@
 }
 
 @media only screen and (max-width: 600px){
-
-    .bottombar_sponsors {
-        width: 8rem;
-    }
-
     .bottombar_sponsors_grid {
         padding: 0;
-        margin:0;
+        margin:0.2em 0 0.2em 0.5em;
     }
     
     .bottombar_text {
-        font-size: 20%;
+        font-size: 0.7rem;
+        padding-top: 0.3em;
         margin:0;
     }
     .bottombar_sponsors_button {
         width: 1.5rem;
         height: 1.5rem;
+        margin-right:0.2em;
     }
 
     .bottombar_socials {
@@ -122,6 +119,7 @@
         max-width:10rem;
         padding:0;
         margin:0;
+        justify-content: flex-start;
 
     }
     .bottombar_socials_button {
