@@ -257,4 +257,24 @@ h3 {
         height:42px;
         width:42px;
     }
+
+    .team_advisors_advisor {
+        width:7.5em;
+        margin-right:0.5em;
+        margin-top:0.7em;
+        padding:2px;
+    }
+
+    .team_advisors_picture {
+        width:6em;
+        height:6em;
+    }
+    
+    .team_advisors_name {
+        font-size: 1rem;
+    }
+
+    .team_advisors h4 {
+        font-size: 0.7rem;
+    }
 }
