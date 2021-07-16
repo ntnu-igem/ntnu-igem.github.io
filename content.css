@@ -224,3 +224,32 @@ h3 {
 .team_sponsors_button > img {
     width:100%;
 }
+
+@media only screen and (max-width: 600px) {
+    main {
+        padding: 3em 3em;
+    }
+
+    h2 {
+        font-size: 2rem;
+        margin-bottom: 0.3em;
+    }
+
+    .team_member_name {
+        font-size: 1.5rem;
+    }
+
+    .team_member_text {
+        margin-top: 1em;
+        margin-left:0;
+        width: 100%;
+    }
+
+    .team_member_text p {
+        margin-bottom: 0.5em;
+    }
+
+    .team_member_picture {
+        height: 15rem;
+    }
+}
