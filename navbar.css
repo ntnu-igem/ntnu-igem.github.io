@@ -161,7 +161,7 @@ button {
     cursor: pointer;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1100px) {
 
     .navbar {
         justify-content: space-between;
@@ -215,6 +215,11 @@ button {
 
     .navbar_button {
         justify-content: flex-start;
+    }
+
+    .navbar_button_dropdown {
+        background-color: var(--color-10);
+        padding:0 1.5em;
     }
 
     .navbar_button_dropdown {
