@@ -26,6 +26,10 @@ body {
     color: var(--contrast);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+.navbar_all_buttons {
+    display: flex;
+    flex-direction: row;
+}
 
 .navbar_button_wrapper {
     float: left;
@@ -115,8 +119,51 @@ body {
 
 @media only screen and (max-width: 600px) {
 
-    .navbar {
+    .navbar_all_buttons {
+        position:absolute;
+        top:100%;
         flex-direction: column;
         align-items: center;
+        background:inherit;
+        left:-0.5em;
+        right:-0.5em;
+    }
+
+    .navbar_button_wrapper {
+        width:100%;
+    }
+
+    .navbar_button {
+        padding: 0.8em 0;
+    }
+
+
+    .navbar {
+        padding:0.5em;
+    }
+
+    .navbar_button:hover {
+        text-decoration: none;
+    }
+
+    .navbar_button_dropdown_element:hover {
+        text-decoration: none;
+    }
+
+    .navbar_button_wrapper {
+        border-top: 2px solid var(--color-10);
+    }
+
+    .navbar_button {
+        justify-content: flex-start;
+    }
+
+    .navbar_button:not(:only-child)::after {
+        transform: translateY(-50%) rotate(90deg);
+        transition: transform ease 500ms;
+    }
+
+    .navbar_button:hover:not(:only-child)::after {
+        transform: translateY(-50%) rotate(0deg);
     }
 }

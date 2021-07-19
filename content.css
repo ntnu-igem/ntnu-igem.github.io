@@ -11,6 +11,9 @@ h2 {
 h3 {
     font-size: 2rem;
 }
+*, *::before, *::after {
+    box-sizing: border-box;
+}
 
 .team_wrapper {
     display: flex;
