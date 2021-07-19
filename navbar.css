@@ -161,7 +161,6 @@ button {
     cursor: pointer;
 }
 
-
 @media only screen and (max-width: 600px) {
 
     .navbar {
@@ -173,10 +172,6 @@ button {
     }
 
     .navbar_all_buttons {
-        display:none;
-    }
-
-    .navbar_menu_opened + .navbar_all_buttons {
         position:absolute;
         top:100%;
         display:flex;
@@ -185,6 +180,13 @@ button {
         background:inherit;
         left:-0.5em;
         right:-0.5em;
+        transform-origin: 0 0;
+        transform: scaleY(0);
+        transition: transform ease 500ms;
+    }
+
+    .navbar_menu_opened + .navbar_all_buttons {
+        transform: scaleY(1);    
     }
 
     .navbar_button_wrapper {
@@ -194,7 +196,6 @@ button {
     .navbar_button {
         padding: 0.8em 0;
     }
-
 
     .navbar {
         padding:0.5em;
