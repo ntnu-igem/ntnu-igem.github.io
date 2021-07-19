@@ -166,4 +166,14 @@ body {
     .navbar_button:hover:not(:only-child)::after {
         transform: translateY(-50%) rotate(0deg);
     }
+
+    .navbar_button_dropdown {
+        height:0;
+        overflow:hidden;
+    }
+
+    .navbar_button_wrapper:hover .navbar_button_dropdown {
+        position:relative;
+        height:initial;
+    }
 }
