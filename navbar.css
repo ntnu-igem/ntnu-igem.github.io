@@ -217,18 +217,24 @@ button {
         justify-content: flex-start;
     }
 
-    .navbar_button:not(:only-child)::after {
-        transform: translateY(-50%) rotate(90deg);
-        transition: transform ease 500ms;
-    }
-
-    .navbar_button:hover:not(:only-child)::after {
-        transform: translateY(-50%) rotate(0deg);
-    }
-
     .navbar_button_dropdown {
-        height:0;
         overflow:hidden;
+        transform-origin: 0 0;
+        max-height:0;
+        transition: max-height ease 1000ms;
+    }
+
+    .navbar_button_active + .navbar_button_dropdown {
+        max-height:100vh;
+    }
+
+    .navbar_button:not(:only-child)::after {
+        transform: translateY(-50%) rotate(0deg);
+        transition: transform ease 1000ms;
+    }
+
+    .navbar_button_active:not(:only-child)::after {
+        transform: translateY(-50%) rotate(90deg);
     }
 
     .navbar_button_wrapper:hover .navbar_button_dropdown {
