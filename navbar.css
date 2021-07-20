@@ -7,22 +7,25 @@
     --contrast: #da9319;
     --navbar-text: 1rem;
     --navbar-molecule: 0.9rem;
-    --navbar-height: 20em;
+    --navbar-height:3rem;
 }
 
 body {
     margin: 0;
-    font-family: 'Poppins', sans-serif; /* må fikse dette senere, feil font */
+    font-family: 'Poppins', sans-serif; 
+    padding-top: var(--navbar-height);
 }
 
 .navbar {
     position:fixed;
     top:0;
     width: 100%;
+    height: var(--navbar-height);
     z-index: 999;
     background: var(--color-9);
     display: flex;
     flex-direction: row;
+    align-items: center;
     padding: 0 5em;
     color: var(--contrast);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -39,7 +42,11 @@ button {
 
 #navbar_menu {
     display:none;
-    height:50%;
+    height:100%;    
+}
+
+#navbar_menu svg {
+    height: 100%;
 }
 
 .navbar_menu_line {
@@ -166,6 +173,7 @@ button {
 
     .navbar {
         justify-content: space-between;
+        padding: 0 0.5em;
     }
 
     #navbar_menu {
@@ -199,10 +207,6 @@ button {
 
     .navbar_button {
         padding: 0.8em 0;
-    }
-
-    .navbar {
-        padding:0.5em;
     }
 
     .navbar_button:hover {
