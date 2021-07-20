@@ -107,8 +107,8 @@
         margin:0;
     }
     .bottombar_sponsors_button {
-        width: 1.5rem;
-        height: 1.5rem;
+        width: 2.5rem;
+        height: 2.5rem;
         margin-right:0.2em;
     }
 
@@ -124,8 +124,8 @@
 
     }
     .bottombar_socials_button {
-        width: 1.5rem;
-        height: 1.5rem;
+        width: 2.5rem;
+        height: 2.5rem;
     }
     
 }
