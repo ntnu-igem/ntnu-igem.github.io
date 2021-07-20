@@ -95,7 +95,7 @@ h3 {
     border: 3px solid var(--color-9);
 }
 
-.team_member_button::after {
+.team_member_button[data-tooltip]::after {
     content: attr(data-tooltip);
     visibility: hidden;
     position: absolute;
@@ -165,7 +165,6 @@ h3 {
     vertical-align: top;
     display: inline-block;
     text-align: center;
-    width: 12rem;
     margin-right: 1.2rem;
     padding: 10px;
     
@@ -181,6 +180,7 @@ h3 {
 
 .team_advisors_name {
     margin: 0.5rem 0 0.5rem 0;
+    white-space: nowrap;
 }
 
 .team_advisors h4 {
@@ -278,6 +278,11 @@ h3 {
     .team_member_picture {
         height: 15rem;
     }
+
+    .team_member_button:hover::after {
+        visibility: hidden;
+    }
+
     .team_member_button {
         height:42px;
         width:42px;

@@ -48,18 +48,18 @@ document.getElementById("button_next").onclick = () => {
 
 
 for (const iString in teamList) {
-    const i = parseInt(iString) // JS = Ugly 
+    const i = parseInt(iString);
     const member = teamList[i];
 
     const element = document.getElementById("team_list");
     const button = document.createElement("button");
     button.setAttribute("class", "team_member_button");
     button.setAttribute("id", "member_button_" + i);
-    button.setAttribute("data-tooltip", member.name.split(" ")[ 0]) // Fist name
+    button.setAttribute("data-tooltip", member.name.split(" ")[0]) // First name
 
     const imgContainer = document.createElement("div");
     imgContainer.setAttribute("class", "team_member_button_image");
-    
+
     const img = document.createElement("img");
     img.setAttribute("src", member.imgUrl);
     imgContainer.appendChild(img)

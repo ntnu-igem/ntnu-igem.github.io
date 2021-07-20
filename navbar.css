@@ -38,6 +38,7 @@ button {
 .navbar_all_buttons {
     display: flex;
     flex-direction: row;
+    height:100%;
 }
 
 #navbar_menu {
