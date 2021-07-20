@@ -83,6 +83,7 @@ h3 {
     display:flex;
     align-items: center;
     justify-content: center;
+    opacity:0.6;
     border-radius: 50%;
     margin-right: 0.5rem;
     margin-bottom: 0.5rem;
@@ -108,7 +109,12 @@ h3 {
 }
 
 #button_next {
+    opacity: 1;
     order:1; /*next button at the end of teamList*/
+}
+
+#button_prev {
+    opacity:1;
 }
 
 .team_member_button_image {
@@ -126,7 +132,7 @@ h3 {
 }
 
 .team_member_button:hover {
-    opacity: 0.6;
+    opacity: 1;
     cursor: pointer;
 }
 
