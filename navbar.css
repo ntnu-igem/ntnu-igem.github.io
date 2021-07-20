@@ -7,6 +7,7 @@
     --contrast: #da9319;
     --navbar-text: 1rem;
     --navbar-molecule: 0.9rem;
+    --navbar-height: 20em;
 }
 
 body {
@@ -178,6 +179,8 @@ button {
         flex-direction: column;
         align-items: center;
         background:inherit;
+        max-height: 70vh;
+        overflow-y: scroll;
         left:-0.5em;
         right:-0.5em;
         transform-origin: 0 0;
@@ -190,6 +193,7 @@ button {
     }
 
     .navbar_button_wrapper {
+        flex-shrink: 0;
         width:100%;
     }
 
@@ -219,7 +223,10 @@ button {
 
     .navbar_button_dropdown {
         background-color: var(--color-10);
-        padding:0 1.5em;
+    }
+
+    .navbar_button_dropdown_element {
+        padding:0.6em 2.5em;
     }
 
     .navbar_button_dropdown {
@@ -234,12 +241,12 @@ button {
     }
 
     .navbar_button:not(:only-child)::after {
-        transform: translateY(-50%) rotate(0deg);
+        transform: translateY(-50%) rotate(90deg);
         transition: transform ease 1000ms;
     }
 
     .navbar_button_active:not(:only-child)::after {
-        transform: translateY(-50%) rotate(90deg);
+        transform: translateY(-50%) rotate(0deg);
     }
 
     .navbar_button_wrapper:hover .navbar_button_dropdown {
