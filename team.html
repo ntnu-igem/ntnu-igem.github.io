@@ -10,86 +10,82 @@
     <link rel="stylesheet" type="text/css" href="header.css" />
     <link rel="stylesheet" type="text/css" href="content.css" />
     <link rel="stylesheet" type="text/css" href="bottom.css" />
+    <link rel="shortcut icon" href="Pictures/molekyl.png" />
 </head>
 
 <body>
 
     <div class="navbar">
         <img src="Pictures/logo.png" class="navbar_logo" />
-
-
-        <div class="navbar_button_wrapper">
-            <div class="navbar_button">PROJECT
-                <img src="Pictures/molekyl.png" class="navbar_button_arrow" />
+        <button id="navbar_menu">
+            <svg width="50" height="50" viewBox="0 0 100 100">
+                <path class="navbar_menu_line navbar_menu_line1"
+                    d="M 20,29.000046 H 80.000231 C 80.000231,29.000046 94.498839,28.817352 94.532987,66.711331 94.543142,77.980673 90.966081,81.670246 85.259173,81.668997 79.552261,81.667751 75.000211,74.999942 75.000211,74.999942 L 25.000021,25.000058" />
+                <path class="navbar_menu_line navbar_menu_line2" d="M 20,50 H 80" />
+                <path class="navbar_menu_line navbar_menu_line3"
+                    d="M 20,70.999954 H 80.000231 C 80.000231,70.999954 94.498839,71.182648 94.532987,33.288669 94.543142,22.019327 90.966081,18.329754 85.259173,18.331003 79.552261,18.332249 75.000211,25.000058 75.000211,25.000058 L 25.000021,74.999942" />
+            </svg>
+        </button>
+        <div class="navbar_all_buttons">
+            <div class="navbar_button_wrapper">
+                <div class="navbar_button">PROJECT</div>
+                <div class="navbar_button_dropdown">
+                    <div class="navbar_button_dropdown_element"> Description</div>
+                    <div class="navbar_button_dropdown_element"> Engineering</div>
+                    <div class="navbar_button_dropdown_element"> Software</div>
+                    <div class="navbar_button_dropdown_element"> Model</div>
+                    <div class="navbar_button_dropdown_element"> Measurements</div>
+                    <div class="navbar_button_dropdown_element"> Experiments</div>
+                    <div class="navbar_button_dropdown_element"> Results</div>
+                    <div class="navbar_button_dropdown_element"> Implementation</div>
+                    <div class="navbar_button_dropdown_element"> Proof of Concept</div>
+                </div>
             </div>
-            <div class="navbar_button_dropdown">
-                <div class="navbar_button_dropdown_element"> Description</div>
-                <div class="navbar_button_dropdown_element"> Engineering</div>
-                <div class="navbar_button_dropdown_element"> Software</div>
-                <div class="navbar_button_dropdown_element"> Model</div>
-                <div class="navbar_button_dropdown_element"> Measurements</div>
-                <div class="navbar_button_dropdown_element"> Experiments</div>
-                <div class="navbar_button_dropdown_element"> Results</div>
-                <div class="navbar_button_dropdown_element"> Implementation</div>
-                <div class="navbar_button_dropdown_element"> Proof of Concept</div>
+
+            <div class="navbar_button_wrapper">
+                <div class="navbar_button">PARTS</div>
+                <div class="navbar_button_dropdown">
+                    <div class="navbar_button_dropdown_element"> New parts</div>
+                    <div class="navbar_button_dropdown_element"> Improvement</div>
+                </div>
+            </div>
+
+            <div class="navbar_button_wrapper">
+                <div class="navbar_button">HUMAN PRACTICES</div>
+                <div class="navbar_button_dropdown">
+                    <div class="navbar_button_dropdown_element"> Overview</div>
+                    <div class="navbar_button_dropdown_element"> Engaging the Industry</div>
+                    <div class="navbar_button_dropdown_element"> Education & Communication</div>
+                </div>
+            </div>
+
+            <div class="navbar_button_wrapper">
+                <div class="navbar_button">TEAM</div>
+                <div class="navbar_button_dropdown">
+                    <div class="navbar_button_dropdown_element">Members & Sponsors</div>
+                    <div class="navbar_button_dropdown_element">Contribution</div>
+                    <div class="navbar_button_dropdown_element">Collaboration & Partnership</div>
+                </div>
+
+            </div>
+
+            <div class="navbar_button_wrapper">
+                <div class="navbar_button">SAFETY
+                </div>
+            </div>
+
+            <div class="navbar_button_wrapper">
+                <div class="navbar_button">
+                    ATTRIBUTIONS
+                </div>
             </div>
         </div>
-
-        <div class="navbar_button_wrapper">
-            <div class="navbar_button">PARTS
-                <img src="Pictures/molekyl.png" class="navbar_button_arrow" />
-            </div>
-            <div class="navbar_button_dropdown">
-                <div class="navbar_button_dropdown_element"> New parts</div>
-                <div class="navbar_button_dropdown_element"> Improvement</div>
-            </div>
-        </div>
-
-        <div class="navbar_button_wrapper">
-            <div class="navbar_button">HUMAN PRACTICES
-                <img src="Pictures/molekyl.png" class="navbar_button_arrow" />
-            </div>
-            <div class="navbar_button_dropdown">
-                <div class="navbar_button_dropdown_element"> Overview</div>
-                <div class="navbar_button_dropdown_element"> Engaging the industry</div>
-                <div class="navbar_button_dropdown_element"> Education & Communication</div>
-            </div>
-        </div>
-
-        <div class="navbar_button_wrapper">
-            <div class="navbar_button"> TEAM
-                <img src="Pictures/molekyl.png" class="navbar_button_arrow" />
-            </div>
-            <div class="navbar_button_dropdown">
-                <div class="navbar_button_dropdown_element">Members & Sponsors</div>
-                <div class="navbar_button_dropdown_element">Contribution</div>
-                <div class="navbar_button_dropdown_element">Collaboration & Partnership</div>
-            </div>
-
-        </div>
-
-        <div class="navbar_button_wrapper">
-            <div class="navbar_button">SAFETY
-            </div>
-        </div>
-
-        <div class="navbar_button_wrapper">
-            <div class="navbar_button">
-                ATTRIBUTIONS
-            </div>
-        </div>
-
-
     </div>
 
     <div class="hero">
         <img src="Pictures/team.jpg" class="hero_picture" />
-        <div class="hero_background"></div>
-        <div class="hero_textbox_wrapper">
-            <div class="hero_textbox">
-                <h1>TEAM</h1>
-                <div class="hero_line"></div>
-            </div>
+        <div id="hero_background" class="hero_background">
+            <h1 class="hero_title">TEAM</h1>
         </div>
     </div>
 
@@ -106,13 +102,16 @@
                         <h4>Responsibilities:</h4>
                         <p id="responsibilities">Wiki, hardware, software</p>
                         <h4>Motivation:</h4>
-                        <p id="motivation">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                        <p id="motivation">Lorem Ipsum is simply dummy text of the printing and typesetting
+                            industry.
                             Lorem
                             Ipsum has been the
-                            industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
+                            industry's standard dummy text ever since the 1500s, when an unknown printer took a
+                            galley
                             of
                             type
-                            and scrambled it to make a type specimen book. It has survived not only five centuries, but
+                            and scrambled it to make a type specimen book. It has survived not only five centuries,
+                            but
                             also
                             the
                             leap into electronic typesetting, remaining essentially unchanged.</p>
@@ -136,13 +135,13 @@
                 <img src="Pictures/rahmilale.png" class="team_advisors_picture" />
                 <h3 class="team_advisors_name">Rahmi Lale</h3>
                 <h4>Associate Professor</h4>
-                <h4>Department of Biotechnology, NTNU</h4>
+                <h4>Department of Biotechnology <br /> and Food Science, NTNU</h4>
             </div>
             <div class="team_advisors_advisor">
                 <img src="Pictures/lisatietze.png" class="team_advisors_picture" />
                 <h3 class="team_advisors_name">Lisa Tietze</h3>
                 <h4>PhD Candidate</h4>
-                <h4>Department of Biotechnology, NTNU</h4>
+                <h4>Department of Biotechnology <br /> and Food Science, NTNU</h4>
             </div>
             <div class="team_advisors_advisor">
                 <img src="Pictures/gunvorrokke.png" class="team_advisors_picture" />
@@ -215,103 +214,82 @@
         <div class="bottombar_sponsors">
             <div class="bottombar_text">SPONSORS
                 <div class="bottombar_line"></div>
-
-
             </div>
             <div class="bottombar_sponsors_grid">
-                <div class="bottombar_sponsors_el">
-                    <a href="https://nippongases.com/no-no/" class="bottombar_sponsors_button">
-                        <img src="Pictures/Nippon_Gases.png" class="bottombar_sponsors_pic" /></a>
-                </div>
-                <div class="bottombar_sponsors_el">
-                    <a href="https://www.ntnu.no/nv/fakultet-for-naturvitenskap" class="bottombar_sponsors_button">
-                        <img src="Pictures/NV_fak.svg" class="bottombar_sponsors_pic" /></a>
-                </div>
-                <div class="bottombar_sponsors_el">
-                    <a href="https://www.ntnu.no/biologi" class="bottombar_sponsors_button">
-                        <img src="Pictures/Inst_bio.svg" class="bottombar_sponsors_pic" /></a>
-                </div>
-                <div class="bottombar_sponsors_el">
-                    <a href="https://www.ntnu.no/ibt" class="bottombar_sponsors_button">
-                        <img src="Pictures/Inst_biotek.svg" class="bottombar_sponsors_pic" /></a>
-                </div>
-                <div class="bottombar_sponsors_el">
-                    <a href="https://www.ntnu.no/inb" class="bottombar_sponsors_button">
-                        <img src="Pictures/Inst_nevro.svg" class="bottombar_sponsors_pic" /></a>
-                </div>
-                <div class="bottombar_sponsors_el">
-                    <a href="https://bmkgenetics.com/" class="bottombar_sponsors_button">
-                        <img src="Pictures/Benchmark_Gen.png" class="bottombar_sponsors_pic" /></a>
-                </div>
-                <div class="bottombar_sponsors_el">
-                    <a href="https://www.tekna.no/" class="bottombar_sponsors_button">
-                        <img src="Pictures/Tekna_Dark.svg" class="bottombar_sponsors_pic" /></a>
-                </div>
-                <div class="bottombar_sponsors_el">
-                    <a href="https://aquagen.no/" class="bottombar_sponsors_button">
-                        <img src="Pictures/AquaGen.png" class="bottombar_sponsors_pic" /></a>
-                </div>
-                <div class="bottombar_sponsors_el">
-                    <a href="https://scaleaq.no/" class="bottombar_sponsors_button">
-                        <img src="Pictures/ScaleAq.png" class="bottombar_sponsors_pic" /></a>
-                </div>
-                <div class="bottombar_sponsors_el">
-                    <a href="https://www.bergmandiag.no/" class="bottombar_sponsors_button">
-                        <img src="Pictures/Bergman Diag.png" class="bottombar_sponsors_pic" /></a>
-                </div>
-                <div class="bottombar_sponsors_el">
-                    <a href="https://www.masoval.no/" class="bottombar_sponsors_button">
-                        <img src="Pictures/Måsøval.png" class="bottombar_sponsors_pic" /></a>
-                </div>
-                <div class="bottombar_sponsors_el">
-                    <a href="https://kvaroyfiskeoppdrett.no/" class="bottombar_sponsors_button">
-                        <img src="Pictures/Kvaroy_org.png" class="bottombar_sponsors_pic" /></a>
-                </div>
-                <div class="bottombar_sponsors_el">
-                    <a href="/" class="bottombar_sponsors_button">
-                        <img src="Pictures/logo.png" class="bottombar_sponsors_pic" /></a>
-                </div>
-                <div class="bottombar_sponsors_el">
-                    <a href="/" class="bottombar_sponsors_button">
-                        <img src="Pictures/logo.png" class="bottombar_sponsors_pic" /></a>
-                </div>
-                <div class="bottombar_sponsors_el">
-                    <a href="/" class="bottombar_sponsors_button">
-                        <img src="Pictures/logo.png" class="bottombar_sponsors_pic" /></a>
-                </div>
+                <a href="https://nippongases.com/no-no/" target="_blank" class="bottombar_sponsors_button">
+                    <img src="Pictures/Nippon_Gases.png" class="bottombar_sponsors_pic" /></a>
+
+                <a href="https://www.ntnu.no/nv/fakultet-for-naturvitenskap" target="_blank"
+                    class="bottombar_sponsors_button">
+                    <img src="Pictures/NV_fak.svg" class="bottombar_sponsors_pic" /></a>
+
+                <a href="https://www.ntnu.no/biologi" target="_blank" class="bottombar_sponsors_button">
+                    <img src="Pictures/Inst_bio.svg" class="bottombar_sponsors_pic" /></a>
+
+                <a href="https://www.ntnu.no/ibt" target="_blank" class="bottombar_sponsors_button">
+                    <img src="Pictures/Inst_biotek.svg" class="bottombar_sponsors_pic" /></a>
+
+                <a href="https://www.ntnu.no/inb" target="_blank" class="bottombar_sponsors_button">
+                    <img src="Pictures/Inst_nevro.svg" class="bottombar_sponsors_pic" /></a>
+
+                <a href="https://bmkgenetics.com/" target="_blank" class="bottombar_sponsors_button">
+                    <img src="Pictures/Benchmark_Gen.png" class="bottombar_sponsors_pic" /></a>
+
+                <a href="https://www.tekna.no/" target="_blank" class="bottombar_sponsors_button">
+                    <img src="Pictures/Tekna_Dark.svg" class="bottombar_sponsors_pic" /></a>
+
+                <a href="https://aquagen.no/" target="_blank" class="bottombar_sponsors_button">
+                    <img src="Pictures/AquaGen.png" class="bottombar_sponsors_pic" /></a>
+
+                <a href="https://scaleaq.no/" target="_blank" class="bottombar_sponsors_button">
+                    <img src="Pictures/ScaleAq.png" class="bottombar_sponsors_pic" /></a>
+
+                <a href="https://www.bergmandiag.no/" target="_blank" class="bottombar_sponsors_button">
+                    <img src="Pictures/Bergman Diag.png" class="bottombar_sponsors_pic" /></a>
+
+                <a href="https://www.masoval.no/" target="_blank" class="bottombar_sponsors_button">
+                    <img src="Pictures/Måsøval.png" class="bottombar_sponsors_pic" /></a>
+
+                <a href="https://kvaroyfiskeoppdrett.no/" target="_blank" class="bottombar_sponsors_button">
+                    <img src="Pictures/Kvaroy_org.png" class="bottombar_sponsors_pic" /></a>
+
+                <a href="/" target="_blank" class="bottombar_sponsors_button">
+                    <img src="Pictures/logo.png" class="bottombar_sponsors_pic" /></a>
+
+                <a href="/" target="_blank" class="bottombar_sponsors_button">
+                    <img src="Pictures/logo.png" class="bottombar_sponsors_pic" /></a>
+
+                <a href="/" target="_blank" class="bottombar_sponsors_button">
+                    <img src="Pictures/logo.png" class="bottombar_sponsors_pic" /></a>
             </div>
         </div>
         <div class="bottombar_socials">
             <div class="bottombar_text">OTHER PLATFORMS
                 <div class="bottombar_line"></div>
-                <div class="bottombar_socials_grid">
-                    <div class="bottombar_socials_el">
-                        <a href="https://www.instagram.com/igem_ntnu_2021/" class="bottombar_socials_button">
-                            <img src="Pictures/Instagram.png" class="bottombar_socials_pic" /></a>
-                    </div>
-                    <div class="bottombar_socials_el">
-                        <a href="https://www.linkedin.com/company/igem-ntnu/" class="bottombar_socials_button">
-                            <img src="Pictures/LinkedIn.png" class="bottombar_socials_pic" /></a>
-                    </div>
-                    <div class="bottombar_socials_el">
-                        <a href="https://twitter.com/ntnuigem" class="bottombar_socials_button">
-                            <img src="Pictures/Twitter.png" class="bottombar_socials_pic" /></a>
-                    </div>
-                    <div class="bottombar_socials_el">
-                        <a href="https://www.facebook.com/igemntnu2021/" class="bottombar_socials_button">
-                            <img src="Pictures/Facebook.png" class="bottombar_socials_pic" /></a>
-                    </div>
-                    <div class="bottombar_socials_el">
-                        <a href="https://github.com/ntnu-igem/wiki-2021" class="bottombar_socials_button">
-                            <img src="Pictures/Github.jpg" class="bottombar_socials_pic" /></a>
-                    </div>
-                </div>
+            </div>
+            <div class="bottombar_socials_grid">
+                <a href="https://www.instagram.com/igem_ntnu_2021/" target="_blank" class="bottombar_socials_button">
+                    <img src="Pictures/Instagram.png" class="bottombar_socials_pic" /></a>
+
+                <a href="https://www.linkedin.com/company/igem-ntnu/" target="_blank" class="bottombar_socials_button">
+                    <img src="Pictures/LinkedIn.png" class="bottombar_socials_pic" /></a>
+
+                <a href="https://twitter.com/ntnuigem" target="_blank" class="bottombar_socials_button">
+                    <img src="Pictures/Twitter.png" class="bottombar_socials_pic" /></a>
+
+                <a href="https://www.facebook.com/igemntnu2021/" target="_blank" class="bottombar_socials_button">
+                    <img src="Pictures/Facebook.png" class="bottombar_socials_pic" /></a>
+
+                <a href="https://github.com/ntnu-igem/wiki-2021" target="_blank" class="bottombar_socials_button">
+                    <img src="Pictures/Github.jpg" class="bottombar_socials_pic" /></a>
+
             </div>
 
         </div>
     </div>
     <script src="team_list.js"></script>
     <script src="minigame.js"></script>
+    <script src="navbar.js"></script>
 </body>
 
 
