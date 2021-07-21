@@ -5,10 +5,11 @@ const minigameHeight = 260;
 const minigameWidth = 350;
 const moleculeHeight = 30;
 const moleculeWidth = 30;
-const fishWidth = 100;
-const fishHeight = 100;
+const fishWidth = 80;
+const fishHeight = 80;
 let mouseX = 0;
 let mouseY = 0;
+let timesHit = 0;
 
 
 const canvasGfx = document.getElementById('team_minigame');
@@ -19,33 +20,50 @@ canvasGfx.setAttribute("height", 250);
 
 //Initialize game
 var moleculeState = generateNewLocation();
-var imgContainer = { fish: 'Pictures/fish.png', minigame_H2S: 'Pictures/H2S.svg' };
+var imgContainer = { minigame_H2S: 'Pictures/H2S.svg', fishes: ['Pictures/fish.png', 'Pictures/fishSick1.png', 'Pictures/fishSick2.png', 'Pictures/fishSick3.png', 'Pictures/fishDead.png'] };
 canvasGfx.onmousemove = function (event) {
     mouseX = event.clientX;
     mouseY = event.clientY;
 };
 
-for (let key in imgContainer) {
+imgContainer.minigame_H2S = {
+    img: (function () {
+        var img = new Image();
+        img.src = imgContainer.minigame_H2S;
+        return img;
+    })(),
+    isLoaded: false
+};
+imgContainer.minigame_H2S.img.onload = function () {
+    imgContainer.minigame_H2S.isLoaded = true;
+};
+for (let key in imgContainer.fishes) {
 
-    imgContainer[key] = {
+    imgContainer.fishes[key] = {
         img: (function () {
             var img = new Image();
-            img.src = imgContainer[key];
+            img.src = imgContainer.fishes[key];
             return img;
         })(),
         isLoaded: false
     };
 
-    imgContainer[key].img.onload = function () {
-        imgContainer[key].isLoaded = true;
+
+    imgContainer.fishes[key].img.onload = function () {
+        imgContainer.fishes[key].isLoaded = true;
     };
 }
 
+console.log(imgContainer);
+
 function isContainerLoaded() {
-    for (let key in imgContainer) {
-        if (imgContainer[key].isLoaded == false) {
+    for (let key in imgContainer.fishes) {
+        if (imgContainer.fishes[key].isLoaded == false) {
             return false;
         }
+    }
+    if (imgContainer.minigame_H2S.isLoaded == false) {
+        return false;
     }
     return true;
 }
@@ -108,8 +126,36 @@ function step(timestamp) {
         moleculeState.x = 0;
     }
 
+    //Update hitbox of fish
+    //The four limits
+    let upperCollision = (localMouseY - 0.5 * fishHeight - (moleculeState.y * minigameHeight + moleculeHeight)) <= 0;
+    let lowerCollision = (localMouseY + 0.5 * fishHeight - moleculeState.y * minigameHeight) >= 0;
+    let leftCollision = (localMouseX - 0.5 * fishWidth - moleculeState.x * minigameWidth) <= 0;
+    let rightCollision = (localMouseX + 0.5 * fishWidth - (moleculeState.x * minigameWidth + moleculeWidth)) >= 0;
+
+    if (upperCollision && !lowerCollision) {
+        ++timesHit;
+        moleculeState = generateNewLocation();
+    }
+    /*
+        if (!upperCollision && lowerCollision) {
+            ++timesHit;
+            moleculeState = generateNewLocation();
+        }
+    
+        if (leftCollision && !rightCollision) {
+            ++timesHit;
+            moleculeState = generateNewLocation();
+        }
+    
+        if (!leftCollision && rightCollision) {
+            ++timesHit;
+            moleculeState = generateNewLocation();
+        }
+    */
+    console.log(timesHit);
     ctx.drawImage(imgContainer.minigame_H2S.img, moleculeState.x * minigameWidth, moleculeState.y * minigameHeight, moleculeWidth, moleculeHeight);
-    ctx.drawImage(imgContainer.fish.img, localMouseX, localMouseY, fishWidth, fishHeight);
+    ctx.drawImage(imgContainer.fishes[timesHit].img, localMouseX, localMouseY, fishWidth, fishHeight);
     prevTimestamp = timestamp;
     window.requestAnimationFrame(step);
 };
