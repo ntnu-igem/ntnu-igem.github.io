@@ -31,16 +31,12 @@ const updateFields = (newIndex) => {
 }
 
 document.getElementById("button_prev").onclick = () => {
-    console.log("hehe");
-
     if (index <= 0) return;
 
     updateFields(index - 1);
 }
 
 document.getElementById("button_next").onclick = () => {
-    console.log("hehe");
-
     if (index >= (teamList.length - 1)) return;
 
     updateFields(index + 1);

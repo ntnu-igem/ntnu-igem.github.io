@@ -1,0 +1,17 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+main {
+    padding: 3rem 8rem;
+    color: var(--color-10);
+    background-color: var(--color-1);
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+h3 {
+    font-size: 2rem;
+}
