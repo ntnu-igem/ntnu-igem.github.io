@@ -1,0 +1,138 @@
+<html>
+<head>
+<style>
+
+.bottombar {
+    position: relative;
+    background: var(--color-9);
+    bottom:0;
+    overflow: hidden;
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+
+.bottombar_text {
+    color: var(--color-1);
+    font-size: 1rem;
+    margin: 1rem;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bottombar_line {
+    border-bottom: 3px solid var(--contrast);
+    margin-bottom: 0.2rem;
+    margin-top: 0.3rem;
+    width: calc(90%);
+}
+
+.bottombar_sponsors {
+    width: min(30rem, 45%);
+    padding:1em;
+}
+
+.bottombar_sponsors_grid {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding:1rem;
+}
+
+.bottombar_sponsors_button {
+    background-color: var(--color-1);
+    width: 4.5rem;
+    height:4.5rem;
+    margin-right: 0.4rem;
+    margin-bottom:0.4rem;
+    padding:0.5rem;
+    border-radius: 50%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    /*overflow:hidden;*/
+}
+
+.bottombar_sponsors_pic {
+    width:100%;    
+}
+
+
+.bottombar_socials {
+    width: min(30rem, 35%);
+    padding:1em;
+}
+
+.bottombar_socials_grid {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    margin-top: 1rem;
+}
+
+.bottombar_socials_button {
+    background-color: var(--color-1);
+    width:4.5rem;
+    height:4.5rem;
+    padding: 0.4rem;
+    margin-right: 0.4rem;
+    margin-bottom:0.4rem;
+    border-radius: 50%;
+
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    overflow:hidden;
+}
+
+.bottombar_socials_pic {
+    width:100%;
+}
+
+@media only screen and (max-width: 600px){
+    .bottombar_sponsors {
+        padding:0.3em;
+    }
+
+    .bottombar_sponsors_grid {
+        padding: 0;
+        margin:0.2em 0 0.2em 0.5em;
+    }
+    
+    .bottombar_text {
+        font-size: 0.7rem;
+        padding-top: 0.3em;
+        margin:0;
+    }
+    .bottombar_sponsors_button {
+        width: 2.5rem;
+        height: 2.5rem;
+        margin-right:0.2em;
+    }
+
+    .bottombar_socials {
+        padding:0.3em;
+    }
+
+    .bottombar_socials_grid {
+        max-width:10rem;
+        padding:0;
+        margin:0;
+        justify-content: flex-start;
+
+    }
+    .bottombar_socials_button {
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+    
+}
+</style>
+</head>
+</html>
