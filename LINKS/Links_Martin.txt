@@ -31,6 +31,7 @@ for your pages, use the following method:
 {{Template:NTNU-Trondheim/Martin/content}}
 {{Template:NTNU-Trondheim/Martin/bottom}}
 {{Template:NTNU-Trondheim/Martin/fixthings}}
+{{Template:NTNU-Trondheim/Martin/NavigationBar}}
 
 
 
@@ -255,6 +256,10 @@ https://2021.igem.org/Template:NTNU-Trondheim/Martin/bottom?action=edit
 
 https://2021.igem.org/Template:NTNU-Trondheim/Martin/fixthings
 https://2021.igem.org/Template:NTNU-Trondheim/Martin/fixthings?action=edit
+
+
+https://2021.igem.org/Template:NTNU-Trondheim/Martin/NavigationBar
+https://2021.igem.org/Template:NTNU-Trondheim/Martin/NavigationBar?action=edit
 
 ##########################
          JS
