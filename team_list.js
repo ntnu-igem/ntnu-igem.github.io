@@ -24,8 +24,9 @@ const updateFields = (newIndex) => {
     document.getElementById("study").innerHTML = teamList[newIndex].study;
     document.getElementById("responsibilities").innerHTML = teamList[newIndex].responsibilities;
     document.getElementById("superpower").innerHTML = teamList[newIndex].superpower;
+    document.getElementById("funfact").innerHTML = teamList[newIndex].funfact;
     document.getElementById("name_pic").setAttribute("src", teamList[newIndex].imgUrl);
-    document.getElementById("funfact").setAttribute("src", teamList[newIndex].funfact);
+
 
     //Remove and add classes to active and unactive buttons
     document.getElementById("member_button_" + index).setAttribute("class", "team_member_button");
