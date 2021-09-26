@@ -86,6 +86,9 @@ https://2021.igem.org/wiki/images/e/eb/T--NTNU-Trondheim--victoria.jpg
 https://2021.igem.org/File:T--NTNU-Trondheim--Team.jpg (original link)
 https://2021.igem.org/wiki/images/1/1e/T--NTNU-Trondheim--Team.jpg (non-formatted file)
 
+https://2021.igem.org/File:T--NTNU-Trondheim--Team_casual.jpg
+https://2021.igem.org/wiki/images/a/af/T--NTNU-Trondheim--Team_casual.jpg 
+
 
 ########## ADVISORS ##############
 
@@ -260,6 +263,9 @@ https://2021.igem.org/Template:NTNU-Trondheim/Martin/fixthings?action=edit
 
 https://2021.igem.org/Template:NTNU-Trondheim/Martin/NavigationBar
 https://2021.igem.org/Template:NTNU-Trondheim/Martin/NavigationBar?action=edit
+
+https://2021.igem.org/Template:NTNU-Trondheim/Martin/BottomSponsorSocial
+https://2021.igem.org/Template:NTNU-Trondheim/Martin/BottomSponsorSocial?action=edit
 
 ##########################
          JS
