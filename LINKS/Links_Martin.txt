@@ -32,6 +32,7 @@ for your pages, use the following method:
 {{Template:NTNU-Trondheim/Martin/bottom}}
 {{Template:NTNU-Trondheim/Martin/fixthings}}
 {{Template:NTNU-Trondheim/Martin/NavigationBar}}
+{{Template:NTNU-Trondheim/Martin/BottomSponsorSocial}}
 
 
 
