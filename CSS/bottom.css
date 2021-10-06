@@ -1,6 +1,6 @@
 .bottombar {
     position: relative;
-    background: var(--color-9);
+    background: #5D6D7E  ;
     bottom:0;
     overflow: hidden;
     width:100%;
@@ -41,7 +41,7 @@
 }
 
 .bottombar_sponsors_button {
-    background-color: var(--color-1);
+   
     width: 4.5rem;
     height:4.5rem;
     margin-right: 0.4rem;
