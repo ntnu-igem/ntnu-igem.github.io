@@ -210,61 +210,31 @@ https://2021.igem.org/wiki/images/9/9f/T--NTNU-Trondheim--H2S.svg
          CSS
 ##########################
 
-### Bottom ###
-https://2021.igem.org/Template:NTNU-Trondheim/Test/bottom (original link)
-https://2021.igem.org/Template:NTNU-Trondheim/Test/bottom?action=raw&ctype=text/css (referencing)
-https://2021.igem.org/Template:NTNU-Trondheim/Test/bottom?action=edit (editing)
-
-### Navbar ###
-https://2021.igem.org/Template:NTNU-Trondheim/Test/navbar (original link)
-https://2021.igem.org/Template:NTNU-Trondheim/Test/navbar?action=raw&ctype=text/css (referencing)
-https://2021.igem.org/Template:NTNU-Trondheim/Test/navbar?action=edit (editing)
-
 ### Header ###
-https://2021.igem.org/Template:NTNU-Trondheim/Test/header (original link)
-https://2021.igem.org/Template:NTNU-Trondheim/Test/header?action=raw&ctype=text/css (referencing)
-https://2021.igem.org/Template:NTNU-Trondheim/Test/header?action=edit (editing)
-
-### Remove old header ###
-https://2021.igem.org/Template:NTNU-Trondheim/Test/removeoldheader (original link)
-https://2021.igem.org/Template:NTNU-Trondheim/Test/removeoldheader?action=raw&ctype=text/css (referencing)
-https://2021.igem.org/Template:NTNU-Trondheim/Test/removeoldheader?action=edit (editing)
-
-### Content ###
-https://2021.igem.org/Template:NTNU-Trondheim/Test/content
-https://2021.igem.org/Template:NTNU-Trondheim/Test/content?action=raw&ctype=text/css
-https://2021.igem.org/Template:NTNU-Trondheim/Test/content?action=edit
-
-### Fix Things ###
-https://2021.igem.org/Template:NTNU-Trondheim/Test/fixthings  (original link)
-https://2021.igem.org/Template:NTNU-Trondheim/Test/fixthings?action=raw&ctype=text/css (referencing)
-
-### Template for all templates ###
-https://2021.igem.org/Template:NTNU-Trondheim/Test/template (original link)
-https://2021.igem.org/Template:NTNU-Trondheim/Test/template?action=raw&ctype=text/css (referencing)
-https://2021.igem.org/Template:NTNU-Trondheim/Test/template?action=edit (editing)
-
-###################################### MARTIN STUFF #######################################
-
 https://2021.igem.org/Template:NTNU-Trondheim/Martin/header
 https://2021.igem.org/Template:NTNU-Trondheim/Martin/header?action=edit
 
+### Navbar ###
 https://2021.igem.org/Template:NTNU-Trondheim/Martin/navbar
 https://2021.igem.org/Template:NTNU-Trondheim/Martin/navbar?action=edit
 
+### Content ###
 https://2021.igem.org/Template:NTNU-Trondheim/Martin/content
 https://2021.igem.org/Template:NTNU-Trondheim/Martin/content?action=edit
 
+### Bottom ###
 https://2021.igem.org/Template:NTNU-Trondheim/Martin/bottom
 https://2021.igem.org/Template:NTNU-Trondheim/Martin/bottom?action=edit
 
+### Fix Things ###
 https://2021.igem.org/Template:NTNU-Trondheim/Martin/fixthings
 https://2021.igem.org/Template:NTNU-Trondheim/Martin/fixthings?action=edit
 
-
+### Navigationbar |###
 https://2021.igem.org/Template:NTNU-Trondheim/Martin/NavigationBar
 https://2021.igem.org/Template:NTNU-Trondheim/Martin/NavigationBar?action=edit
 
+### BottomSponsorSocial ###
 https://2021.igem.org/Template:NTNU-Trondheim/Martin/BottomSponsorSocial
 https://2021.igem.org/Template:NTNU-Trondheim/Martin/BottomSponsorSocial?action=edit
 
