@@ -11,22 +11,97 @@
 
 
 
-    <div class="hero">
-        <img src="https://2021.igem.org/wiki/images/1/1e/T--NTNU-Trondheim--Team.jpg" class="hero_picture" />
-        <div id="hero_background" class="hero_background">
-            <h1 class="hero_title">Implementation</h1>
-        </div>
+<div class="hero">
+    <img src="https://2021.igem.org/wiki/images/1/1e/T--NTNU-Trondheim--Team.jpg" class="hero_picture" />
+    <div id="hero_background" class="hero_background">
+        <h1 class="hero_title">Implementation</h1>
     </div>
-    <main>
-        <h2>Implementation</h2>
-        
-
-    </main>
+</div>
+<main>
+    <h1>Implementation</h1>
 
 
-   
+    <p>
+        Our project started in 2020, but as the pandemic progressed we were unable to do the essential lab work and
+        therefore postponed our participation to 2021. Because of this we have had lots of time to think about how we
+        could contribute to solving the H2S issue within land based aquaculture. When landing on this problem, we
+        troubleshooted to search for the most efficient solution that would not be invasive towards the fish in the RAS
+        environment. After careful consideration we landed on making a biosensor that could detect ug/L concentration of
+        H2S, specifically in the range 0-25 ug/L.
+    </p>
+    <p>
+        The envisioned future of SulFind is that the aquaculture sector uses the biosensor as a preventative method to
+        further enhance fish welfare, and make land based fish farming more beneficial by increased predictability for
+        the farmers. By doing this we could contribute to a sustainable aquaculture sector, and hopefully somewhat
+        reduce overfishing in our already strained oceans.
+    </p>
+    <p>
+        After consulting researchers, farming facilities, and RAS suppliers, we have reached an implementation of our
+        biosensor that we think is the most ideal. The potential production of H2S happens in and nearby the water
+        treatment section of RAS facilities, (add places that promote H2S production). Our idea is to lead a portion of
+        the water flowing from these areas to a non-return valve, where the biosensor is placed right after the valve.
+        Considering the sensor being a microfluidic chip, this system requires a minimal amount of water to be led away
+        from the recirculating water. Thus the principle of minimal water waste in RAS facilities is maintained. From
+        our business survey in April it became apparent that any genetically modified biomatter in the tanks was not an
+        option, and that is one of the reasons why we think a non-return valve is a clear solution to gain access to the
+        facility’s water without the biosensor being in contact with the main flow itself. Another advantage to this
+        solution is the amount of control it provides to the farmers. By leading water samples from specific regions of
+        the facility to this pipe, it is possible to anticipate which area creates favourable conditions for H2S
+        production and implement countermeasures before the H2S production occurs. After the biosensor has registered
+        the H2S concentration in the water, the valve will open up on the other side and the water will be guided
+        towards a secure waste station for GMO waste.
+    </p>
+    <p>
+
+        <img src="images/image1.png" width="" alt="alt_text" title="image_tooltip">
+        <strong> Figure 1: </strong> Schematic setup for sensor implementation in a RAS facility.
+    </p>
+    <p>
+        Although our biosensor provides a much higher sensitivity than the more physics-based sensors, it comes with a
+        cost. It is paramount that the correct measures are implemented to ensure the safety of personnel, fish, and
+        consumers. Since we have two different approaches within this project, they require different safety measures.
+        The genetically modified <em>E. Coli </em> biosensor requires far more consideration before being put inside a
+        RAS facility. As this bacteria is an environmental contaminant if certain nourishment and environmental
+        requirements are met, it is crucial to make sure that the <em>E. Coli </em>remains within the biosensor and out
+        of contact with the water circulating the facility. The non-return valve could contribute to this aspect by
+        forcing the water in one direction. Another precaution is to filter the water before entering the non-return
+        valve. This improves our implementation in two ways. First of all, if we use a microfilter with a pore size of
+        about 0.2 microns, this will be an extra protective barrier in a hypothetical situation where the water flow is
+        reversed or the non-return valve is malfunctioning. This is because the bacteria will be unable to pass through
+        the filter. That way, the bacteria are kept away from the rest of the facility. The second way this improves our
+        implementation is through the removal of any potential growth of biofilm on the biosensor. The downside to this
+        measure is frequent replacement of these filters. However, we consider the pros of containing <em>E. Coli
+        </em>and removing the biofouling risk more rewarding than the cons. Another safety aspect to consider is the
+        handling of our device by personnel. If the GMOs are released by either poor handling or malicious intent, it
+        could pose a risk towards the environment, the fish, and the personnel themselves. In addition, such a scenario
+        could worsen the public’s opinion of GMOs. Therefore it is paramount to design the device in such a way that
+        this is not possible. Our other approach with heme proteins requires far less safety measures, since they are
+        not GMOs or GMO products, and cannot replicate (outside lab?). Therefore this approach poses much less of a risk
+        to fish, humans, and the environment. However, we would still like to implement the biosensor in RAS facilities
+        much the same way as for the <em>E. Coli </em>approach. The accumulation of biomass on the biosensor would still
+        be a problem, and the control a non-return valve provides is valuable no matter the approach.
+    </p>
+    <p>
+        Some other challenges when implementing our biosensor into a RAS facility are different environmental
+        preferences among different fish species, degradation of heme proteins or proliferation of <em>E. Coli</em> in
+        the sensor over time, false positives, and the perception of GMO in the aquaculture sector as we discovered in
+        our business survey. Since not all fish species thrive in the same environment, our sensor might have to be
+        tweaked to fit these parameters. This is something we have not looked into, and needs further research before we
+        can come to any conclusion. The degradation of heme proteins could reduce sensor performance, since the number
+        of fluorescent emittable proteins decreases over time. The same goes for any proliferation of <em>E. Coli</em>,
+        except that there would then be more cells to emit bioluminescence than expected. An effect of this challenge is
+        that it will cause a displacement in the calculated concentration that will be difficult to detect. Since our
+        output values are based on a set number of proteins or bacteria, the scaling would essentially be useless. This
+        suggests that our users, the RAS facilities, would have to regularly swap out the current solution of proteins
+        with a new one in the sensor to ensure steady and predictable output values for the concentration.
+    </p>
+
+</main>
+
+
+
 </body>
-    <script src="https://2021.igem.org/Template:NTNU-Trondheim/Test/navbarJS?action=raw&ctype=text/javascript"></script>
+<script src="https://2021.igem.org/Template:NTNU-Trondheim/Test/navbarJS?action=raw&ctype=text/javascript"></script>
 </body>
 
 
