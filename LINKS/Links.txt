@@ -340,6 +340,12 @@ https://2021.igem.org/wiki/images/3/3c/T--NTNU-Trondheim--Build_A_Bac.zip
 
 ##### Engineering #################################
 
+https://2021.igem.org/File:T--NTNU-Trondheim--engineering_cycle.png
+https://2021.igem.org/wiki/images/3/39/T--NTNU-Trondheim--engineering_cycle.png
+https://2021.igem.org/wiki/images/thumb/3/39/T--NTNU-Trondheim--engineering_cycle.png/603px-T--NTNU-Trondheim--engineering_cycle.png
+https://2021.igem.org/wiki/images/thumb/3/39/T--NTNU-Trondheim--engineering_cycle.png/241px-T--NTNU-Trondheim--engineering_cycle.png
+
+
 https://2021.igem.org/File:T--NTNU-Trondheim--Collection_microfluidic.gif
 https://2021.igem.org/wiki/images/3/38/T--NTNU-Trondheim--Collection_microfluidic.gif
 
@@ -351,10 +357,10 @@ https://2021.igem.org/wiki/images/thumb/b/bf/T--NTNU-Trondheim--Merging_microflu
 https://2021.igem.org/File:T--NTNU-Trondheim--Mixing_microfluidic.gif
 https://2021.igem.org/wiki/images/4/4b/T--NTNU-Trondheim--Mixing_microfluidic.gif
 
-
-
-
-
+https://2021.igem.org/File:T--NTNU-Trondheim--metMb_Absorption.png
+https://2021.igem.org/wiki/images/b/bc/T--NTNU-Trondheim--metMb_Absorption.png
+https://2021.igem.org/wiki/images/thumb/b/bc/T--NTNU-Trondheim--metMb_Absorption.png/647px-T--NTNU-Trondheim--metMb_Absorption.png
+https://2021.igem.org/wiki/images/thumb/b/bc/T--NTNU-Trondheim--metMb_Absorption.png/259px-T--NTNU-Trondheim--metMb_Absorption.png
 
 https://2021.igem.org/File:T--NTNU-Trondheim--design_1_h2s_detection.png
 https://2021.igem.org/wiki/images/c/c5/T--NTNU-Trondheim--design_1_h2s_detection.png

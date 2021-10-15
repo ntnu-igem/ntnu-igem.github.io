@@ -10,20 +10,461 @@
 
 
 
-    <div class="hero">
-        <img src="https://2021.igem.org/wiki/images/1/1e/T--NTNU-Trondheim--Team.jpg" class="hero_picture" />
-        <div id="hero_background" class="hero_background">
-            <h1 class="hero_title">Engineering</h1>
-        </div>
+<div class="hero">
+    <img src="https://2021.igem.org/wiki/images/1/1e/T--NTNU-Trondheim--Team.jpg" class="hero_picture" />
+    <div id="hero_background" class="hero_background">
+        <h1 class="hero_title">Engineering</h1>
     </div>
+</div>
 
-    <main>
-        <h2>Engineering</h2>
-    </main>
+<main>
+    <h2>Engineering</h2>
 
-  
-   
-    <script src="https://2021.igem.org/Template:NTNU-Trondheim/Test/navbarJS?action=raw&ctype=text/javascript"></script>
+    <h2>Introduction</h2>
+
+
+    <p>
+        Several approaches were considered when developing a biosensor with adequate sensing capability for detecting
+        hydrogen sulfide (H<sub>2</sub>S). After extensive research the two most promising approaches were brought into
+        the lab to be tested. One of the ideas was a whole cell sensor, the other was a molecular sensor with heme
+        proteins implemented in a microfluidic chip. Both projects went through the engineering cycle, illustrated in
+        Figure 1, which consists of the following steps: design, build, test and learn. On this page we describe the
+        engineering cycle for both projects.
+    </p>
+    <p>
+
+
+    <p id="gdcalert1"><span style="color: red; font-weight: bold">>>>>> gd2md-html alert: inline image link here (to
+            images/image1.png). Store image on your image server and adjust path/filename/extension if necessary.
+        </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert2">Next alert</a>)<br><span
+            style="color: red; font-weight: bold">>>>>> </span></p>
+
+
+    <img src="images/image1.png" width="" alt="alt_text" title="image_tooltip">
+
+    </p>
+    <p>
+        [engineering_cycle.png][Caption: <strong>Figure 1</strong>: The four steps of the engineering cycle.]
+    </p>
+    <p>
+        Engineering of heme-based sensor
+    </p>
+    <p>
+        We were interested in designing a molecular sensor because it offers immediate and selective detection. These
+        are some of the most important sensor qualities because H<sub>2</sub>S-levels in the water tanks can rise
+        quickly. In our initial research phase we investigated several approaches to using heme-proteins as a basis for
+        a molecular H<sub>2</sub>S sensor. This was largely motivated by the known interactions between many
+        heme-proteins and H<sub>2</sub>S, such as with cytochrome c oxidase, hemoglobin and myoglobin [1]. This
+        interaction is non-covalent and reversible, which offers a possibility for continuous detection. Early on, we
+        considered the use of cantilevers to detect interaction in a heme-protein with high H<sub>2</sub>S-affinity, as
+        well as variations on heme-based oxygen sensors. As we continued our investigation, we discovered a seemingly
+        more robust way of detecting H<sub>2</sub>S-heme interactions, that is by using myoglobin conjugated with a
+        fluorophore [2].
+    </p>
+    <p>
+        After deciding to use myoglobin as the basis of our sensor, we needed to find a way to create a detectable
+        signal for when H<sub>2</sub>S binds to the protein. For myoglobin, this is possible using the principle of
+        Förster Resonance Energy Transfer, also known as FRET. This is a method commonly used to study protein
+        interactions based on an energy transfer that occurs between an energy donor and acceptor, usually fluorophores,
+        in close proximity [3]. This energy transfer produces a fluorescent signal that can be detected. In our sensor
+        system, we can use FRET to detect H<sub>2</sub>S-binding because the absorption spectrum of myoglobin shifts
+        when interacting with H<sub>2</sub>S [4]. The particular method of energy transfer we implemented is called
+        absorption into fluorescence, and is achieved by labeling the N-terminus of myoglobin with a fluorophore that
+        has an emission peak corresponding to an area of interest in the absorption spectra of myoglobin [5]. This area
+        of interest can be seen in Figure 2 around 550nm. When exciting the fluorophore, energy from the fluorescence
+        will be absorbed into the myoglobin, and therefore changes in the absorption can be detected by fluorescence.
+    </p>
+    <p>
+
+
+    <p id="gdcalert2"><span style="color: red; font-weight: bold">>>>>> gd2md-html alert: inline image link here (to
+            images/image2.png). Store image on your image server and adjust path/filename/extension if necessary.
+        </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert3">Next alert</a>)<br><span
+            style="color: red; font-weight: bold">>>>>> </span></p>
+
+
+    <img src="images/image2.png" width="" alt="alt_text" title="image_tooltip">
+
+    </p>
+    <p>
+        [metMb_Absorption.png][Caption: <strong>Figure 2: </strong>Absorption spectrum of ferric myoglobin, before and
+        after addition and reaction with Na<sub>2</sub>S. The line in black shows the absorption spectrum before the
+        reaction, and the blue after the reaction. The area of interest for our heme-based H<sub>2</sub>S sensor is the
+        hump around 550 nm, where there is an increase in absorption for the reaction between ferric myoglobin and
+        H<sub>2</sub>S. <em>Figure from (Jensen & Fago, 2018) [6]</em>]
+    </p>
+    <p>
+        Our main objective in the testing phase for our myoglobin-fluorophore approach was to investigate the optimal
+        concentrations of fluorophore-bound myoglobin using different H<sub>2</sub>S concentrations. The first stages of
+        testing were done outside of the microfludic chip to assess the different sensor parameters. As presented in our
+        results page [link to: <a
+            href="https://2021.igem.org/Team:NTNU-Trondheim/Results">https://2021.igem.org/Team:NTNU-Trondheim/Results</a>],
+        higher fluorophore-myoglobin concentrations seemed to increase the variance in the measurements. Additionally,
+        we found lower variance when slightly increasing the distance between the excitation and emission measurement
+        bands used for measuring the fluorescence signal in the myoglobin-fluorophore. Correcting for these factors, we
+        managed to get a signal at very low H<sub>2</sub>S concentrations. However, there were still some issues with
+        variance, lack of a general trend and linearity, potentially caused by different factors which are further
+        described in the discussion segment of our results page [link to: <a
+            href="https://2021.igem.org/Team:NTNU-Trondheim/Results">https://2021.igem.org/Team:NTNU-Trondheim/Results</a>].
+        The main factors here were the use of non-isolated measurement wells, no degassing and potential oversaturation
+        of the reaction mixture. From our testing, we learned that the further development of this approach would
+        therefore require a fluorescence measurement instrument with closed measurement wells or chambers, to prevent
+        H<sub>2</sub>S diffusion, and a degasser to deoxygenate the sample before and after to prevent H<sub>2</sub>S
+        oxidation. This would however require more resources than currently available to us, but it seems probable that
+        this would increase the effectiveness of the sensor significantly. On the other hand, these limitations could be
+        reduced when moving the sensor system to a microfluidic chip.
+    </p>
+    <h2>LOC design</h2>
+
+
+    <p>
+        The design of our microfluidic chip was a quite simple one, and it was for a flow focusing device. It consisted
+        of three fluid inlets; one for the myoglobin solution, one for the H<sub>2</sub>S solution and one final inlet
+        for the carrier oil. In the first phase of the microfluidic chip was the droplet generator (Figure 3). There,
+        the inlets for the myoglobin solution and the H<sub>2</sub>S solution merged together. Right afterwards this new
+        mix flowed past the carrier oil inlet, making individual and separated droplets from the flow. The second part
+        of the chip was the mixing phase, where a mixing channel in a zigzag shape ensured proper mixing of myoglobin
+        and H<sub>2</sub>S to make sure fluorescence would occur (Figure 4). Last phase was the collection chamber, a
+        linearly expanding channel that caught all of the droplets within it. These droplets would then be collected and
+        the fluorescence measured off-chip (Figure 5).
+    </p>
+    <p>
+        Here are some of our parameters for the flow setup:
+    </p>
+    <ul>
+
+        <li>Flow rate of heme solution = 30 µl/hr
+
+        <li>Flow rate of H<sub>2</sub>S solution = 30 µl/hr
+
+        <li>Flow rate oil phase = 250 µl/hr
+
+        <li>Droplet generation frequency = 400 Hz
+
+        <li>Droplet volume = 41 pl
+        </li>
+    </ul>
+    <p>
+
+
+    <p id="gdcalert3"><span style="color: red; font-weight: bold">>>>>> gd2md-html alert: inline image link here (to
+            images/image3.gif). Store image on your image server and adjust path/filename/extension if necessary.
+        </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert4">Next alert</a>)<br><span
+            style="color: red; font-weight: bold">>>>>> </span></p>
+
+
+    <img src="images/image3.gif" width="" alt="alt_text" title="image_tooltip">
+
+    </p>
+    <p>
+        [Merging_microfluidic.gif][Caption: <strong>Figure 3:</strong> Droplet generator. The two first inlets are for
+        the myoglobin and H<sub>2</sub>S solution respectively. These merge and meet the carrier oil, making droplets.]
+    </p>
+    <p>
+
+
+    <p id="gdcalert4"><span style="color: red; font-weight: bold">>>>>> gd2md-html alert: inline image link here (to
+            images/image4.gif). Store image on your image server and adjust path/filename/extension if necessary.
+        </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert5">Next alert</a>)<br><span
+            style="color: red; font-weight: bold">>>>>> </span></p>
+
+
+    <img src="images/image4.gif" width="" alt="alt_text" title="image_tooltip">
+    <br>
+    </p>
+    <p>
+        [Mixing_microfluidic.gif][Caption: <strong>Figure 4: </strong>Mixing channel to ensure proper mixing for
+        myoglobin and H<sub>2</sub>S.]
+    </p>
+    <h2>
+
+        <p id="gdcalert5"><span style="color: red; font-weight: bold">>>>>> gd2md-html alert: inline image link here (to
+                images/image5.gif). Store image on your image server and adjust path/filename/extension if necessary.
+            </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert6">Next alert</a>)<br><span
+                style="color: red; font-weight: bold">>>>>> </span></p>
+
+
+        <img src="images/image5.gif" width="" alt="alt_text" title="image_tooltip">
+    </h2>
+
+
+    <p>
+
+    </p>
+    <p>
+        [Collection_microfluidic.gif][Caption: <strong>Figure 5: </strong>Collection chamber for the droplets.]
+    </p>
+    <h2>The SQR approach</h2>
+
+
+    <p>
+        We began our research by looking into sulfide-binding molecules, and came across the transcriptional repressor
+        protein SqrR, which showed promise as a component in a whole-cell sulfide sensor. This repressor protein and the
+        way it functions in transcriptional regulation became the foundation for the “SQR” part of our project. Even
+        though we ultimately ended up ending the SQR approach early to focus on the Heme approach and microfluidic chip
+        design, we went through one full iteration of the engineering cycle, <strong>design</strong>ing genetic
+        constructs that would act as sulfide sensors, <strong>build</strong>ing the designs by cloning the constructs
+        into bacteria, <strong>test</strong>ing our sensors with varying levels of H<sub>2</sub>S,
+        <strong>learn</strong>ing from our mistakes, and <strong>design</strong>ing new constructs.
+    </p>
+    <p>
+        Design → Build → Test → Learn → Design
+    </p>
+    <p>
+        SqrR is a repressor protein that is involved in sulfide-dependent gene expression in the bacterium
+        <em>Rhodobacter capsulatus</em> [7]. When no sulfide is present, SqrR binds to the Psqr promoter, inhibiting the
+        expression of the gene encoding Sulfide:quinone oxidoreductase (SQR). SQR is an enzyme that oxidises sulfide to
+        zero-valent sulfur (S0), which can then conjugate with multiple different nucleophiles or low molecular weight
+        thiols to form reactive sulfur species (RSS) [7]. Upon reaction with a RSS, a di-, tri-, or tetrasulfide bond
+        forms between two cysteine residues of SqrR, resulting in a conformational change that reduces its DNA binding
+        affinity. RSS thereby functions as inducers of the genes under control of the Psqr promoter that is repressed by
+        SqrR [7].
+    </p>
+    <h3>Design 1.0</h3>
+
+
+    <p>
+        We made two different genetic designs that utilize the SqrR protein. The first insert was designed to be modular
+        and allow for the steps of sulfide oxidation, and RSS sensing to be separated on a microfluidic chip. First
+        H<sub>2</sub>S would be reacted with Glutathione disulfide (GSSG), so that glutathione persulfide (GSSH), a RSS,
+        is formed. The GSSH would then diffuse into engineered cells with the genetic insert, where SqrR is inhibited,
+        resulting in expression of the reporter gene. This process is illustrated in Figure 6. The insert consisted of a
+        fluorescent reporter gene placed under control of the Psqr promoter, <em>sqrR</em>, the gene that encodes SqrR,
+        placed under control of a constitutive promoter, as well as biobrick ribosomal binding sites and terminators.
+        The insert design is illustrated in Figure 7.
+    </p>
+    <p>
+
+
+    <p id="gdcalert6"><span style="color: red; font-weight: bold">>>>>> gd2md-html alert: inline image link here (to
+            images/image6.png). Store image on your image server and adjust path/filename/extension if necessary.
+        </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert7">Next alert</a>)<br><span
+            style="color: red; font-weight: bold">>>>>> </span></p>
+
+
+    <img src="images/image6.png" width="" alt="alt_text" title="image_tooltip">
+
+    </p>
+    <p>
+        [design_1_h2s_detection.png][Caption: <strong>Figure 6</strong>: Schematic representation of hydrogen sulfide
+        detection by the GSSG-dependent design.]
+    </p>
+    <p>
+
+
+    <p id="gdcalert7"><span style="color: red; font-weight: bold">>>>>> gd2md-html alert: inline image link here (to
+            images/image7.png). Store image on your image server and adjust path/filename/extension if necessary.
+        </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert8">Next alert</a>)<br><span
+            style="color: red; font-weight: bold">>>>>> </span></p>
+
+
+    <img src="images/image7.png" width="" alt="alt_text" title="image_tooltip">
+
+    </p>
+    <p>
+        [pigeon_design1.png][Caption: <strong>Figure 7</strong>: Components of composite parts for hydrogen sulfide
+        detection by the GSSG-dependent design. <em>Figure designed using Pigeon [8].</em>]
+    </p>
+    <p>
+        Three different inserts were designed like this. In two of the parts, CreiLov was used as a reporter gene.
+        CreiLov is a flavin-binding fluorescent protein that does not require oxygen for fluorescence, and can therefore
+        be used in anaerobic environments [9]. The protein was used so that integration into a microfluidic chip might
+        be feasible. We also varied the constitutive promoter used for SqrR expression, so that the relative strength of
+        the promoters were different. This was done because we suspected that the expression level of SqrR would affect
+        the sensitivity of the sensor.
+    </p>
+    <p>
+        We also designed inserts that would function as a whole-cell sensor without the need for any additional
+        components. In this design, the bacterium would also express the SQR enzyme, and therefore oxidise
+        H<sub>2</sub>S inside the cell. The process is illustrated schematically in Figure 8, and the part design is
+        shown in Figure 9. These designs were in part inspired by the Nanjing-China iGEM team in 2017. [link:
+        http://2017.igem.org/Team:Nanjing-China/Design]
+    </p>
+    <p>
+
+
+    <p id="gdcalert8"><span style="color: red; font-weight: bold">>>>>> gd2md-html alert: inline image link here (to
+            images/image8.png). Store image on your image server and adjust path/filename/extension if necessary.
+        </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert9">Next alert</a>)<br><span
+            style="color: red; font-weight: bold">>>>>> </span></p>
+
+
+    <img src="images/image8.png" width="" alt="alt_text" title="image_tooltip">
+
+    </p>
+    <p>
+        [design_2_h2s_detection.png][caption: <strong>Figure 8</strong>: Schematic representation of hydrogen sulfide
+        detection by the whole-cell design.]
+    </p>
+    <p>
+
+
+    <p id="gdcalert9"><span style="color: red; font-weight: bold">>>>>> gd2md-html alert: inline image link here (to
+            images/image9.png). Store image on your image server and adjust path/filename/extension if necessary.
+        </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert10">Next alert</a>)<br><span
+            style="color: red; font-weight: bold">>>>>> </span></p>
+
+
+    <img src="images/image9.png" width="" alt="alt_text" title="image_tooltip">
+
+    </p>
+    <p>
+        [pigeon_design2.png][Caption: <strong>Figure 9</strong>: Components of composite parts for hydrogen sulfide
+        detection by the whole-cell design. <em>Figure designed using Pigeon [8]</em>.]
+    </p>
+    <p>
+        As with the previous design, we also made variants where the reporter protein was either CreiLov or GFP, and the
+        strength of the constitutive promoters varied.
+    </p>
+    <p>
+        Read more about the design on our Parts page. [link to: <a
+            href="https://2021.igem.org/Team:NTNU-Trondheim/Parts">https://2021.igem.org/Team:NTNU-Trondheim/Parts</a>]
+    </p>
+    <h3>Build</h3>
+
+
+    <p>
+        We ordered all the designs fully synthesized as linear fragments from Integrated DNA Technologies (IDT). IDT was
+        unable to synthesize the construct containing both SQR and GFP encoding genes, likely because of the length of
+        the construct.
+    </p>
+    <p>
+        We inserted the constructs into the plasmid vector pENZ004, a plasmid with a mid-range copy-number and Amp
+        resistance genes, and used Gibson assembly to clone the vector into <em>E. coli</em> DH5-alpha cells. We then
+        confirmed the success of the cloning by sequencing, to confirm the presence of our constructs in the bacterial
+        plasmids. The entire procedure, as well as troubleshooting steps, is detailed on our lab notebook page [link to:
+        <a
+            href="https://2021.igem.org/Team:NTNU-Trondheim/Notebook">https://2021.igem.org/Team:NTNU-Trondheim/Notebook</a>].
+    </p>
+    <p>
+        We were unable to successfully clone one of the constructs for the whole-cell design. After doing some
+        troubleshooting, and attempting several Gibson assemblies and transformations we decided to move on with testing
+        the four constructs that were successfully cloned into our bacteria, so that we would have sufficient time for
+        testing.
+    </p>
+    <p>
+        Read more about the cloning procedure on our results page. [link to: <a
+            href="https://2021.igem.org/Team:NTNU-Trondheim/Results">https://2021.igem.org/Team:NTNU-Trondheim/Results</a>].
+    </p>
+    <h3>Test</h3>
+
+
+    <p>
+        The bacteria transformed with the GSSH-dependant construct were tested by measuring the absorbance and
+        fluorescence of transformed bacteria on a Tecan plate reader after incubating the bacteria with varying
+        concentrations of freshly prepared GSSH (a RSS). The bacteria containing the SQR-construct was tested by
+        measuring the absorbance and fluorescence of transformed bacteria on a Tecan plate reader after incubating the
+        bacteria with varying concentrations of freshly dissolved Sodium sulfide (Na<sub>2</sub>S). Fluorescence was
+        measured at 450 nm for excitation and 495 nm emission for the CreiLov parts, and 475 nm for excitation and 545
+        nm emission for the GFP parts.
+    </p>
+    <p>
+        We tested the design with the following concentrations of H<sub>2</sub>S ranging from 0 to 1000 ug/L, based on
+        results we received from Carlo Lazado about the H<sub>2</sub>S levels dangerous to fish. Read more about this on
+        our Human Practises page [link to: <a
+            href="https://2021.igem.org/Team:NTNU-Trondheim/Human_Practices">https://2021.igem.org/Team:NTNU-Trondheim/Human_Practices</a>].
+    </p>
+    <p>
+        We found no significant difference in observed fluorescence between the bacteria that had been incubated with
+        GSSH or H<sub>2</sub>S and the control. The fluorescence measurements are presented on our results page [link
+        to: <a
+            href="https://2021.igem.org/Team:NTNU-Trondheim/Results">https://2021.igem.org/Team:NTNU-Trondheim/Results</a>].
+    </p>
+    <h3>Learn</h3>
+
+
+    <p>
+        We troubleshooted our experiment design in the lab by varying the medium the bacteria were grown in, increasing
+        the H<sub>2</sub>S concentrations, and treating the bacteria with GSSH/H<sub>2</sub>S earlier in their growth
+        phase. Time did not allow further troubleshooting in the lab, as we needed to focus on the Heme and microfluidic
+        chip part of our project, which were showing more promise.
+    </p>
+    <p>
+        Our advisor Alex raised the topic of whether GSSH would be able to cross the cell membrane. The molecule is too
+        big to diffuse across the cell membrane. This is a major flaw in our design, and made us reconsider the modular
+        approach where sulfide is oxidised outside the cell.
+    </p>
+    <p>
+        Upon further analysis of the genetic sequences we had ordered from IDT we became aware of two mistakes. When
+        inserting the one of the biobrick RBS (Part:BBa_B0030), was accidentally copied from the registry as dsDNA
+        instead of ssDNA, resulting in the sequence being inserted twice and inverted. This could likely have an effect
+        on the ribosome binding to the transcript. Perhaps more disastrous, we had removed upstream purification and
+        cleavage sites from the CreiLov gene, and omitted inserting an ATG codon back into the sequence. These mistakes
+        occurred because we were pressed for time when ordering our constructs, but are unfortunate and could have been
+        prevented if more time was allocated for double-checking our constructs.
+    </p>
+    <h3>Design 2.0</h3>
+
+
+    <p>
+        Even though we did not have time to order and test new genetic constructs, we made a second design of the
+        construct where SQR is expressed within the cell, as this approach alleviates the need for GSSH crossing a cell
+        membrane. We fixed the mistakes with the RBS and the missing start codon for CreiLov in the construct where SQR
+        is expressed in addition to the sensor sequences. In addition, we also changed a part of DNA at the beginning of
+        the sequence that could form hairpin structures, and potentially caused problems with the PCR primers.
+    </p>
+    <p>
+        If time had permitted, we would have ordered this improved design, and tested in the lab. We would order the
+        part as smaller parts that we could assemble, so that it would be less likely that problems would occur during
+        synthesis. We would also have tested CreiLov alone with a constitutive promoter, to add another layer of
+        modularity when troubleshooting.
+    </p>
+    <h2>References</h2>
+
+
+    <p>
+
+        1. Pietri, R., E. Román-Morales, and J. López-Garriga, <em>Hydrogen sulfide and hemeproteins: knowledge and
+            mysteries.</em> Antioxid Redox Signal, 2011. <strong>15</strong>(2): p. 393-404.
+    </p>
+    <p>
+
+        2. Strianese, M., et al., <em>Myoglobin as a new fluorescence probe to sense </em>H<sub>2</sub>S<em>.</em>
+        Protein Pept Lett, 2011. <strong>18</strong>(3): p. 282-6.
+    </p>
+    <p>
+
+        3. Sekar, R.B. and A. Periasamy, <em>Fluorescence resonance energy transfer (FRET) microscopy imaging of live
+            cell protein localizations.</em> J Cell Biol, 2003. <strong>160</strong>(5): p. 629-33.
+    </p>
+    <p>
+
+        4. Nicholls, P., <em>The formation and properties of sulphmyoglobin and sulphcatalase.</em> Biochem J, 1961.
+        <strong>81</strong>(2): p. 374-83.
+    </p>
+    <p>
+
+        5. Strianese, M., et al., <em>Absorption into fluorescence. A method to sense biologically relevant gas
+            molecules.</em> Nanoscale, 2011. <strong>3</strong>(1): p. 298-302.
+    </p>
+    <p>
+
+        6. Jensen, B. and A. Fago, <em>Reactions of ferric hemoglobin and myoglobin with hydrogen sulfide under
+            physiological conditions.</em> Journal of Inorganic Biochemistry, 2018. <strong>182</strong>: p. 133-140.
+    </p>
+    <p>
+
+        7. Shimizu, T., et al., <em>Sulfide-responsive transcriptional repressor SqrR functions as a master regulator of
+            sulfide-dependent photosynthesis.</em> Proc Natl Acad Sci U S A, 2017. <strong>114</strong>(9): p.
+        2355-2360.
+    </p>
+    <p>
+
+        8. Bhatia, S. and D. Densmore, <em>Pigeon: A Design Visualizer for Synthetic Biology.</em> ACS Synthetic
+        Biology, 2013. <strong>2</strong>(6): p. 348-350.
+    </p>
+    <p>
+
+        9. Zou, W., K. Le, and M.L. Zastrow, <em>Live-Cell Copper-Induced Fluorescence Quenching of the Flavin-Binding
+            Fluorescent Protein CreiLOV.</em> ChemBioChem, 2020. <strong>21</strong>(9): p. 1356-1363.
+    </p>
+
+
+</main>
+
+
+
+<script src="https://2021.igem.org/Template:NTNU-Trondheim/Test/navbarJS?action=raw&ctype=text/javascript"></script>
 </body>
 
 

@@ -5,7 +5,153 @@
 {{Template:NTNU-Trondheim/Martin/fixthings}}
 {{Template:NTNU-Trondheim/Martin/NavigationBar}}
 
+
+
+
+
 <html>
+
+<style>
+    * {
+        box-sizing: border-box;
+    }
+
+    /* Set a background color */
+    body {
+        background-color: #474e5d;
+        font-family: Helvetica, sans-serif;
+    }
+
+    /* The actual timeline (the vertical ruler) */
+    .timeline {
+        position: relative;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    /* The actual timeline (the vertical ruler) */
+    .timeline::after {
+        content: '';
+        position: absolute;
+        width: 6px;
+        background-color: white;
+        top: 0;
+        bottom: 0;
+        left: 50%;
+        margin-left: -3px;
+    }
+
+    /* Container around content */
+    .container {
+        padding: 10px 40px;
+        position: relative;
+        background-color: inherit;
+        width: 50%;
+    }
+
+    /* The circles on the timeline */
+    .container::after {
+        content: '';
+        position: absolute;
+        width: 25px;
+        height: 25px;
+        right: -17px;
+        background-color: white;
+        border: 4px solid #FF9F55;
+        top: 15px;
+        border-radius: 50%;
+        z-index: 1;
+    }
+
+    /* Place the container to the left */
+    .left {
+        left: 0;
+    }
+
+    /* Place the container to the right */
+    .right {
+        left: 50%;
+    }
+
+    /* Add arrows to the left container (pointing right) */
+    .left::before {
+        content: " ";
+        height: 0;
+        position: absolute;
+        top: 22px;
+        width: 0;
+        z-index: 1;
+        right: 30px;
+        border: medium solid white;
+        border-width: 10px 0 10px 10px;
+        border-color: transparent transparent transparent white;
+    }
+
+    /* Add arrows to the right container (pointing left) */
+    .right::before {
+        content: " ";
+        height: 0;
+        position: absolute;
+        top: 22px;
+        width: 0;
+        z-index: 1;
+        left: 30px;
+        border: medium solid white;
+        border-width: 10px 10px 10px 0;
+        border-color: transparent white transparent transparent;
+    }
+
+    /* Fix the circle for containers on the right side */
+    .right::after {
+        left: -16px;
+    }
+
+    /* The actual content */
+    .content {
+        padding: 20px 30px;
+        background-color: white;
+        position: relative;
+        border-radius: 6px;
+    }
+
+    /* Media queries - Responsive timeline on screens less than 600px wide */
+    @media screen and (max-width: 600px) {
+
+        /* Place the timelime to the left */
+        .timeline::after {
+            left: 31px;
+        }
+
+        /* Full-width containers */
+        .container {
+            width: 100%;
+            padding-left: 70px;
+            padding-right: 25px;
+        }
+
+        /* Make sure that all arrows are pointing leftwards */
+        .container::before {
+            left: 60px;
+            border: medium solid white;
+            border-width: 10px 10px 10px 0;
+            border-color: transparent white transparent transparent;
+        }
+
+        /* Make sure all circles are at the same spot */
+        .left::after,
+        .right::after {
+            left: 15px;
+        }
+
+        /* Make all right containers behave like the left ones */
+        .right {
+            left: 0%;
+        }
+</style>
+
+
+<body>
+
 
 
     <div class="hero">
@@ -16,13 +162,817 @@
     </div>
 
     <main>
-        <h2>Lab notebook</h2>
-        
+        <h2>Notebook / Lab journal</h2>
 
+        <p>
+            This page contains our day-to-day work in the laboratory. As we worked on two approaches for the main part
+            of the
+            summer, the documentation of the laboratory work is divided into the <em>Heme protein approach</em> and the
+            <em>Sulfide-responsive transcriptional repressor approach. </em>In the fall of 2021 we performed work
+            related to
+            <em>Improvement of an existing part.</em>
+        </p>
+
+
+        <div class="timeline">
+            <div class="container left">
+                <div class="content">
+                    <h2 style="line-height: 23px;margin-top: 0;"><span style="font-size: 20pt;"> 1</span></h2>
+
+                    <h2>Week 27</h2>
+                    <p>
+                    <p>
+                        <strong>07/07/21</strong>
+                    </p>
+                    <ul>
+
+                        <li>Prepared and autoclaved laboratory equipment
+
+                        <li>Prepared LB medium
+                        </li>
+                    </ul>
+                    <p>
+                        <strong>08/07/21</strong>
+                    </p>
+                    <p>
+
+                        <em>Heme protein approach:</em>
+                    </p>
+                    <ul>
+
+                        <li>Prepared stock solution with Myoglobin and made aliquots with concentration 0.1 g/L.
+                        </li>
+                    </ul>
+                    </p>
+                </div>
+            </div>
+            <div class="container right">
+                <div class="content">
+                    <h2 style="line-height: 23px;margin-top: 0;"><span style="font-size: 20pt;">
+                            2
+                        </span></h2>
+
+                    <h2>Week 28 </h2>
+                    <p>
+                        <strong>12/07/21</strong>
+                    </p>
+                    <p>
+
+                        <em>Sulfide-responsive transcriptional repressor approach: </em>
+                    </p>
+                    <ul>
+
+                        <li>Diluted primers for cloning to a final concentration of 10 μM.
+                        </li>
+                    </ul>
+                    <p>
+                        <strong>13/07/21</strong>
+                    </p>
+                    <p>
+
+                        <em>Sulfide-responsive transcriptional repressor approach: </em>
+                    </p>
+                    <ul>
+
+                        <li>Tested the efficiency of the supercompetent DH5-alpha <em>E. coli</em> cells, and incubated
+                            them overnight.
+
+                        <li>PCR-amplified the pENZ004 plasmid for Gibson assembly.
+
+                        <li>Analyzed the samples from PCR on an agarose gel.
+
+                        <li>Removed the WT plasmid from the PCR samples with Dpn1 enzyme digest.
+                            <p>
+
+                                <em>Heme protein approach:</em>
+                            </p>
+                            <ul>
+
+                                <li>Prepared stock solution with Cy3 NHS ester.
+
+                                <li>Prepared stock solution of Potassium Phosphate buffer.
+
+                                <li>Labeled myoglobin with Cy3 NHS ester, incubated overnight.
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <p>
+                        <strong>14/07/21</strong>
+                    </p>
+                    <p>
+
+                        <em>Sulfide-responsive transcriptional repressor approach: </em>
+                    </p>
+                    <ul>
+
+                        <li>Suspended DNA sequences from IDT.
+
+                        <li>Performed PCR purification, Gibson assembly and heat shock transformation.
+
+                        <li>Counted the number of colonies from the competent cell test from yesterday.
+                        </li>
+                    </ul>
+                    <p>
+
+                        <em>Heme protein approach:</em>
+                    </p>
+                    <ul>
+
+                        <li>Purified labeled myoglobin from 13/07/21, measured myoglobin concentration and labeling
+                            ratio, prepared labeled
+                            protein solution and H2S dilutions.
+                        </li>
+                    </ul>
+                    <p>
+                        <strong>15/07/21</strong>
+                    </p>
+                    <p>
+
+                        <em>Sulfide-responsive transcriptional repressor approach: </em>
+                    </p>
+                    <ul>
+
+                        <li>Transferred cells to LB amp medium and incubated overnight.
+                        </li>
+                    </ul>
+                    <p>
+                        <strong>16/07/21</strong>
+                    </p>
+                    <p>
+
+                        <em>Sulfide-responsive transcriptional repressor approach: </em>
+                    </p>
+                    <ul>
+
+                        <li>Isolated plasmid DNA from the transformed DNA. <em>NB!</em> At step 10 only 30 μL EB buffer
+                            should be added,
+                            instead of 30 μL as the protocol states.
+
+                        <li>Prepared Glycerol stock.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="container left">
+                <div class="content">
+                    <h2 style="line-height: 23px;margin-top: 0;"><span style="font-size: 20pt;">
+                            3
+                        </span></h2>
+
+                    <h2>Week 29</h2>
+                    <p>
+                        <strong>19/07/21</strong>
+                    </p>
+                    <p>
+
+                        <em>Sulfide-responsive transcriptional repressor approach: </em>
+                    </p>
+                    <ul>
+
+                        <li>Performed Gibson assembly and transformation for design 2 fragments.
+
+                        <li>Performed restriction digest and gel analysis.
+
+                        <li>Tested the whole cell sensor with H2S and design 1 (A, B & C) - part 1. Frozen transformed
+                            bacteria were thawed
+                            on ice and added to a 5 ml solution of LB(Amp). Incubated overnight.
+                        </li>
+                    </ul>
+                    <p>
+                        <strong>20/07/21</strong>
+                    </p>
+                    <p>
+
+                        <em>Sulfide-responsive transcriptional repressor approach: </em>
+                    </p>
+                    <ul>
+
+                        <li>Performed Gibson assembly and transformation for design 2 fragments.
+
+                        <li>Sent to Eurofins for Sanger sequencing (Miniprepped DNA was dried out overnight, to make it
+                            concentrated enough
+                            for sequencing. Template and sequencing primers were mixed in accordance with Eurofins
+                            protocol and sent for
+                            sequencing).
+
+                        <li>Transformation with design 2A (gibson assembly product) - part 1.
+
+                        <li>Tested the whole cell sensor with H2S and design 1 (A, B & C) - part 2. Bacterial solutions
+                            from 19/07/21 were
+                            transferred to LB solution and incubated overnight.
+                        </li>
+                    </ul>
+                    <p>
+
+                        <em>Heme protein approach:</em>
+                    </p>
+                    <ul>
+
+                        <li>Labeled myoglobin with Cy3 NHS ester, incubated overnight.
+                        </li>
+                    </ul>
+                    <p>
+                        <strong>21/07/21</strong>
+                    </p>
+                    <p>
+
+                        <em>Sulfide-responsive transcriptional repressor approach: </em>
+                    </p>
+                    <ul>
+
+                        <li>Performed transformation with design 2A
+
+                        <li>Sent 2BS-C1, 2BS-C2, 2BL-C1, 2BL-C2 and 2AL to Eurofins for Sanger sequencing.
+
+                        <li>Tested the whole cell sensor with H2S [2000,85 M] and design 1 (A, B & C) - part 3. Diluted
+                            bacterial solution
+                            and added analytes. Incubated it for 17 hours
+                        </li>
+                    </ul>
+                    <p>
+
+                        <em>Heme protein approach:</em>
+                    </p>
+                    <ul>
+
+                        <li>Purified labeled myoglobin from 20/07/21, measured myoglobin concentration and labeling
+                            ratio, prepared labeled
+                            protein solution [5 mg/L] and H2S dilutions [0.05-0.3 umol/L]. Measured fluorescence with
+                            Tecan.
+                        </li>
+                    </ul>
+                    <p>
+                        <strong>22/07/21</strong>
+                    </p>
+                    <p>
+
+                        <em>Sulfide-responsive transcriptional repressor approach: </em>
+                    </p>
+                    <ul>
+
+                        <li>Tested the whole cell sensor with H2S [2000,85 M] and design 1 (A, B & C), measured
+                            fluorescence - part 3;
+
+                        <li>Froze design 2 cells, mini prepped and sent to Eurofins for sanger sequencing.
+                        </li>
+                    </ul>
+                    <p>
+                        <strong>23/07/21</strong>
+                    </p>
+                    <p>
+
+                        <em>Heme protein approach:</em>
+                    </p>
+                    <ul>
+
+                        <li>Performed emission/excitation scan measurements on the Tecan to identify emission/excitation
+                            peaks of the Cy3
+                            fluorophore used in the heme approach. Used the labeled myoglobin from 21/07/21.
+                        </li>
+                    </ul>
+                    <p>
+                        <strong>25/07/21</strong>
+                    </p>
+                    <p>
+
+                        <em>Sulfide-responsive transcriptional repressor approach: </em>
+                    </p>
+                    <ul>
+
+                        <li>Tested the whole cell sensor with H2S (GSSH). Frozen transformed bacteria were thawed on ice
+                            and added to a 5 ml
+                            solution of LB(Amp). Incubated overnight.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="container right">
+                <div class="content">
+                    <h2 style="line-height: 23px;margin-top: 0;"><span style="font-size: 20pt;">4</span></h2>
+
+                    <h2>Week 30</h2>
+                    <p>
+                        <strong>26/07/21</strong>
+                    </p>
+                    <p>
+
+                        <em>Sulfide-responsive transcriptional repressor approach: </em>
+                    </p>
+                    <ul>
+
+                        <li>Tested the whole cell sensor with H2S (GSSH). Bacterial solutions from the previous day were
+                            transferred to LB
+                            solution and incubated overnight.
+                            <p>
+
+                                <em>Heme protein approach:</em>
+                            </p>
+                            <ul>
+
+                                <li>Labeled myoglobin with Cy3 NHS ester, incubated overnight.
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <p>
+                        <strong>27/07/21</strong>
+                    </p>
+                    <p>
+
+                        <em>Sulfide-responsive transcriptional repressor approach: </em>
+                    </p>
+                    <ul>
+
+                        <li>Tested the whole cell sensor with H2S (GSSH) and design 1 (A, B & C). Diluted bacterial
+                            solution and added
+                            analytes. Incubated it for 17 hours.
+                        </li>
+                    </ul>
+                    <p>
+
+                        <em>Heme protein approach:</em>
+                    </p>
+                    <ul>
+
+                        <li>Purified labeled myoglobin from 26/07/21, measured myoglobin concentration and labeling
+                            ratio, prepared labeled
+                            protein solution [5 mg/L] and H2S dilutions [0, 1, 5, 10, and 25 umol/L]. Measured
+                            fluorescence with Tecan.
+                        </li>
+                    </ul>
+                    <p>
+                        <strong>28/07/21</strong>
+                    </p>
+                    <p>
+
+                        <em>Sulfide-responsive transcriptional repressor approach: </em>
+                    </p>
+                    <ul>
+
+                        <li>Tested the whole cell sensor with H2S (GSSH) and design 1 (A, B & C), measured fluorescence.
+                        </li>
+                    </ul>
+                    <p>
+
+                        <em>Heme protein approach</em>:
+                    </p>
+                    <ul>
+
+                        <li>Labeled myoglobin with Cy3 NHS ester, incubated overnight.
+                        </li>
+                    </ul>
+                    <p>
+                        <strong>29/07/21</strong>
+                    </p>
+                    <p>
+
+                        <em>Sulfide-responsive transcriptional repressor approach: </em>
+                    </p>
+                    <ul>
+
+                        <li>Froze bacteria, mini prepped and sent design 2A to Eurofins for Sanger sequencing.
+                        </li>
+                    </ul>
+                    <p>
+
+                        <em>Heme protein approach</em>:
+                    </p>
+                    <ul>
+
+                        <li>Purified labeled myoglobin from 28/07/21, measured myoglobin concentration and labeling
+                            ratio, prepared labeled
+                            protein solution [25 mg/L] and H2S dilutions [0.25-1.5 umol/L]. Measured fluorescence with
+                            Tecan.
+                        </li>
+                    </ul>
+                    <p>
+                        <strong>01/08/21</strong>
+                    </p>
+                    <p>
+
+                        <em>Sulfide-responsive transcriptional repressor approach: </em>
+                    </p>
+                    <ul>
+
+                        <li>Tested the whole cell sensor with H2S (GSSH) and design 1A,1B,1C, 2AS, 2AL, 2BS, 2BL. Frozen
+                            transformed
+                            bacteria were thawed on ice and added to a 5 ml solution of LB(Amp). Incubated overnight.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="container left">
+                <div class="content">
+                    <h2 style="line-height: 23px;margin-top: 0;"><span style="font-size: 20pt;">5</span></h2>
+                    <h2>Week 31</h2>
+                    <p>
+                        <strong>02/08/21</strong>
+                    </p>
+                    <p>
+
+                        <em>Sulfide-responsive transcriptional repressor approach: </em>
+                    </p>
+                    <ul>
+
+                        <li>Tested the whole cell sensor with H2S (GSSH) and design 1A,1B,1C, 2AS, 2AL, 2BS, 2BL.
+                            Bacterial solutions from
+                            the previous day were transferred to LB solution and incubated overnight.
+
+                        <li>Colony PCR of 2AL and 2AS
+                        </li>
+                    </ul>
+                    <p>
+
+                        <em>Heme protein approach:</em>
+                    </p>
+                    <ul>
+
+                        <li>Labeled myoglobin with Cy3 NHS ester, incubated overnight.
+                        </li>
+                    </ul>
+                    <p>
+                        <strong>03/08/21</strong>
+                    </p>
+                    <p>
+
+                        <em>Sulfide-responsive transcriptional repressor approach: </em>
+                    </p>
+                    <ul>
+
+                        <li>Colony PCR - the results indicated that 1A, 1B, 1C and 2A do not work.
+
+                        <li>Tested the whole cell sensor with H2S (GSSH) and design 2BS. Diluted bacterial solution and
+                            added analytes.
+                            Incubated it for 17 hours.
+                        </li>
+                    </ul>
+                    <p>
+
+                        <em>Heme protein approach</em>:
+                    </p>
+                    <ul>
+
+                        <li>Purified labeled myoglobin from 02/08/21, measured myoglobin concentration and labeling
+                            ratio, prepared labeled
+                            protein solution [5 mg/L] and H2S dilutions [0-1.5 umol/L]. Measured fluorescence with
+                            Tecan.
+                        </li>
+                    </ul>
+                    <p>
+                        <strong>04/08/21</strong>
+                    </p>
+                    <p>
+
+                        <em>Sulfide-responsive transcriptional repressor approach: </em>
+                    </p>
+                    <ul>
+
+                        <li>Tested whole cell sensor with H2S (GSSH) and design 2BS, measured fluorescence.
+                        </li>
+                    </ul>
+                    <p>
+
+                        <em>Heme protein approach</em>:
+                    </p>
+                    <ul>
+
+                        <li>Labeled myoglobin with Cy3 NHS ester, incubated overnight.
+                        </li>
+                    </ul>
+                    <p>
+                        <strong>05/07/21</strong>
+                    </p>
+                    <p>
+
+                        <em>Sulfide-responsive transcriptional repressor approach: </em>
+                    </p>
+                    <ul>
+
+                        <li>Tested the whole cell sensor with H2S (GSSH) and design 2BS, measured fluorescence again.
+                            <p>
+
+                                <em>Heme protein approach:</em>
+                            </p>
+                            <ul>
+
+                                <li>Purified labeled myoglobin from 04/08/21, measured myoglobin concentration and
+                                    labeling ratio, prepared
+                                    labeled protein solution [5 mg/L] and H2S dilutions [0-1.5 umol/L]. Measured
+                                    fluorescence with Tecan.
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <p>
+                        <strong>06/07/21</strong>
+                    </p>
+                    <p>
+
+                        <em>Sulfide-responsive transcriptional repressor approach: </em>
+                    </p>
+                    <ul>
+
+                        <li>Tested the whole cell sensor with H2S and design 2BS, measured fluorescence.
+                        </li>
+                    </ul>
+                    <p>
+                        <strong>08/08/21</strong>
+                    </p>
+                    <p>
+
+                        <em>Heme protein approach</em>:
+                    </p>
+                    <ul>
+
+                        <li>Labeled myoglobin with Cy3 NHS ester, incubated overnight.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="container right">
+                <div class="content">
+                    <h2 style="line-height: 23px;margin-top: 0;"><span style="font-size: 20pt;">6</span></h2>
+
+                    <h2>Week 32</h2>
+                    <p>
+                        <strong>09/08/21</strong>
+                    </p>
+                    <p>
+
+                        <em>Heme protein approach:</em>
+                    </p>
+                    <ul>
+
+                        <li>Purified labeled myoglobin from 08/08/21, measured myoglobin concentration and labeling
+                            ratio, prepared labeled
+                            protein solution [5 mg/L] and H2S dilutions [0, 0.001, 0.01, 0.1, 1, 10, uM]. Measured
+                            fluorescence with Tecan
+                            in addition to a kinetic study.
+
+                        <li>Labeled myoglobin with Cy3 NHS ester, incubated overnight.
+                        </li>
+                    </ul>
+                    <p>
+                        <strong>10/08/21</strong>
+                    </p>
+                    <p>
+
+                        <em>Heme protein approach:</em>
+                    </p>
+                    <ul>
+
+                        <li>Purified labeled myoglobin from 09/08/21, measured myoglobin concentration and labeling
+                            ratio, prepared labeled
+                            protein solution [5 and 25 mg/L] and H2S dilutions [0, 0.001, 0.01, 0.1, 1, 10, uM].
+                            Measured fluorescence with
+                            Tecan.
+
+                        <li>Labeled myoglobin with Cy3 NHS ester, incubated overnight.
+                        </li>
+                    </ul>
+                    <p>
+                        <strong>11/08/21</strong>
+                    </p>
+                    <p>
+
+                        <em>Heme protein approach:</em>
+                    </p>
+                    <ul>
+
+                        <li>Purified labeled myoglobin from 10/08/21, measured myoglobin concentration and labeling
+                            ratio, prepared labeled
+                            protein solution [1, 5, 10, 20, 40, mg/L] and H2S dilutions [0.1 uM]. Measured fluorescence
+                            with Tecan in
+                            addition to a kinetic study.
+                        </li>
+                    </ul>
+                    <p>
+                        <strong>15/08/21</strong>
+                    </p>
+                    <p>
+
+                        <em>Heme protein approach:</em>
+                    </p>
+                    <ul>
+
+                        <li>Labeled myoglobin with Cy3 NHS ester, incubated overnight.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="container left">
+                <div class="content">
+                    <h3>7
+                    </h3>
+                    <div class="content">
+                        <h2 style="line-height: 23px;margin-top: 0;"><span style="font-size: 20pt;">6</span></h2>
+
+                        <h2>Week 33</h2>
+                        <p>
+                            <strong>16/08/21</strong>
+                        </p>
+                        <p>
+
+                            <em>Heme protein approach:</em>
+                        </p>
+                        <ul>
+
+                            <li>Purified labeled myoglobin from 15/08/21, measured myoglobin concentration and labeling
+                                ratio, prepared labeled
+                                protein solution [1, 5, 10, 20, 40 mg/L] and H2S dilutions [1 uM]. Measured fluorescence
+                                with Tecan in addition
+                                to a kinetic study.
+
+                            <li>Labeled myoglobin with Cy3 NHS ester, incubated overnight.
+                            </li>
+                        </ul>
+                        <p>
+                            <strong>17/08/21</strong>
+                        </p>
+                        <p>
+
+                            <em>Heme protein approach:</em>
+                        </p>
+                        <ul>
+
+                            <li>Purified labeled myoglobin from 16/08/21, measured myoglobin concentration and labeling
+                                ratio, prepared labeled
+                                protein solution [1, 5, 10, 20, 40 mg/L] and H2S dilutions [0.1 uM]. Measured
+                                fluorescence with Tecan.
+
+                            <li>Labeled myoglobin with Cy3 NHS ester, incubated overnight.
+                            </li>
+                        </ul>
+                        <p>
+                            <strong>18/08/21</strong>
+                        </p>
+                        <p>
+
+                            <em>Heme protein approach:</em>
+                        </p>
+                        <ul>
+
+                            <li>Purified labeled myoglobin from 17/08/21, measured myoglobin concentration and labeling
+                                ratio, prepared labeled
+                                protein dilutions and H2S dilutions. Tested two different kinetic studies. The first
+                                with labeled protein [1, 5,
+                                10 and 20 mg/L] and H2S [0.1 uM], and another with labeled protein [5 mg/L] and H2S
+                                [0.001, 0.01, 1.0 and 2.0
+                                uM].
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container right">
+            <div class="content">
+                <h2 style="line-height: 23px;margin-top: 0;"><span style="font-size: 20pt;">6</span></h2>
+                <h2>Week 36</h2>
+                <p>
+                    <strong>10/09/21</strong>
+                </p>
+                <p>
+
+                    <em>Heme protein approach:</em>
+                </p>
+                <ul>
+
+                    <li>Labeled myoglobin with Cy3 NHS ester, incubated overnight.
+                    </li>
+                </ul>
+                <p>
+                    <strong>11/09/21</strong>
+                </p>
+                <p>
+
+                    <em>Heme protein approach:</em>
+                </p>
+                <ul>
+
+                    <li>Purified labeled myoglobin from 10/09/21, measured myoglobin concentration and labeling ratio,
+                        prepared labeled
+                        protein solution [10 mg/L] and H2S dilutions [1 uM].
+                        <p>
+
+                            Performed a kinetic study where different time intervals ( 3 sec, 30 sec, 1 minute and 5
+                            minutes).
+                        </p>
+                        <p>
+
+                            <em>Improvement of an existing part:</em>
+                        </p>
+                        <ul>
+
+                            <li>Started the cloning process (PCR, PCR gel analysis and Dpn1 enzyme digest).
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="container left">
+            <div class="content">
+                <h2 style="line-height: 23px;margin-top: 0;"><span style="font-size: 20pt;">6</span></h2>
+                <h2>Week 37</h2>
+
+                <p>
+                    <strong>13/07/21</strong>
+                </p>
+                <p>
+
+                    <em>Improvement of an existing part:</em>
+                </p>
+                <ul>
+
+                    <li>Picked two colonies of each sample from 11/07/21, and inoculated in LB/amp overnight.
+                    </li>
+                </ul>
+                <p>
+                    <strong>14/07/21</strong>
+                </p>
+                <p>
+
+                    <em>Improvement of an existing part:</em>
+                </p>
+                <ul>
+
+                    <li>Transferred bacteria cell culture into LB/amp, incubated from 08:45 to 12:45. Diluted IPTG to 40
+                        and 400 uM in
+                        bacteria culture, and incubated 3-5 hours in 37 degrees. Tested bacteria with IPTG and a control
+                        (bacteria
+                        without IPTG) with Tecan.
+
+                    <li>Miniprep and sequencing.
+                    </li>
+                </ul>
+                <p>
+                    <strong>15/07/21</strong>
+                </p>
+                <p>
+
+                    <em>Improvement of an existing part:</em>
+                </p>
+                <ul>
+
+                    <li>Made negative control culture for UV and fluorescence measurements.
+                    </li>
+                </ul>
+                <p>
+                    <strong>16/07/21</strong>
+                </p>
+                <p>
+
+                    <em>Improvement of an existing part:</em>
+                </p>
+                <ul>
+
+                    <li>Measured fluorescence intensity and recorded UV images of grown cultures.
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="container right">
+            <div class="content">
+                <h2 style="line-height: 23px;margin-top: 0;"><span style="font-size: 20pt;">6</span></h2>
+
+                <h2>Week 40</h2>
+                <p>
+                    <strong>05/10/21</strong>
+                </p>
+                <p>
+
+                    <em>Heme protein approach:</em>
+                </p>
+                <ul>
+
+                    <li>Labeled myoglobin with Cy3 NHS ester, incubated overnight.
+                    </li>
+                </ul>
+                <p>
+                    <strong>06/10/21</strong>
+                </p>
+                <p>
+
+                    <em>Heme protein approach, implemented in Lab on a Chip:</em>
+                </p>
+                <ul>
+
+                    <li>Purified labeled myoglobin from 05/10/21, measured myoglobin concentration and labeling ratio,
+                        prepared labeled
+                        protein solution [10 mg/L] and H2S dilutions [0.1, 0.5 and 1 uM]. Lab on a Chip was used to
+                        measure the
+                        fluorescence.
+                    </li>
+                </ul>
+            </div>
+        </div>
+      
     </main>
 
-    
-   
+
+
     <script src="https://2021.igem.org/Template:NTNU-Trondheim/Test/navbarJS?action=raw&ctype=text/javascript"></script>
 </body>
 
