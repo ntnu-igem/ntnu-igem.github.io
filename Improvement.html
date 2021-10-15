@@ -9,21 +9,525 @@
 
 
 
-    <div class="hero">
-        <img src="https://2021.igem.org/wiki/images/1/1e/T--NTNU-Trondheim--Team.jpg" class="hero_picture" />
-        <div id="hero_background" class="hero_background">
-            <h1 class="hero_title">Improvement</h1>
-        </div>
+<div class="hero">
+    <img src="https://2021.igem.org/wiki/images/1/1e/T--NTNU-Trondheim--Team.jpg" class="hero_picture" />
+    <div id="hero_background" class="hero_background">
+        <h1 class="hero_title">Improvement</h1>
     </div>
+</div>
 
-    <main>
-        <h2>Improvement</h2>
-    </main>
+<main>
+    <h2>Improvement of an existing part</h2>
+   
 
-    
-    <body>
-        <script src="https://2021.igem.org/Template:NTNU-Trondheim/Test/navbarJS?action=raw&ctype=text/javascript"></script>
-    </body>
+
+    <p>
+        Table 1: Part overview
+    </p>
+
+    <table>
+        <tr>
+            <td><strong>Name</strong>
+            </td>
+            <td><strong>Type</strong>
+            </td>
+            <td><strong>Description</strong>
+            </td>
+            <td><strong>Length [bp]</strong>
+            </td>
+        </tr>
+        <tr>
+            <td><a href="http://parts.igem.org/Part:BBa_K3762010">BBa_K3762010</a>
+            </td>
+            <td>Composite
+            </td>
+            <td>YFP_LOV driven by T7 promoter
+            </td>
+            <td>528
+            </td>
+        </tr>
+    </table>
+
+
+    <h3>Introduction</h3>
+
+
+    <p>
+        Our project design affected which part we ended up with and how we improved it. One of our initial project
+        approaches included using a whole-cell sensor in a microfluidic chip that would detect H<sub>2</sub>S in the
+        water that moves across the sensor. In this environment, the cell would be in near hypoxic conditions which
+        would require a signal generator that would work without reliable access to molecular oxygen so that we could
+        detect activity via its fluorescence signaling.
+    </p>
+    <p>
+        We wanted to modify an existing part where the improvement was in its added utility so that it would fit the
+        needs of future teams whose project has aspects that require it to work under hypoxic conditions or where the
+        availability of molecular oxygen is low.
+    </p>
+    <p>
+        Our chosen part was the well characterized signal generator “superfolder GFP driven by T7 promoter” <a
+            href="http://parts.igem.org/Part:BBa_I746909">BBa_I746909</a> by Cambridge 2007 in which we replaced its
+        sfGFP with the “heat stable fluorescent YFP_LOV protein” <a
+            href="http://parts.igem.org/Part:BBa_K3427000">BBa_K3427000</a> from GO_Paris-Saclay’s 2020 team.
+    </p>
+    <p>
+        The reason for replacing sfGFP in <a href="http://parts.igem.org/Part:BBa_I746909">BBa_I746909</a> with YFP_LOV
+        is that GFP variants require molecular oxygen in order to cyclize into its fluorescent state [1] while LOV-based
+        fluorescent proteins do not require molecular oxygen for it to attain its fluorescent conformation [2].
+    </p>
+    <p>
+        The protein sequence of the YFP_LOV that GO_Paris-Saclay’s 2020 team registered is derived from an 2019 article
+        [3] where it was a part of a protein with a histidine kinase activity from <em>Chloroflexus aggregans</em>, a
+        thermophilic phototrophic bacteria.
+    </p>
+    <p>
+        Improvement parts (<a href="http://parts.igem.org/Part:BBa_I746909">BBa_I746909</a> & <a
+            href="http://parts.igem.org/Part:BBa_K3762010">BBa_K3762010</a>) were ordered synthesized from IDT as linear
+        fragments and subsequently cloned into a pENZ004 plasmid vector made available to us by the PhotoSyn lab at NTNU
+        using Gibson assembly, and transformed into <em>E. coli BL21</em> cells.
+    </p>
+    <h3>YFP_LOV driven by T7 promoter</h3>
+
+
+    <p>
+        The pENZ004 plasmid has ampicillin resistance, and a ColE1 origin of replication. The T7 expression that this
+        part is based on is inducible by isopropyl-β-D-thiogalactopyranoside (IPTG). The T7 expression system is also
+        leaky, which will result in background expression of products downstream of the T7 promoter without an inducer.
+    </p>
+    <p>
+
+    </p>
+    <p>
+
+
+    <p id="gdcalert1"><span style="color: red; font-weight: bold">>>>>> gd2md-html alert: inline image link here (to
+            images/image1.png). Store image on your image server and adjust path/filename/extension if necessary.
+        </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert2">Next alert</a>)<br><span
+            style="color: red; font-weight: bold">>>>>> </span></p>
+
+
+    <img src="images/image1.png" width="" alt="alt_text" title="image_tooltip">
+
+    </p>
+    <p>
+        Figure 1: Plasmid map of the pENZ004 plasmid and our construct BBa_k3762010.
+    </p>
+    <p>
+        The added functionality that <a href="http://parts.igem.org/Part:BBa_K3762010">BBa_K3762010</a> brings compared
+        to <a href="http://parts.igem.org/Part:BBa_I746909">BBa_I746909</a> is that it does not require molecular oxygen
+        in order to attain its fluorescent state. <a href="http://parts.igem.org/Part:BBa_K3427000">BBa_K3427000</a>
+    </p>
+    <h3>Characterization</h3>
+
+
+    <p>
+        The linear fragment of <a href="http://parts.igem.org/Part:BBa_K3762010">BBa_K3762010</a> was cloned using
+        Gibson assembly into a pENZ004 plasmid provided by the PhotoSyn lab at NTNU. We proceeded to transform the
+        plasmid into our <em>E. coli</em> <em>BL21</em> cells and selected using ampicillin resistance.
+    </p>
+    <p>
+        <strong>Fluorescence measurement settings using a Tecan Infinite 200 Pro:</strong>
+    </p>
+    <p>
+        Table 2: Tecan Infinite 200 Pro settings for measuring fluorescence intensity in BBa_I746909
+    </p>
+
+    <table>
+        <tr>
+            <td><strong>Setting</strong>
+            </td>
+            <td><strong>Value</strong>
+            </td>
+        </tr>
+        <tr>
+            <td>Excitation wavelength
+            </td>
+            <td>470 nm
+            </td>
+        </tr>
+        <tr>
+            <td>Emission wavelength
+            </td>
+            <td>520 nm
+            </td>
+        </tr>
+        <tr>
+            <td>Excitation Bandwidth
+            </td>
+            <td>9 nm
+            </td>
+        </tr>
+        <tr>
+            <td>Emission Bandwidth
+            </td>
+            <td>20
+            </td>
+        </tr>
+        <tr>
+            <td>Gain
+            </td>
+            <td>100
+            </td>
+        </tr>
+        <tr>
+            <td>Number of flashes
+            </td>
+            <td>22
+            </td>
+        </tr>
+        <tr>
+            <td>Integration Time
+            </td>
+            <td>20 us
+            </td>
+        </tr>
+        <tr>
+            <td>Lag time
+            </td>
+            <td>0 us
+            </td>
+        </tr>
+        <tr>
+            <td>Settle time
+            </td>
+            <td>0 ms
+            </td>
+        </tr>
+        <tr>
+            <td>Z-position
+            </td>
+            <td>20000 um
+            </td>
+        </tr>
+    </table>
+
+
+    <p>
+        Table 3: Tecan Infinite 200 Pro settings for measuring fluorescence intensity in BBa_K3762010 in accordance with
+        the characterization protocol in <a href="http://parts.igem.org/Part:BBa_K3427000">BBa_K3427000</a>
+    </p>
+
+    <table>
+        <tr>
+            <td><strong>Setting</strong>
+            </td>
+            <td><strong>Value</strong>
+            </td>
+        </tr>
+        <tr>
+            <td>Excitation Wavelength
+            </td>
+            <td>488 nm
+            </td>
+        </tr>
+        <tr>
+            <td>Emission Wavelength
+            </td>
+            <td>536 nm
+            </td>
+        </tr>
+        <tr>
+            <td>Excitation Bandwidth
+            </td>
+            <td>9 nm
+            </td>
+        </tr>
+        <tr>
+            <td>Emission Bandwidth
+            </td>
+            <td>20
+            </td>
+        </tr>
+        <tr>
+            <td>Gain
+            </td>
+            <td>100
+            </td>
+        </tr>
+        <tr>
+            <td>Number of flashes
+            </td>
+            <td>22
+            </td>
+        </tr>
+        <tr>
+            <td>Integration Time
+            </td>
+            <td>20 us
+            </td>
+        </tr>
+        <tr>
+            <td>Lag time
+            </td>
+            <td>0 us
+            </td>
+        </tr>
+        <tr>
+            <td>Settle time
+            </td>
+            <td>0 ms
+            </td>
+        </tr>
+        <tr>
+            <td>Z-position
+            </td>
+            <td>20000 um
+            </td>
+        </tr>
+    </table>
+
+
+    <h3>Results</h3>
+
+
+    <p>
+
+
+    <p id="gdcalert2"><span style="color: red; font-weight: bold">>>>>> gd2md-html alert: inline image link here (to
+            images/image2.png). Store image on your image server and adjust path/filename/extension if necessary.
+        </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert3">Next alert</a>)<br><span
+            style="color: red; font-weight: bold">>>>>> </span></p>
+
+
+    <img src="images/image2.png" width="" alt="alt_text" title="image_tooltip">
+
+    </p>
+    <p>
+        Figure 3: An edited .tiff image taken from a Bio-Rad GelDoc showing the difference in fluorescent color between
+        the negative culture; <em>E. coli</em> <em>BL21 cells </em>and samples with our construct containing YFP_LOV
+        under T7 control; Control, 40 uM IPTG & 400 uM IPTG.
+    </p>
+    <p>
+
+
+    <p id="gdcalert3"><span style="color: red; font-weight: bold">>>>>> gd2md-html alert: inline image link here (to
+            images/image3.png). Store image on your image server and adjust path/filename/extension if necessary.
+        </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert4">Next alert</a>)<br><span
+            style="color: red; font-weight: bold">>>>>> </span></p>
+
+
+    <img src="images/image3.png" width="" alt="alt_text" title="image_tooltip">
+
+    </p>
+    <p>
+        Figure 4: Figure 6: Fluorescence intensity plot for four parallels of BBa_K3762010.
+    </p>
+    <p>
+        Table 4: Result matrix for our experiment with BBa_K3762010
+    </p>
+
+    <table>
+        <tr>
+            <td><strong>Sample</strong>
+            </td>
+            <td><strong>Plasmid</strong>
+            </td>
+            <td><strong>Inducer (IPTG)</strong>
+            </td>
+            <td><strong>Fluorescence </strong>
+            </td>
+        </tr>
+        <tr>
+            <td>Negative
+            </td>
+            <td>No
+            </td>
+            <td>No
+            </td>
+            <td>No
+            </td>
+        </tr>
+        <tr>
+            <td>Control
+            </td>
+            <td>Yes
+            </td>
+            <td>No
+            </td>
+            <td>Yes
+            </td>
+        </tr>
+        <tr>
+            <td>40 uM IPTG
+            </td>
+            <td>Yes
+            </td>
+            <td>Yes
+            </td>
+            <td>Yes
+            </td>
+        </tr>
+        <tr>
+            <td>400 uM IPTG
+            </td>
+            <td>Yes
+            </td>
+            <td>Yes
+            </td>
+            <td>Yes
+            </td>
+        </tr>
+    </table>
+
+
+    <h1>
+
+        <p id="gdcalert4"><span style="color: red; font-weight: bold">>>>>> gd2md-html alert: inline image link here (to
+                images/image4.png). Store image on your image server and adjust path/filename/extension if necessary.
+            </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert5">Next alert</a>)<br><span
+                style="color: red; font-weight: bold">>>>>> </span></p>
+
+
+        <img src="images/image4.png" width="" alt="alt_text" title="image_tooltip">
+    </h1>
+
+
+    <p>
+        Figure 5: An edited .tiff image taken from a Bio-Rad GelDoc showing the difference in fluorescent color between
+        the negative culture; <em>E. coli</em> <em>BL21 cells </em>and samples with Cambridge 2007’s sfGFP driven by T7;
+        Control, 40 uM IPTG & 400 uM IPTG.
+    </p>
+    <p>
+
+
+    <p id="gdcalert5"><span style="color: red; font-weight: bold">>>>>> gd2md-html alert: inline image link here (to
+            images/image5.png). Store image on your image server and adjust path/filename/extension if necessary.
+        </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert6">Next alert</a>)<br><span
+            style="color: red; font-weight: bold">>>>>> </span></p>
+
+
+    <img src="images/image5.png" width="" alt="alt_text" title="image_tooltip">
+
+    </p>
+    <p>
+        Figure 6: Fluorescence intensity plot for two parallels of BBa_I746909.
+    </p>
+    <p>
+        Excitation: 470 nm. Emission: 520 nm. E
+    </p>
+    <p>
+        Table 5: Result matrix for our experiment with BBa_I746909
+    </p>
+
+    <table>
+        <tr>
+            <td><strong>Sample</strong>
+            </td>
+            <td><strong>Plasmid</strong>
+            </td>
+            <td><strong>Inducer (IPTG)</strong>
+            </td>
+            <td><strong>Fluorescence </strong>
+            </td>
+        </tr>
+        <tr>
+            <td>Negative
+            </td>
+            <td>No
+            </td>
+            <td>No
+            </td>
+            <td>No
+            </td>
+        </tr>
+        <tr>
+            <td>Control
+            </td>
+            <td>Yes
+            </td>
+            <td>No
+            </td>
+            <td>Yes
+            </td>
+        </tr>
+        <tr>
+            <td>40 uM IPTG
+            </td>
+            <td>Yes
+            </td>
+            <td>Yes
+            </td>
+            <td>Yes
+            </td>
+        </tr>
+        <tr>
+            <td>400 uM IPTG
+            </td>
+            <td>Yes
+            </td>
+            <td>Yes
+            </td>
+            <td>Yes
+            </td>
+        </tr>
+    </table>
+
+
+    <p>
+        Sequencing results from Eurofins confirmed successful insert of plasmids with each respective construct.
+    </p>
+    <h3>Conclusions</h3>
+
+
+    <p>
+        Sequencing confirmed successful insert in the pENZ0004 plasmid and results indicate that we were able to clone
+        our construct into our <em>E. coli</em> <em>BL21</em> cells.
+    </p>
+    <p>
+        Results indicate that BBa_K3762010 is not as fluorescent as BBa_I746909 but does exhibit similar behavior with
+        and without inducers in our inducer concentration range.
+    </p>
+    <p>
+        Due to how flavin-based fluorescent protein does not require molecular oxygen to attain its fluorescent form,
+        the case for the improvement over sfGFP lies in its function in hypoxic conditions. Potential applications can
+        be in microfluidics or a diagnostic setting where the environment has low or none molecular oxygen availability.
+    </p>
+    <p>
+        <strong>References</strong>:
+    </p>
+    <p>
+        [1] Limitations of the Reporter Green Fluorescent Protein under Simulated Tumor Conditions
+    </p>
+    <p>
+        Claudia Coralli, Maja Cemazar, Chryso Kanthou, Gillian M. Tozer and Gabi U. Dachs
+    </p>
+    <p>
+        Cancer Res June 15 2001 (61) (12) 4784-4790;
+    </p>
+    <p>
+        <a
+            href="https://cancerres.aacrjournals.org/content/61/12/4784">https://cancerres.aacrjournals.org/content/61/12/4784</a>
+    </p>
+    <p>
+        [2] The photophysics of LOV-based fluorescent proteins - new tools for cell biology
+    </p>
+    <p>
+        Marcus Wingen, Janko Potzkei Stephan Endres, Giorgia Casini, Christian Rupprecht, Christoph Fahlke Ulrich
+        Krauss, Karl-Erich Jaeger, Thomas Drepper and Thomas Gensch
+    </p>
+    <p>
+        Photochem. Photobiol. Sci., 2014,13, 875-883
+    </p>
+    <p>
+        <a href="https://doi.org/10.1039/C3PP50414J">https://doi.org/10.1039/C3PP50414J</a>
+    </p>
+    <p>
+        [3] A thermostable flavin-based fluorescent protein from Chloroflexus aggregans: a framework for ultra-high
+        resolution structural studies Nazarenko et al. 2019, Photochem
+    </p>
+    <p>
+        Photochem. Photobiol. Sci., 2019,18, 1793-1805
+    </p>
+    <p>
+        <a href="https://doi.org/10.1039/C3PP50414J">https://doi.org/10.1039/c9pp00067d</a>
+    </p>
+
+</main>
+
+
+<body>
+    <script src="https://2021.igem.org/Template:NTNU-Trondheim/Test/navbarJS?action=raw&ctype=text/javascript"></script>
+</body>
 
 
 </html>

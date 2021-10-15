@@ -219,10 +219,43 @@ https://2021.igem.org/wiki/images/4/4f/T--NTNU-Trondheim--Olav.jpeg
 https://2021.igem.org/File:T--NTNU-Trondheim--YFP_paralell_3.png
 https://2021.igem.org/wiki/images/2/22/T--NTNU-Trondheim--YFP_paralell_3.png
 
+https://2021.igem.org/File:T--NTNU-Trondheim--GFP_paralell_1.png
+https://2021.igem.org/wiki/images/f/fb/T--NTNU-Trondheim--GFP_paralell_1.png
 
 
 
-###### Results #####
+https://2021.igem.org/File:T--NTNU-Trondheim--pENZ_plasmid.png
+https://2021.igem.org/wiki/images/d/d7/T--NTNU-Trondheim--pENZ_plasmid.png
+https://2021.igem.org/wiki/images/thumb/d/d7/T--NTNU-Trondheim--pENZ_plasmid.png/726px-T--NTNU-Trondheim--pENZ_plasmid.png
+https://2021.igem.org/wiki/images/thumb/d/d7/T--NTNU-Trondheim--pENZ_plasmid.png/291px-T--NTNU-Trondheim--pENZ_plasmid.png
+
+
+https://2021.igem.org/File:T--NTNU-Trondheim--YFP_final_plasmid.png
+https://2021.igem.org/wiki/images/9/99/T--NTNU-Trondheim--YFP_final_plasmid.png
+https://2021.igem.org/wiki/images/thumb/9/99/T--NTNU-Trondheim--YFP_final_plasmid.png/702px-T--NTNU-Trondheim--YFP_final_plasmid.png
+https://2021.igem.org/wiki/images/thumb/9/99/T--NTNU-Trondheim--YFP_final_plasmid.png/281px-T--NTNU-Trondheim--YFP_final_plasmid.png
+
+
+
+###### Results ####################
+
+
+
+
+
+
+
+
+##### Implementation #################################
+
+
+
+
+##### Contribution #################################
+
+
+
+
 
 
 
