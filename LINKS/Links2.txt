@@ -266,6 +266,8 @@ https://2021.igem.org/wiki/images/thumb/8/8d/T--NTNU-Trondheim--Results2.jpg/320
 https://2021.igem.org/File:T--NTNU-Trondheim--Results3.jpg
 https://2021.igem.org/wiki/images/9/9a/T--NTNU-Trondheim--Results3.jpg
 
+https://2021.igem.org/wiki/images/c/c1/800px-T--NTNU-Trondheim--Results_13.png
+
 https://2021.igem.org/File:T--NTNU-Trondheim--Results4.jpg
 https://2021.igem.org/wiki/images/c/ca/T--NTNU-Trondheim--Results4.jpg
 https://2021.igem.org/wiki/images/thumb/c/ca/T--NTNU-Trondheim--Results4.jpg/800px-T--NTNU-Trondheim--Results4.jpg.png
@@ -293,8 +295,6 @@ https://2021.igem.org/File:T--NTNU-Trondheim--Results_9.png
 https://2021.igem.org/wiki/images/1/15/T--NTNU-Trondheim--Results_9.png
 https://2021.igem.org/wiki/images/thumb/1/15/T--NTNU-Trondheim--Results_9.png/800px-T--NTNU-Trondheim--Results_9.png
 https://2021.igem.org/wiki/images/thumb/1/15/T--NTNU-Trondheim--Results_9.png/320px-T--NTNU-Trondheim--Results_9.png
-
-
 
 https://2021.igem.org/File:T--NTNU-Trondheim--Results_10.png
 https://2021.igem.org/wiki/images/1/1a/T--NTNU-Trondheim--Results_10.png
@@ -477,6 +477,11 @@ https://2021.igem.org/wiki/images/f/fe/T--NTNU-Trondheim--Boardsetup2.jpeg
 
 https://2021.igem.org/File:T--NTNU-Trondheim--Banner_thorastorm3.jpeg
 https://2021.igem.org/wiki/images/8/89/T--NTNU-Trondheim--Banner_thorastorm3.jpeg
+
+
+
+https://2021.igem.org/File:T--NTNU-Trondheim--AquaNor_stand.png
+https://2021.igem.org/wiki/images/9/90/T--NTNU-Trondheim--AquaNor_stand.png
 
 
 
