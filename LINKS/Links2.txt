@@ -318,17 +318,12 @@ https://2021.igem.org/wiki/images/thumb/c/c1/T--NTNU-Trondheim--Results_13.png/8
 https://2021.igem.org/wiki/images/thumb/c/c1/T--NTNU-Trondheim--Results_13.png/320px-T--NTNU-Trondheim--Results_13.png
 
 
-
-
-
 ##### Implementation #################################
 https://2021.igem.org/File:T--NTNU-Trondheim--Implementation.jpg
 https://2021.igem.org/wiki/images/3/3f/T--NTNU-Trondheim--Implementation.jpg
 
 
-
 ##### Contribution #################################
-
 
 https://2021.igem.org/File:T--NTNU-Trondheim--Build_A_Bac.zip
 https://2021.igem.org/wiki/images/3/3c/T--NTNU-Trondheim--Build_A_Bac.zip
@@ -448,6 +443,16 @@ https://2021.igem.org/File:T--NTNU-Trondheim--pigeon_design_2.png
 https://2021.igem.org/wiki/images/8/84/T--NTNU-Trondheim--pigeon_design_2.png
 https://2021.igem.org/wiki/images/thumb/8/84/T--NTNU-Trondheim--pigeon_design_2.png/798px-T--NTNU-Trondheim--pigeon_design_2.png
 https://2021.igem.org/wiki/images/thumb/8/84/T--NTNU-Trondheim--pigeon_design_2.png/320px-T--NTNU-Trondheim--pigeon_design_2.png
+
+
+
+
+
+################# Improved part ######################
+
+
+
+
 
 ##########################
          CSS
