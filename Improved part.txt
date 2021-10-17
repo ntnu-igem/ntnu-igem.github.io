@@ -1,0 +1,40 @@
+__NOTOC__
+<partinfo>BBa_K3762010 short</partinfo>
+
+A generator using the well chararcterized "superfolder GFP driven by T7 promoter" http://parts.igem.org/Part:BBa_I746909 where the sfGFP is replaced with the YFP_LOV from GO_Paris-Saclay http://parts.igem.org/Part:BBa_K3427000
+
+
+<partinfo>BBa_K3427000</partinfo>
+
+<partinfo>BBa_I746909</partinfo>
+
+
+[[File:T--NTNU-Trondheim--YFP_LOV_pENZ0004_plasmid.png|600px|center|alt text]]
+
+<!-- Add more about the biology of this part here
+===Usage and Biology===
+
+<!-- -->
+<span class='h3bb'>Sequence and Features</span>
+<partinfo>BBa_K3762010 SequenceAndFeatures</partinfo>
+
+
+<!-- Uncomment this to enable Functional Parameter display 
+===Functional Parameters===
+<partinfo>BBa_K3762010 parameters</partinfo>
+<!-- -->
+
+
+
+
+<html><a href="https://2021.igem.org/Team:NTNU-Trondheim/Improvement">NTNU-Trondheim</a></html>
+
+
+
+
+
+
+
+[[File:T--NTNU-Trondheim--YFP_LOV_pENZ0004_plasmid.png|600px|center|alt text]]
+
+

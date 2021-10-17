@@ -433,7 +433,6 @@ https://2021.igem.org/wiki/images/thumb/a/a1/T--NTNU-Trondheim--pigeon_design_1.
 https://2021.igem.org/wiki/images/thumb/a/a1/T--NTNU-Trondheim--pigeon_design_1.png/320px-T--NTNU-Trondheim--pigeon_design_1.png
 
 
-
 https://2021.igem.org/File:T--NTNU-Trondheim--design_2_h2s_detection.png
 https://2021.igem.org/wiki/images/c/cc/T--NTNU-Trondheim--design_2_h2s_detection.png
 https://2021.igem.org/wiki/images/thumb/c/cc/T--NTNU-Trondheim--design_2_h2s_detection.png/800px-T--NTNU-Trondheim--design_2_h2s_detection.png
@@ -449,6 +448,11 @@ https://2021.igem.org/wiki/images/thumb/8/84/T--NTNU-Trondheim--pigeon_design_2.
 
 
 ################# Improved part ######################
+
+
+http://parts.igem.org/File:T--NTNU-Trondheim--YFP_LOV_pENZ0004_plasmid.png
+http://parts.igem.org/wiki/images/3/33/T--NTNU-Trondheim--YFP_LOV_pENZ0004_plasmid.png
+
 
 
 
