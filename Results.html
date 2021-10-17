@@ -18,93 +18,8 @@
 
 
 <main>
-    <h2>Results</h2>
     <p>
-    <h3>SQR approach results</h3>
-    </p>
-    <p>
-        On this page the results from the experiments detailed on our
-        <a href="https://2021.igem.org/Team:NTNU-Trondheim/Experiments" target="_blank">experiments page </a> are
-        briefly presented.
-    </p>
-    <p>
-    <h4>Cloning</h4>
-    </p>
-    <p>
-        The five constructs ordered from IDT were cloned into plasmid vectors by Gibson assembly. Next, the plasmids
-        were transformed into supercompetent <em>Escherichia coli </em>cells. Sanger sequencing was used to verify if
-        the cloning had been successful. Four out of five designs came out successful.
-    </p>
-    <p>
-        The plasmid vector, pENZ004, was PCR amplified with primers containing overhangs corresponding to the ends of
-        the constructs. Since some of the constructs were identical on either side, three plasmid amplifications were
-        made. The PCR gel analysis, shown in figure 1, showed that all three plasmids had been PCR amplified, to the
-        desired length (ca 2.1 kb).
-    </p>
-    <p>
-        <center><img src="https://2021.igem.org/wiki/images/f/f5/T--NTNU-Trondheim--Results.jpg" width="" alt="alt_text"
-                title="image_tooltip"></center>
-
-
-    </p>
-    <p>
-        <strong>Figure 1</strong>: PCR gel analysis of PCR products after pENZ004 is amplified with primers containing
-        overhangs for Gibson assembly. 1kb ruler is used on either side of the plasmids.
-    </p>
-
-    <p>
-    <h4>Testing</h4>
-    </p>
-
-    <p>
-        The next step was to test the whole cell sensors. Design 1 was tested with GSSH produced from GSSG and specific
-        concentrations of H<sub>2</sub>S. Design 2 was tested with H<sub>2</sub>S directly. Exact concentrations and
-        procedures are found on our <a href="https://2021.igem.org/Team:NTNU-Trondheim/Experiments"
-            target="_blank">experiments page </a>
-    </p>
-    <p>
-        When exposing the whole cell sensor to GSSH (design 1) and H<sub>2</sub>S (design 2) the intensity of the
-        fluorescence signal was expected to increase with increasing H<sub>2</sub>S concentration. Unfortunately, none
-        of the whole cell sensors showed a fluorescence signal when observed under fluorescent light, see figure 2, or
-        when fluorescent was measured on a Tecan plate reader, see figure 3.
-    </p>
-    <p>
-
-        <center> <img
-                src="https://2021.igem.org/wiki/images/thumb/8/8d/T--NTNU-Trondheim--Results2.jpg/800px-T--NTNU-Trondheim--Results2.jpg"
-                width="" alt="alt_text" title="image_tooltip"></center>
-
-
-    </p>
-    <p>
-        <strong>Figure 2:</strong> Our whole cell sensors after treatment with GSSH and (H<sub>2</sub>S) under UV light. On the
-        right, a control containing only LB medium. There was no sign of fluorescence in the samples.
-    </p>
-    <p>
-        <center> <img src="https://2021.igem.org/wiki/images/9/9a/T--NTNU-Trondheim--Results3.jpg" width=""
-                alt="alt_text" title="image_tooltip"></center>
-
-
-    </p>
-    <p>
-        <strong> Figure 3</strong>: Measured fluorescence using a H<sub>2</sub>S sensing whole cell sensor plotted
-        against H<sub>2</sub>S concentration. The system is designed to be sensitive for S<sup>2-</sup> and includes the
-        reporter gene CreiLOV and a weaker promoter for SqrR. No trend is observed in the data.
-    </p>
-    <p>
-        As detailed on our
-        <a href="https://2021.igem.org/Team:NTNU-Trondheim/Engineering" target="_blank">engineering page</a>
-        it was discovered that mistakes made during the ordering of our constructs resulted in the CreiLov gene being
-        inserted without a start codon. In addition, the ribosome binding site sequence was inserted twice and inverted,
-        likely disturbing translation of the constructs. It is also a possibility that the cell membrane is impermeable
-        to GSSH due to the size of the molecule.. To improve the approach, an in vitro kit could be utilized. The
-        boundary of the cell membrane would then be eliminated. If time had permitted we would have liked to fix these
-        mistakes and study the approach further. Read more about this on our <a
-            href="https://2021.igem.org/Team:NTNU-Trondheim/Engineering" target="_blank">engineering page</a>
-    </p>
-
-    <p>
-    <h3>Results Heme</h3>
+    <h2>Heme approach results</h2>
     </p>
 
     <p>
@@ -113,8 +28,10 @@
 
     <p>
         We performed 16 experiments, which can be divided into three categories based on what variable was explored.
-        This includes varying (H<sub>2</sub>S) concentrations, varying protein concentrations and kinetic studies (varying the time)
-        with 2-3 parallels. All experiments involved the observation of the reaction between (H<sub>2</sub>S) and N-terminus
+        This includes varying (H<sub>2</sub>S) concentrations, varying protein concentrations and kinetic studies
+        (varying the time)
+        with 2-3 parallels. All experiments involved the observation of the reaction between (H<sub>2</sub>S) and
+        N-terminus
         Cy3-tagged myoglobin, using fluorescence intensity (FI) measurements. Additionally, two emission/excitation
         scans were performed to find the optimal excitation and emission bands for these measurements. The instrument
         used for all fluorescence intensity measurements was the Tecan Infinite 200Pro.
@@ -126,10 +43,12 @@
 
     <p>
         In the graph below are the results of experiment 1. Here we measured using 5 mg/L of labeled myoglobin-Cy3
-        reaction mixture, and varying (H<sub>2</sub>S) concentrations around the level which is supposed to be unhealthy, not deadly,
+        reaction mixture, and varying (H<sub>2</sub>S) concentrations around the level which is supposed to be
+        unhealthy, not deadly,
         for fish in RAS. For the measurement we used the optimal excitation/emission wavelengths for our fluorophore,
         Cy3, which is 550nm and 570nm. As you may see, these results are fairly unpromising, as there is high variance
-        and no discernible trend. Further, we would expect our 0-value to be the highest, as the presence of (H<sub>2</sub>S) should
+        and no discernible trend. Further, we would expect our 0-value to be the highest, as the presence of
+        (H<sub>2</sub>S) should
         lower the fluorescence intensity of the reaction mixture. However, we got odd values for our blank wells (which
         is just water and buffer), at around 50000 FI, much higher than all the values for the measurement points.
     </p>
@@ -141,7 +60,8 @@
 
     </p>
     <p>
-        Caption: <strong>Figure 1: </strong>Fluorescence intensity measurements for varying (H<sub>2</sub>S) concentrations using 5
+        <strong>Figure 1: </strong>Fluorescence intensity measurements for varying (H<sub>2</sub>S)
+        concentrations using 5
         mg/L labeled protein reaction mixture. Measurement parameters were 550nm for excitation, 570nm for emission and
         with 60 gain.
     </p>
@@ -200,8 +120,10 @@
         Following our excitation/emission scans, we performed the measurements for experiment 2 using our new
         measurement parameters, and got better results. This time, our blank measurements were close to zero, our
         zero-measurements were the highest, there was lower overall variance and we got somewhat of a better trend,
-        though not perfect. We used a wider range of (H<sub>2</sub>S) concentrations for this experiment, which at the higher values
-        has a large molar excess over the 5 mg/L reaction mixture (around 42 times for 25 micromolar of (H<sub>2</sub>S))
+        though not perfect. We used a wider range of (H<sub>2</sub>S) concentrations for this experiment, which at the
+        higher values
+        has a large molar excess over the 5 mg/L reaction mixture (around 42 times for 25 micromolar of
+        (H<sub>2</sub>S))
     </p>
     <p>
         <center> <img
@@ -211,7 +133,8 @@
 
     </p>
     <p>
-        <strong>Figure 4: </strong>Fluorescence intensity measurements for varying (H<sub>2</sub>S) concentrations using 5 mg/L bound
+        <strong>Figure 4: </strong>Fluorescence intensity measurements for varying (H<sub>2</sub>S) concentrations using
+        5 mg/L bound
         protein reaction mixture. Measurement parameters were 540nm for excitation, 580nm for emission and with 120
         gain.
     </p>
@@ -225,130 +148,133 @@
         concentration instead of decreasing).
     </p>
 
-    <center><p><br><strong>Table 1: </strong>Pairwise results of two-tailed T-test for each of the measurements</p></center>
- 
-<center>
-    <table>
-        <tr>
-            <td>T-test
-            </td>
-            <td>Blank
-            </td>
-            <td>0 uM
-            </td>
-            <td>1 uM
-            </td>
-            <td>5 uM
-            </td>
-            <td>10 uM
-            </td>
-            <td>25 uM
-            </td>
-        </tr>
-        <tr>
-            <td>Blank
-            </td>
-            <td>x
-            </td>
-            <td>0.0000
-            </td>
-            <td>0.0014
-            </td>
-            <td>0.0000
-            </td>
-            <td>0.0003
-            </td>
-            <td>0.0007
-            </td>
-        </tr>
-        <tr>
-            <td>0 uM
-            </td>
-            <td>0.0000
-            </td>
-            <td>x
-            </td>
-            <td>0.0240
-            </td>
-            <td>0.0009
-            </td>
-            <td>0.0565
-            </td>
-            <td>0.0864
-            </td>
-        </tr>
-        <tr>
-            <td>1 uM
-            </td>
-            <td>0.0014
-            </td>
-            <td>0.0240
-            </td>
-            <td>x
-            </td>
-            <td>0.5457
-            </td>
-            <td>0.1568
-            </td>
-            <td>0.1885
-            </td>
-        </tr>
-        <tr>
-            <td>5 uM
-            </td>
-            <td>0.0000
-            </td>
-            <td>0.0009
-            </td>
-            <td>0.5457
-            </td>
-            <td>x
-            </td>
-            <td>0.0160
-            </td>
-            <td>0.0401
-            </td>
-        </tr>
-        <tr>
-            <td>10 uM
-            </td>
-            <td>0.0003
-            </td>
-            <td>0.0565
-            </td>
-            <td>0.1568
-            </td>
-            <td>0.0160
-            </td>
-            <td>x
-            </td>
-            <td>0.6086
-            </td>
-        </tr>
-        <tr>
-            <td>25 uM
-            </td>
-            <td>0.0007
-            </td>
-            <td>0.0864
-            </td>
-            <td>0.1885
-            </td>
-            <td>0.0401
-            </td>
-            <td>0.6086
-            </td>
-            <td>x
-            </td>
-        </tr>
-    </table>
-</center>
+    <center>
+        <p><br><strong>Table 1: </strong>Pairwise results of two-tailed T-test for each of the measurements</p>
+    </center>
+
+    <center>
+        <table>
+            <tr>
+                <td>T-test
+                </td>
+                <td>Blank
+                </td>
+                <td>0 uM
+                </td>
+                <td>1 uM
+                </td>
+                <td>5 uM
+                </td>
+                <td>10 uM
+                </td>
+                <td>25 uM
+                </td>
+            </tr>
+            <tr>
+                <td>Blank
+                </td>
+                <td>x
+                </td>
+                <td>0.0000
+                </td>
+                <td>0.0014
+                </td>
+                <td>0.0000
+                </td>
+                <td>0.0003
+                </td>
+                <td>0.0007
+                </td>
+            </tr>
+            <tr>
+                <td>0 uM
+                </td>
+                <td>0.0000
+                </td>
+                <td>x
+                </td>
+                <td>0.0240
+                </td>
+                <td>0.0009
+                </td>
+                <td>0.0565
+                </td>
+                <td>0.0864
+                </td>
+            </tr>
+            <tr>
+                <td>1 uM
+                </td>
+                <td>0.0014
+                </td>
+                <td>0.0240
+                </td>
+                <td>x
+                </td>
+                <td>0.5457
+                </td>
+                <td>0.1568
+                </td>
+                <td>0.1885
+                </td>
+            </tr>
+            <tr>
+                <td>5 uM
+                </td>
+                <td>0.0000
+                </td>
+                <td>0.0009
+                </td>
+                <td>0.5457
+                </td>
+                <td>x
+                </td>
+                <td>0.0160
+                </td>
+                <td>0.0401
+                </td>
+            </tr>
+            <tr>
+                <td>10 uM
+                </td>
+                <td>0.0003
+                </td>
+                <td>0.0565
+                </td>
+                <td>0.1568
+                </td>
+                <td>0.0160
+                </td>
+                <td>x
+                </td>
+                <td>0.6086
+                </td>
+            </tr>
+            <tr>
+                <td>25 uM
+                </td>
+                <td>0.0007
+                </td>
+                <td>0.0864
+                </td>
+                <td>0.1885
+                </td>
+                <td>0.0401
+                </td>
+                <td>0.6086
+                </td>
+                <td>x
+                </td>
+            </tr>
+        </table>
+    </center>
 
 
     <p>
         Due to the unwanted upwards trend towards the higher values, we speculated that the large molar excess could be
         over-saturating the reaction mixture, so in experiment 3 we tried using a higher mixture concentration (25 mg/L)
-        and a narrower/lower range of (H<sub>2</sub>S) concentrations (in the ranges that was deadly for fish in RAS). As you can see
+        and a narrower/lower range of (H<sub>2</sub>S) concentrations (in the ranges that was deadly for fish in RAS).
+        As you can see
         in figure 5, this did not go well. We got very high variance, no discernible trend and the zero-measurement
         wasn’t significantly higher than the measurements with (H<sub>2</sub>S).
     </p>
@@ -360,16 +286,19 @@
 
     </p>
     <p>
-        <strong>Figure 5: </strong>Fluorescence intensity measurements for varying (H<sub>2</sub>S) concentrations using 25 mg/L
+        <strong>Figure 5: </strong>Fluorescence intensity measurements for varying (H<sub>2</sub>S) concentrations using
+        25 mg/L
         bound protein reaction mixture. Measurement parameters were 540nm for excitation, 580nm for emission and with
         100 gain.
     </p>
     <p>
         We then lowered the protein concentration back to 5 mg/L, and performed a series of experiments with different
-        (H<sub>2</sub>S) ranges, trying to determine a more or less linear range for this protein concentration. In figure 6 and 7 we
+        (H<sub>2</sub>S) ranges, trying to determine a more or less linear range for this protein concentration. In
+        figure 6 and 7 we
         see the results of experiment 5 and 6, which both had similar trends as in experiment 2, where there is first a
         dip in fluorescence intensity at lower concentrations then an increase. In both experiment 5 and 6 the
-        measurements for the first (H<sub>2</sub>S) value, 0.1uM and 0.001uM respectively, gave a statistical significant change in
+        measurements for the first (H<sub>2</sub>S) value, 0.1uM and 0.001uM respectively, gave a statistical
+        significant change in
         FI from the zero-measurements.
     </p>
     <p>
@@ -380,7 +309,8 @@
 
     </p>
     <p>
-        <strong>Figure 6: </strong>Fluorescence intensity measurements for varying (H<sub>2</sub>S) concentrations using 5 mg/L bound
+        <strong>Figure 6: </strong>Fluorescence intensity measurements for varying (H<sub>2</sub>S) concentrations using
+        5 mg/L bound
         protein reaction mixture. Measurement parameters were 540nm for excitation, 580nm for emission and with 120
         gain.
     </p>
@@ -392,7 +322,8 @@
 
     </p>
     <p>
-        <strong>Figure 7: </strong>Fluorescence intensity measurements for varying (H<sub>2</sub>S) concentrations using 5 mg/L bound
+        <strong>Figure 7: </strong>Fluorescence intensity measurements for varying (H<sub>2</sub>S) concentrations using
+        5 mg/L bound
         protein reaction mixture. Measurement parameters were 540nm for excitation, 580nm for emission and with 120
         gain.
     </p>
@@ -418,11 +349,15 @@
         gain.
     </p>
     <p>
-        To investigate the reaction with (H<sub>2</sub>S) further, we performed a series of kinetic experiments. These measured the
-        fluorescence intensity of the reaction mixture with and without (H<sub>2</sub>S) present over a period of 30 minutes. The
+        To investigate the reaction with (H<sub>2</sub>S) further, we performed a series of kinetic experiments. These
+        measured the
+        fluorescence intensity of the reaction mixture with and without (H<sub>2</sub>S) present over a period of 30
+        minutes. The
         results for one of these experiments, experiment 14, is presented in figure 9. Here we see that in the very
-        beginning there is good separation between the (H<sub>2</sub>S) FI (blue line) and null FI (orange line), but this shrinks
-        over time, and at about 1200s the (H<sub>2</sub>S) FI is in fact larger than the null FI. An important thing to note was that
+        beginning there is good separation between the (H<sub>2</sub>S) FI (blue line) and null FI (orange line), but
+        this shrinks
+        over time, and at about 1200s the (H<sub>2</sub>S) FI is in fact larger than the null FI. An important thing to
+        note was that
         it was unexpected for the null FI to decrease at all, since this should only happen if the reaction mixture
         comes in contact with (H<sub>2</sub>S). This happened in all the kinetic experiments we performed.
     </p>
@@ -435,7 +370,8 @@
     </p>
     <p>
         <strong>Figure 9: </strong>Fluorescence intensity measurements for kinetic study over 30 minutes, using 10 mg/L
-        bound protein reaction mixture and 0.1 uM (H<sub>2</sub>S). Measurement parameters were 540nm for excitation, 580nm for
+        bound protein reaction mixture and 0.1 uM (H<sub>2</sub>S). Measurement parameters were 540nm for excitation,
+        580nm for
         emission and with 100 gain.
     </p>
     <p>
@@ -457,7 +393,8 @@
     </p>
     <p>
         <strong>Figure 10: </strong>Fluorescence intensity measurements for kinetic study over 30 minutes, using 10 mg/L
-        bound protein reaction mixture and 1 uM (H<sub>2</sub>S). The experiment was run several times using different measurement
+        bound protein reaction mixture and 1 uM (H<sub>2</sub>S). The experiment was run several times using different
+        measurement
         intervals, and these intervals are color coded with red for 5s, purple for 30s, green for 300s and blue for 60s.
         Measurement parameters were 540nm for excitation, 580nm for emission and with 100 gain.
     </p>
@@ -465,9 +402,11 @@
     <h3>Discussion</h3>
     </p>
     <p>
-        We managed to get statistically significant differences between null measurements and certain (H<sub>2</sub>S) measurements
+        We managed to get statistically significant differences between null measurements and certain (H<sub>2</sub>S)
+        measurements
         with our reaction mixture early on. Beyond that, however, most experiments in our project involved investigating
-        different factors that affect the variance of our measurements, and potentially the trend between different (H<sub>2</sub>S)
+        different factors that affect the variance of our measurements, and potentially the trend between different
+        (H<sub>2</sub>S)
         concentration measurements. Of these, we are fairly certain that light exposure is a big factor in determining
         FI measurements over time, which makes sense given that the fluorophore we used is light sensitive.
         Unfortunately, a lot of other important factors were harder for us to test due to our limited resources and
@@ -475,36 +414,140 @@
     </p>
     <p>
         However, inferring from the results, we speculate that a lot of the variance could be explained by the free
-        diffusion of (H<sub>2</sub>S) from the open wells into the air inside the fluorescence measurement instrument and then back
+        diffusion of (H<sub>2</sub>S) from the open wells into the air inside the fluorescence measurement instrument
+        and then back
         into the null wells. Specifically, the decrease in FI of the null measurements in the kinetic experiments seems
-        to indicate this. This speculation is based on (H<sub>2</sub>S) being very volatile, and air diffusion within a somewhat
-        enclosed space can distribute (H<sub>2</sub>S) in a higher concentration effectively. The diffusion back into the solution in
+        to indicate this. This speculation is based on (H<sub>2</sub>S) being very volatile, and air diffusion within a
+        somewhat
+        enclosed space can distribute (H<sub>2</sub>S) in a higher concentration effectively. The diffusion back into
+        the solution in
         the null well should be less effective, but given the sensor having a low enough limit of detection it would
         explain the several lines in experiment 16 stabilizing at the same FI value over time. To check if this was the
         case, we would have needed a fluorometric instrument with closed and separated measurement wells .
     </p>
     <p>
-        There are also some other factors that also could affect the variance. Firstly, (H<sub>2</sub>S) can be oxidized very easily,
-        which means that in addition to the (H<sub>2</sub>S) lost to diffusion, there might be a substantial decrease in (H<sub>2</sub>S) while
+        There are also some other factors that also could affect the variance. Firstly, (H<sub>2</sub>S) can be oxidized
+        very easily,
+        which means that in addition to the (H<sub>2</sub>S) lost to diffusion, there might be a substantial decrease in
+        (H<sub>2</sub>S) while
         it’s in solution. To prevent this we would have needed a closed system which we would deoxygenate using a
-        degasser, bubbling argon or nitrogen through. Secondly, the oversaturation of (H<sub>2</sub>S) in the reaction mixture with
+        degasser, bubbling argon or nitrogen through. Secondly, the oversaturation of (H<sub>2</sub>S) in the reaction
+        mixture with
         respect to a potentially linear measurement area could explain both variance and the lack of a general trend for
-        our measurements. Myoglobin has a higher chance to irreversibly bind to (H<sub>2</sub>S) when it’s present in a relatively
+        our measurements. Myoglobin has a higher chance to irreversibly bind to (H<sub>2</sub>S) when it’s present in a
+        relatively
         high concentration, which we suspect would not produce a signal (decrease in FI), and could explain the increase
-        in FI generally at higher (H<sub>2</sub>S) concentrations as seen in experiment 2 and 5. To investigate this meaningfully
+        in FI generally at higher (H<sub>2</sub>S) concentrations as seen in experiment 2 and 5. To investigate this
+        meaningfully
         would require us to lower the variance caused by the prior factors, since as we saw in experiment 3 and 8 the
         variance seems to increase substantially with increasing the protein concentration.
+    </p>
+
+    <p>
+        In order to make sure that H2S was produced in the prepared solutions of Na2S, we used the methylene blue
+        method. Using this method, we observed a colour change to blue, verifying the presence of H2S. We could
+        therefore rule out a lack of H2S production as a source of error in our experiment.
     </p>
     <p>
     <h3>Conclusions</h3>
     </p>
     <p>
-        In summary, although we have some results indicating the potential for an (H<sub>2</sub>S) sensor with a very low level of
+        In summary, although we have some results indicating the potential for an (H<sub>2</sub>S) sensor with a very
+        low level of
         detection, the variance and lack of trend in important ranges severely inhibit the sensor performance in other
         areas. We however note that improvement may only require better suited hardware. As our proposed implementation
-        would be in an LOC, some of the factors affecting variance might be diminished, such as the (H<sub>2</sub>S) diffusion
+        would be in an LOC, some of the factors affecting variance might be diminished, such as the (H<sub>2</sub>S)
+        diffusion
         between measurement wells.
     </p>
+
+    <h3>SQR approach results</h3>
+    </p>
+    <p>
+        On this page the results from the experiments detailed on our
+        <a href="https://2021.igem.org/Team:NTNU-Trondheim/Experiments" target="_blank">experiments page</a> are
+        briefly presented.
+    </p>
+    <p>
+    <h4>Cloning</h4>
+    </p>
+    <p>
+        The five constructs ordered from IDT were cloned into plasmid vectors by Gibson assembly. Next, the plasmids
+        were transformed into supercompetent <em>Escherichia coli </em>cells. Sanger sequencing was used to verify if
+        the cloning had been successful. Four out of five designs came out successful.
+    </p>
+    <p>
+        The plasmid vector, pENZ004, was PCR amplified with primers containing overhangs corresponding to the ends of
+        the constructs. Since some of the constructs were identical on either side, three plasmid amplifications were
+        made. The PCR gel analysis, shown in figure 1, showed that all three plasmids had been PCR amplified, to the
+        desired length (ca 2.1 kb).
+    </p>
+    <p>
+        <center><img src="https://2021.igem.org/wiki/images/f/f5/T--NTNU-Trondheim--Results.jpg" width="" alt="alt_text"
+                title="image_tooltip"></center>
+
+
+    </p>
+    <p>
+        <strong>Figure 1</strong>: PCR gel analysis of PCR products after pENZ004 is amplified with primers containing
+        overhangs for Gibson assembly. 1kb ruler is used on either side of the plasmids.
+    </p>
+
+    <p>
+    <h4>Testing</h4>
+    </p>
+
+    <p>
+        The next step was to test the whole cell sensors. Design 1 was tested with GSSH produced from GSSG and specific
+        concentrations of H<sub>2</sub>S. Design 2 was tested with H<sub>2</sub>S directly. Exact concentrations and
+        procedures are found on our <a href="https://2021.igem.org/Team:NTNU-Trondheim/Experiments"
+            target="_blank">experiments page</a>
+    </p>
+    <p>
+        When exposing the whole cell sensor to GSSH (design 1) and H<sub>2</sub>S (design 2) the intensity of the
+        fluorescence signal was expected to increase with increasing H<sub>2</sub>S concentration. Unfortunately, none
+        of the whole cell sensors showed a fluorescence signal when observed under fluorescent light, see figure 2, or
+        when fluorescent was measured on a Tecan plate reader, see figure 3.
+    </p>
+    <p>
+
+        <center> <img
+                src="https://2021.igem.org/wiki/images/thumb/8/8d/T--NTNU-Trondheim--Results2.jpg/800px-T--NTNU-Trondheim--Results2.jpg"
+                width="" alt="alt_text" title="image_tooltip"></center>
+
+
+    </p>
+    <p>
+        <strong>Figure 2:</strong> Our whole cell sensors after treatment with GSSH and (H<sub>2</sub>S) under UV light.
+        On the
+        right, a control containing only LB medium. There was no sign of fluorescence in the samples.
+    </p>
+    <p>
+        <center> <img src="https://2021.igem.org/wiki/images/9/9a/800px-T--NTNU-Trondheim--Results3.jpg" width=""
+                alt="alt_text" title="image_tooltip"></center>
+
+
+    </p>
+    <p>
+        <strong> Figure 3</strong>: Measured fluorescence using a H<sub>2</sub>S sensing whole cell sensor plotted
+        against H<sub>2</sub>S concentration. The system is designed to be sensitive for S<sup>2-</sup> and includes the
+        reporter gene CreiLOV and a weaker promoter for SqrR. No trend is observed in the data.
+    </p>
+    <p>
+        As detailed on our
+        <a href="https://2021.igem.org/Team:NTNU-Trondheim/Engineering" target="_blank">engineering page</a>
+        it was discovered that mistakes made during the ordering of our constructs resulted in the CreiLov gene being
+        inserted without a start codon. In addition, the ribosome binding site sequence was inserted twice and inverted,
+        likely disturbing translation of the constructs. It is also a possibility that the cell membrane is impermeable
+        to GSSH due to the size of the molecule.. To improve the approach, an in vitro kit could be utilized. The
+        boundary of the cell membrane would then be eliminated. If time had permitted we would have liked to fix these
+        mistakes and study the approach further. Read more about this on our <a
+            href="https://2021.igem.org/Team:NTNU-Trondheim/Engineering" target="_blank">engineering page</a>
+    </p>
+
+
+
+
 
 </main>
 
