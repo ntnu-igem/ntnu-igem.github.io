@@ -1,0 +1,502 @@
+File links for all references in wiki,
+for now mostly pictures and css-stylings. (30.06.21)
+
+To upload files in general, write the following in the box "Destination filename":
+T--NTNU-Trondheim--
+before the filename you'd like, and then the file type you're uploading.
+
+To reference templates (the css files you upload in a very nasty manner)
+for your pages, use the following method:
+1. Main shell: {{Template:NTNU-Trondheim
+            +
+2. Specific CSS-file /File/Directory}}
+
+################################################################
+
+                             Templates
+
+################################################################
+
+{{Template:NTNU-Trondheim/Test/bottom}}
+{{Template:NTNU-Trondheim/Test/navbar}}
+{{Template:NTNU-Trondheim/Test/content}}   
+{{Template:NTNU-Trondheim/Test/header}}
+{{Template:NTNU-Trondheim/Test/removeoldheader}}   
+{{Template:NTNU-Trondheim/Test/fixthings}}
+
+
+###### Martin templates #####
+{{Template:NTNU-Trondheim/Martin/header}}
+{{Template:NTNU-Trondheim/Martin/navbar}}
+{{Template:NTNU-Trondheim/Martin/content}}
+{{Template:NTNU-Trondheim/Martin/bottom}}
+{{Template:NTNU-Trondheim/Martin/fixthings}}
+{{Template:NTNU-Trondheim/Martin/NavigationBar}}
+{{Template:NTNU-Trondheim/Martin/BottomSponsorSocial}}
+
+
+
+###########################
+         IMAGES
+###########################
+
+########### TEAM MEMBERS ##########
+
+https://2021.igem.org/File:T--NTNU-Trondheim--Anine.jpg (original link)
+https://2021.igem.org/wiki/images/9/91/T--NTNU-Trondheim--Anine.jpg (non-formatted file)
+
+https://2021.igem.org/File:T--NTNU-Trondheim--adrian.jpg
+https://2021.igem.org/wiki/images/6/6d/T--NTNU-Trondheim--adrian.jpg
+
+https://2021.igem.org/File:T--NTNU-Trondheim--andrea.jpg
+https://2021.igem.org/wiki/images/1/1c/T--NTNU-Trondheim--andrea.jpg
+
+https://2021.igem.org/File:T--NTNU-Trondheim--anine.jpg
+https://2021.igem.org/wiki/images/6/61/T--NTNU-Trondheim--anine.jpg
+
+https://2021.igem.org/File:T--NTNU-Trondheim--eline.jpg
+https://2021.igem.org/wiki/images/0/0f/T--NTNU-Trondheim--eline.jpg
+
+https://2021.igem.org/File:T--NTNU-Trondheim--elise.jpg
+https://2021.igem.org/wiki/images/0/07/T--NTNU-Trondheim--elise.jpg
+
+https://2021.igem.org/File:T--NTNU-Trondheim--fanny.jpg
+https://2021.igem.org/wiki/images/f/fe/T--NTNU-Trondheim--fanny.jpg
+
+https://2021.igem.org/File:T--NTNU-Trondheim--kristine.jpg
+https://2021.igem.org/wiki/images/c/c3/T--NTNU-Trondheim--kristine.jpg
+
+https://2021.igem.org/File:T--NTNU-Trondheim--leik.jpg
+https://2021.igem.org/wiki/images/d/d0/T--NTNU-Trondheim--leik.jpg
+
+https://2021.igem.org/File:T--NTNU-Trondheim--martin.jpg
+https://2021.igem.org/wiki/images/d/d4/T--NTNU-Trondheim--martin.jpg
+
+https://2021.igem.org/File:T--NTNU-Trondheim--tina.jpg
+https://2021.igem.org/wiki/images/8/83/T--NTNU-Trondheim--tina.jpg
+
+https://2021.igem.org/File:T--NTNU-Trondheim--victoria.jpg
+https://2021.igem.org/wiki/images/e/eb/T--NTNU-Trondheim--victoria.jpg
+
+
+
+
+########## HEADER PHOTOS ##########
+
+## Team-page
+https://2021.igem.org/File:T--NTNU-Trondheim--Team.jpg (original link)
+https://2021.igem.org/wiki/images/1/1e/T--NTNU-Trondheim--Team.jpg (non-formatted file)
+
+https://2021.igem.org/File:T--NTNU-Trondheim--Team_casual.jpg
+https://2021.igem.org/wiki/images/a/af/T--NTNU-Trondheim--Team_casual.jpg 
+
+
+########## ADVISORS ##############
+
+https://2021.igem.org/File:T--NTNU-Trondheim--Gunvor.png (original link)
+https://2021.igem.org/wiki/images/b/b3/T--NTNU-Trondheim--Gunvor.png (non-formatted file)
+
+https://2021.igem.org/File:T--NTNU-Trondheim--Husnain.png (original link)
+https://2021.igem.org/wiki/images/4/41/T--NTNU-Trondheim--Husnain.png (non-formatted file)
+
+https://2021.igem.org/File:T--NTNU-Trondheim--Lisa.png (original link)
+https://2021.igem.org/wiki/images/b/bb/T--NTNU-Trondheim--Lisa.png (non-formatted file)
+
+https://2021.igem.org/File:T--NTNU-Trondheim--Rahmi.png (original link)
+https://2021.igem.org/wiki/images/6/65/T--NTNU-Trondheim--Rahmi.png (non-formatted file)
+
+https://2021.igem.org/File:T--NTNU-Trondheim--Alex.jpg
+https://2021.igem.org/wiki/images/c/c5/T--NTNU-Trondheim--Alex.jpg
+
+####### LOGO ++ #######
+
+https://2021.igem.org/File:T--NTNU-Trondheim--Logo_ensfarget.png (original link)
+https://2021.igem.org/wiki/images/0/02/T--NTNU-Trondheim--Logo_ensfarget.png (non-formatted file)
+
+https://2021.igem.org/File:T--NTNU-Trondheim--Molecule.png (original link)
+https://2021.igem.org/wiki/images/1/1a/T--NTNU-Trondheim--Molecule.png (non-formatted file)
+
+
+####### Sponsors #######
+
+https://2021.igem.org/File:T--NTNU-Trondheim--AquaGen.jpg (says jpg but is png)
+https://2021.igem.org/wiki/images/1/14/T--NTNU-Trondheim--AquaGen.jpg (says jpg but is png)
+
+https://2021.igem.org/File:T--NTNU-Trondheim--BenchMarkGenetics.png
+https://2021.igem.org/wiki/images/a/a4/T--NTNU-Trondheim--BenchMarkGenetics.png
+
+https://2021.igem.org/File:T--NTNU-Trondheim--Inst_bio.svg
+https://2021.igem.org/wiki/images/c/cf/T--NTNU-Trondheim--Inst_bio.svg
+
+https://2021.igem.org/File:T--NTNU-Trondheim--Inst_biotek.svg
+https://2021.igem.org/wiki/images/2/2f/T--NTNU-Trondheim--Inst_biotek.svg
+
+https://2021.igem.org/File:T--NTNU-Trondheim--Inst_nevro.svg
+https://2021.igem.org/wiki/images/f/fd/T--NTNU-Trondheim--Inst_nevro.svg
+
+https://2021.igem.org/File:T--NTNU-Trondheim--Kvaroy_black.png
+https://2021.igem.org/wiki/images/e/e2/T--NTNU-Trondheim--Kvaroy_black.png
+
+https://2021.igem.org/File:T--NTNU-Trondheim--Kvaroy_org.png
+https://2021.igem.org/wiki/images/0/05/T--NTNU-Trondheim--Kvaroy_org.png
+
+https://2021.igem.org/File:T--NTNU-Trondheim--Kvaroy_white.png
+https://2021.igem.org/wiki/images/e/e0/T--NTNU-Trondheim--Kvaroy_white.png
+
+https://2021.igem.org/File:T--NTNU-Trondheim--Bergman_Diag.png
+https://2021.igem.org/wiki/images/c/c3/T--NTNU-Trondheim--Bergman_Diag.png
+
+https://2021.igem.org/File:T--NTNU-Trondheim--Maasoval.png
+https://2021.igem.org/wiki/images/5/50/T--NTNU-Trondheim--Maasoval.png
+
+https://2021.igem.org/File:T--NTNU-Trondheim--nv_fak.svg
+https://2021.igem.org/wiki/images/2/25/T--NTNU-Trondheim--nv_fak.svg
+
+https://2021.igem.org/File:T--NTNU-Trondheim--scaleAQ.png
+https://2021.igem.org/wiki/images/d/da/T--NTNU-Trondheim--scaleAQ.png
+
+https://2021.igem.org/File:T--NTNU-Trondheim--TeknaDark.svg
+https://2021.igem.org/wiki/images/9/9a/T--NTNU-Trondheim--TeknaDark.svg
+
+https://2021.igem.org/File:T--NTNU-Trondheim--TeknaWhite.svg
+https://2021.igem.org/wiki/images/d/d5/T--NTNU-Trondheim--TeknaWhite.svg
+
+https://2021.igem.org/File:T--NTNU-Trondheim--Vectron.svg
+https://2021.igem.org/wiki/images/4/4d/T--NTNU-Trondheim--Vectron.svg
+
+https://2021.igem.org/File:T--NTNU-Trondheim--Nippon_Gases.png
+https://2021.igem.org/wiki/images/1/13/T--NTNU-Trondheim--Nippon_Gases.png
+
+https://2021.igem.org/File:T--NTNU-Trondheim--SMIR.png
+https://2021.igem.org/wiki/images/b/be/T--NTNU-Trondheim--SMIR.png
+
+https://2021.igem.org/File:T--NTNU-Trondheim--Cermaq.png
+https://2021.igem.org/wiki/images/1/14/T--NTNU-Trondheim--Cermaq.png
+
+https://2021.igem.org/File:T--NTNU-Trondheim--NTNU_biotech.png
+https://2021.igem.org/wiki/images/5/5f/T--NTNU-Trondheim--NTNU_biotech.png
+
+####### Link logos #######
+
+https://2021.igem.org/File:T--NTNU-Trondheim--FaceBook.png
+https://2021.igem.org/wiki/images/1/15/T--NTNU-Trondheim--FaceBook.png
+
+https://2021.igem.org/File:T--NTNU-Trondheim--FaceBookBlue.jpg
+https://2021.igem.org/wiki/images/2/28/T--NTNU-Trondheim--FaceBookBlue.jpg
+
+https://2021.igem.org/File:T--NTNU-Trondheim--GitHub.jpg
+https://2021.igem.org/wiki/images/8/8a/T--NTNU-Trondheim--GitHub.jpg
+
+https://2021.igem.org/File:T--NTNU-Trondheim--GitHubBlack.png
+https://2021.igem.org/wiki/images/f/ff/T--NTNU-Trondheim--GitHubBlack.png
+
+https://2021.igem.org/File:T--NTNU-Trondheim--InstaGram.png
+https://2021.igem.org/wiki/images/4/42/T--NTNU-Trondheim--InstaGram.png
+
+https://2021.igem.org/File:T--NTNU-Trondheim--LinkedIn.png
+https://2021.igem.org/wiki/images/f/f9/T--NTNU-Trondheim--LinkedIn.png
+
+https://2021.igem.org/File:T--NTNU-Trondheim--Twitter.png
+https://2021.igem.org/wiki/images/5/5a/T--NTNU-Trondheim--Twitter.png
+
+####### FISH and H2S  #######
+
+https://2021.igem.org/File:T--NTNU-Trondheim--Fish.png
+https://2021.igem.org/wiki/images/a/a8/T--NTNU-Trondheim--Fish.png
+
+https://2021.igem.org/File:T--NTNU-Trondheim--H2S.svg
+https://2021.igem.org/wiki/images/9/9f/T--NTNU-Trondheim--H2S.svg
+
+
+####### HUMAN PRACTICES  #######
+
+https://2021.igem.org/File:T--NTNU-Trondheim--Olav.jpeg
+https://2021.igem.org/wiki/images/4/4f/T--NTNU-Trondheim--Olav.jpeg
+
+
+###### Improvement #######
+
+https://2021.igem.org/File:T--NTNU-Trondheim--YFP_paralell_3.png
+https://2021.igem.org/wiki/images/2/22/T--NTNU-Trondheim--YFP_paralell_3.png
+
+https://2021.igem.org/File:T--NTNU-Trondheim--GFP_paralell_1.png
+https://2021.igem.org/wiki/images/f/fb/T--NTNU-Trondheim--GFP_paralell_1.png
+
+
+https://2021.igem.org/File:T--NTNU-Trondheim--Graph_sfGFP.png
+https://2021.igem.org/wiki/images/3/3b/T--NTNU-Trondheim--Graph_sfGFP.png
+https://2021.igem.org/wiki/images/thumb/3/3b/T--NTNU-Trondheim--Graph_sfGFP.png/800px-T--NTNU-Trondheim--Graph_sfGFP.png
+https://2021.igem.org/wiki/images/thumb/3/3b/T--NTNU-Trondheim--Graph_sfGFP.png/320px-T--NTNU-Trondheim--Graph_sfGFP.png
+
+
+https://2021.igem.org/File:T--NTNU-Trondheim--Graph_YFP_LOV.png
+https://2021.igem.org/wiki/images/2/2a/T--NTNU-Trondheim--Graph_YFP_LOV.png
+https://2021.igem.org/wiki/images/thumb/2/2a/T--NTNU-Trondheim--Graph_YFP_LOV.png/800px-T--NTNU-Trondheim--Graph_YFP_LOV.png
+https://2021.igem.org/wiki/images/thumb/2/2a/T--NTNU-Trondheim--Graph_YFP_LOV.png/320px-T--NTNU-Trondheim--Graph_YFP_LOV.png
+
+
+
+https://2021.igem.org/File:T--NTNU-Trondheim--pENZ_plasmid.png
+https://2021.igem.org/wiki/images/d/d7/T--NTNU-Trondheim--pENZ_plasmid.png
+https://2021.igem.org/wiki/images/thumb/d/d7/T--NTNU-Trondheim--pENZ_plasmid.png/726px-T--NTNU-Trondheim--pENZ_plasmid.png
+https://2021.igem.org/wiki/images/thumb/d/d7/T--NTNU-Trondheim--pENZ_plasmid.png/291px-T--NTNU-Trondheim--pENZ_plasmid.png
+
+
+https://2021.igem.org/File:T--NTNU-Trondheim--YFP_final_plasmid.png
+https://2021.igem.org/wiki/images/9/99/T--NTNU-Trondheim--YFP_final_plasmid.png
+https://2021.igem.org/wiki/images/thumb/9/99/T--NTNU-Trondheim--YFP_final_plasmid.png/702px-T--NTNU-Trondheim--YFP_final_plasmid.png
+https://2021.igem.org/wiki/images/thumb/9/99/T--NTNU-Trondheim--YFP_final_plasmid.png/281px-T--NTNU-Trondheim--YFP_final_plasmid.png
+
+
+
+###### Results ####################
+
+https://2021.igem.org/File:T--NTNU-Trondheim--Results.jpg  #Results1
+https://2021.igem.org/wiki/images/f/f5/T--NTNU-Trondheim--Results.jpg
+https://2021.igem.org/wiki/images/thumb/f/f5/T--NTNU-Trondheim--Results.jpg/266px-T--NTNU-Trondheim--Results.jpg.png
+https://2021.igem.org/wiki/images/thumb/f/f5/T--NTNU-Trondheim--Results.jpg/106px-T--NTNU-Trondheim--Results.jpg.png
+
+
+https://2021.igem.org/File:T--NTNU-Trondheim--Results2.jpg
+https://2021.igem.org/wiki/images/8/8d/T--NTNU-Trondheim--Results2.jpg
+https://2021.igem.org/wiki/images/thumb/8/8d/T--NTNU-Trondheim--Results2.jpg/800px-T--NTNU-Trondheim--Results2.jpg
+https://2021.igem.org/wiki/images/thumb/8/8d/T--NTNU-Trondheim--Results2.jpg/320px-T--NTNU-Trondheim--Results2.jpg
+
+
+https://2021.igem.org/File:T--NTNU-Trondheim--Results3.jpg
+https://2021.igem.org/wiki/images/9/9a/T--NTNU-Trondheim--Results3.jpg
+
+https://2021.igem.org/File:T--NTNU-Trondheim--Results4.jpg
+https://2021.igem.org/wiki/images/c/ca/T--NTNU-Trondheim--Results4.jpg
+https://2021.igem.org/wiki/images/thumb/c/ca/T--NTNU-Trondheim--Results4.jpg/800px-T--NTNU-Trondheim--Results4.jpg.png
+https://2021.igem.org/wiki/images/thumb/c/ca/T--NTNU-Trondheim--Results4.jpg/320px-T--NTNU-Trondheim--Results4.jpg.png
+
+
+https://2021.igem.org/File:T--NTNU-Trondheim--Results_5.png
+https://2021.igem.org/wiki/images/a/a3/T--NTNU-Trondheim--Results_5.png
+
+https://2021.igem.org/File:T--NTNU-Trondheim--Results_6.png
+https://2021.igem.org/wiki/images/5/5b/T--NTNU-Trondheim--Results_6.png
+
+
+https://2021.igem.org/File:T--NTNU-Trondheim--Results_7.png
+https://2021.igem.org/wiki/images/f/f7/T--NTNU-Trondheim--Results_7.png
+https://2021.igem.org/wiki/images/thumb/f/f7/T--NTNU-Trondheim--Results_7.png/800px-T--NTNU-Trondheim--Results_7.png
+https://2021.igem.org/wiki/images/thumb/f/f7/T--NTNU-Trondheim--Results_7.png/320px-T--NTNU-Trondheim--Results_7.png
+
+https://2021.igem.org/File:T--NTNU-Trondheim--Results_8.png
+https://2021.igem.org/wiki/images/2/2b/T--NTNU-Trondheim--Results_8.png
+https://2021.igem.org/wiki/images/thumb/2/2b/T--NTNU-Trondheim--Results_8.png/800px-T--NTNU-Trondheim--Results_8.png
+https://2021.igem.org/wiki/images/thumb/2/2b/T--NTNU-Trondheim--Results_8.png/320px-T--NTNU-Trondheim--Results_8.png
+
+https://2021.igem.org/File:T--NTNU-Trondheim--Results_9.png
+https://2021.igem.org/wiki/images/1/15/T--NTNU-Trondheim--Results_9.png
+https://2021.igem.org/wiki/images/thumb/1/15/T--NTNU-Trondheim--Results_9.png/800px-T--NTNU-Trondheim--Results_9.png
+https://2021.igem.org/wiki/images/thumb/1/15/T--NTNU-Trondheim--Results_9.png/320px-T--NTNU-Trondheim--Results_9.png
+
+
+
+https://2021.igem.org/File:T--NTNU-Trondheim--Results_10.png
+https://2021.igem.org/wiki/images/1/1a/T--NTNU-Trondheim--Results_10.png
+https://2021.igem.org/wiki/images/thumb/1/1a/T--NTNU-Trondheim--Results_10.png/800px-T--NTNU-Trondheim--Results_10.png
+https://2021.igem.org/wiki/images/thumb/1/1a/T--NTNU-Trondheim--Results_10.png/320px-T--NTNU-Trondheim--Results_10.png
+
+
+https://2021.igem.org/File:T--NTNU-Trondheim--Results_11.png
+https://2021.igem.org/wiki/images/9/97/T--NTNU-Trondheim--Results_11.png
+https://2021.igem.org/wiki/images/thumb/9/97/T--NTNU-Trondheim--Results_11.png/800px-T--NTNU-Trondheim--Results_11.png
+https://2021.igem.org/wiki/images/thumb/9/97/T--NTNU-Trondheim--Results_11.png/320px-T--NTNU-Trondheim--Results_11.png
+
+
+https://2021.igem.org/File:T--NTNU-Trondheim--Results_12.png
+https://2021.igem.org/wiki/images/2/25/T--NTNU-Trondheim--Results_12.png
+
+
+https://2021.igem.org/File:T--NTNU-Trondheim--Results_13.png
+https://2021.igem.org/wiki/images/c/c1/T--NTNU-Trondheim--Results_13.png
+https://2021.igem.org/wiki/images/thumb/c/c1/T--NTNU-Trondheim--Results_13.png/800px-T--NTNU-Trondheim--Results_13.png
+https://2021.igem.org/wiki/images/thumb/c/c1/T--NTNU-Trondheim--Results_13.png/320px-T--NTNU-Trondheim--Results_13.png
+
+
+
+
+
+##### Implementation #################################
+https://2021.igem.org/File:T--NTNU-Trondheim--Implementation.jpg
+https://2021.igem.org/wiki/images/3/3f/T--NTNU-Trondheim--Implementation.jpg
+
+
+
+##### Contribution #################################
+
+
+https://2021.igem.org/File:T--NTNU-Trondheim--Build_A_Bac.zip
+https://2021.igem.org/wiki/images/3/3c/T--NTNU-Trondheim--Build_A_Bac.zip
+
+
+https://2021.igem.org/File:T--NTNU-Trondheim--Contribution.mp4
+https://2021.igem.org/wiki/images/0/0d/T--NTNU-Trondheim--Contribution.mp4
+
+
+#####  Collaboration ##############################
+
+https://2021.igem.org/File:T--NTNU-Trondheim--EMO_GAME.png
+https://2021.igem.org/wiki/images/6/69/T--NTNU-Trondheim--EMO_GAME.png
+https://2021.igem.org/wiki/images/thumb/6/69/T--NTNU-Trondheim--EMO_GAME.png/270px-T--NTNU-Trondheim--EMO_GAME.png.jpeg
+https://2021.igem.org/wiki/images/thumb/6/69/T--NTNU-Trondheim--EMO_GAME.png/108px-T--NTNU-Trondheim--EMO_GAME.png.jpeg
+
+
+https://2021.igem.org/File:T--NTNU-Trondheim--EMO_GAME2.png
+https://2021.igem.org/wiki/images/e/e1/T--NTNU-Trondheim--EMO_GAME2.png
+https://2021.igem.org/wiki/images/thumb/e/e1/T--NTNU-Trondheim--EMO_GAME2.png/270px-T--NTNU-Trondheim--EMO_GAME2.png.jpeg
+https://2021.igem.org/wiki/images/thumb/e/e1/T--NTNU-Trondheim--EMO_GAME2.png/108px-T--NTNU-Trondheim--EMO_GAME2.png.jpeg
+
+
+
+https://2021.igem.org/File:T--NTNU-Trondheim--SZU-China1.jpg
+https://2021.igem.org/wiki/images/c/c8/T--NTNU-Trondheim--SZU-China1.jpg
+https://2021.igem.org/wiki/images/thumb/c/c8/T--NTNU-Trondheim--SZU-China1.jpg/438px-T--NTNU-Trondheim--SZU-China1.jpg
+https://2021.igem.org/wiki/images/thumb/c/c8/T--NTNU-Trondheim--SZU-China1.jpg/175px-T--NTNU-Trondheim--SZU-China1.jpg
+
+
+https://2021.igem.org/File:T--NTNU-Trondheim--SZU-China2.jpg
+https://2021.igem.org/wiki/images/a/ac/T--NTNU-Trondheim--SZU-China2.jpg
+https://2021.igem.org/wiki/images/thumb/a/ac/T--NTNU-Trondheim--SZU-China2.jpg/438px-T--NTNU-Trondheim--SZU-China2.jpg
+https://2021.igem.org/wiki/images/thumb/a/ac/T--NTNU-Trondheim--SZU-China2.jpg/175px-T--NTNU-Trondheim--SZU-China2.jpg
+
+
+
+###### Partnership #########################################################
+
+https://2021.igem.org/File:T--NTNU-Trondheim--UiO_Mai.png  # Første
+https://2021.igem.org/wiki/images/a/af/T--NTNU-Trondheim--UiO_Mai.png
+https://2021.igem.org/wiki/images/thumb/a/af/T--NTNU-Trondheim--UiO_Mai.png/800px-T--NTNU-Trondheim--UiO_Mai.png
+https://2021.igem.org/wiki/images/thumb/a/af/T--NTNU-Trondheim--UiO_Mai.png/320px-T--NTNU-Trondheim--UiO_Mai.png
+
+
+
+https://2021.igem.org/File:T--NTNU-Trondheim--UiO_Juni.png
+https://2021.igem.org/wiki/images/d/d5/T--NTNU-Trondheim--UiO_Juni.png
+https://2021.igem.org/wiki/images/thumb/d/d5/T--NTNU-Trondheim--UiO_Juni.png/800px-T--NTNU-Trondheim--UiO_Juni.png
+https://2021.igem.org/wiki/images/thumb/d/d5/T--NTNU-Trondheim--UiO_Juni.png/320px-T--NTNU-Trondheim--UiO_Juni.png
+
+
+https://2021.igem.org/File:T--NTNU-Trondheim--UiO_July.png
+https://2021.igem.org/wiki/images/0/0b/T--NTNU-Trondheim--UiO_July.png
+https://2021.igem.org/wiki/images/thumb/0/0b/T--NTNU-Trondheim--UiO_July.png/800px-T--NTNU-Trondheim--UiO_July.png
+https://2021.igem.org/wiki/images/thumb/0/0b/T--NTNU-Trondheim--UiO_July.png/320px-T--NTNU-Trondheim--UiO_July.png
+
+
+
+https://2021.igem.org/File:T--NTNU-Trondheim--UiO_August.png
+https://2021.igem.org/wiki/images/7/72/T--NTNU-Trondheim--UiO_August.png
+https://2021.igem.org/wiki/images/thumb/7/72/T--NTNU-Trondheim--UiO_August.png/800px-T--NTNU-Trondheim--UiO_August.png
+https://2021.igem.org/wiki/images/thumb/7/72/T--NTNU-Trondheim--UiO_August.png/320px-T--NTNU-Trondheim--UiO_August.png
+
+
+
+https://2021.igem.org/File:T--NTNU-Trondheim--UiO_October.png
+https://2021.igem.org/wiki/images/d/db/T--NTNU-Trondheim--UiO_October.png
+https://2021.igem.org/wiki/images/thumb/d/db/T--NTNU-Trondheim--UiO_October.png/800px-T--NTNU-Trondheim--UiO_October.png.jpeg
+https://2021.igem.org/wiki/images/thumb/d/db/T--NTNU-Trondheim--UiO_October.png/320px-T--NTNU-Trondheim--UiO_October.png.jpeg
+
+
+
+
+##### Engineering #################################
+
+https://2021.igem.org/File:T--NTNU-Trondheim--engineering_cycle.png
+https://2021.igem.org/wiki/images/3/39/T--NTNU-Trondheim--engineering_cycle.png
+https://2021.igem.org/wiki/images/thumb/3/39/T--NTNU-Trondheim--engineering_cycle.png/603px-T--NTNU-Trondheim--engineering_cycle.png
+https://2021.igem.org/wiki/images/thumb/3/39/T--NTNU-Trondheim--engineering_cycle.png/241px-T--NTNU-Trondheim--engineering_cycle.png
+
+
+https://2021.igem.org/File:T--NTNU-Trondheim--Collection_microfluidic.gif
+https://2021.igem.org/wiki/images/3/38/T--NTNU-Trondheim--Collection_microfluidic.gif
+
+https://2021.igem.org/File:T--NTNU-Trondheim--Merging_microfluidic.gif
+https://2021.igem.org/wiki/images/b/bf/T--NTNU-Trondheim--Merging_microfluidic.gif
+https://2021.igem.org/wiki/images/thumb/b/bf/T--NTNU-Trondheim--Merging_microfluidic.gif/800px-T--NTNU-Trondheim--Merging_microfluidic.gif
+https://2021.igem.org/wiki/images/thumb/b/bf/T--NTNU-Trondheim--Merging_microfluidic.gif/320px-T--NTNU-Trondheim--Merging_microfluidic.gif
+
+https://2021.igem.org/File:T--NTNU-Trondheim--Mixing_microfluidic.gif
+https://2021.igem.org/wiki/images/4/4b/T--NTNU-Trondheim--Mixing_microfluidic.gif
+
+https://2021.igem.org/File:T--NTNU-Trondheim--metMb_Absorption.png
+https://2021.igem.org/wiki/images/b/bc/T--NTNU-Trondheim--metMb_Absorption.png
+https://2021.igem.org/wiki/images/thumb/b/bc/T--NTNU-Trondheim--metMb_Absorption.png/647px-T--NTNU-Trondheim--metMb_Absorption.png
+https://2021.igem.org/wiki/images/thumb/b/bc/T--NTNU-Trondheim--metMb_Absorption.png/259px-T--NTNU-Trondheim--metMb_Absorption.png
+
+https://2021.igem.org/File:T--NTNU-Trondheim--design_1_h2s_detection.png
+https://2021.igem.org/wiki/images/c/c5/T--NTNU-Trondheim--design_1_h2s_detection.png
+https://2021.igem.org/wiki/images/thumb/c/c5/T--NTNU-Trondheim--design_1_h2s_detection.png/800px-T--NTNU-Trondheim--design_1_h2s_detection.png
+https://2021.igem.org/wiki/images/thumb/c/c5/T--NTNU-Trondheim--design_1_h2s_detection.png/320px-T--NTNU-Trondheim--design_1_h2s_detection.png
+
+https://2021.igem.org/File:T--NTNU-Trondheim--pigeon_design_1.png
+https://2021.igem.org/wiki/images/a/a1/T--NTNU-Trondheim--pigeon_design_1.png
+https://2021.igem.org/wiki/images/thumb/a/a1/T--NTNU-Trondheim--pigeon_design_1.png/800px-T--NTNU-Trondheim--pigeon_design_1.png
+https://2021.igem.org/wiki/images/thumb/a/a1/T--NTNU-Trondheim--pigeon_design_1.png/320px-T--NTNU-Trondheim--pigeon_design_1.png
+
+
+
+https://2021.igem.org/File:T--NTNU-Trondheim--design_2_h2s_detection.png
+https://2021.igem.org/wiki/images/c/cc/T--NTNU-Trondheim--design_2_h2s_detection.png
+https://2021.igem.org/wiki/images/thumb/c/cc/T--NTNU-Trondheim--design_2_h2s_detection.png/800px-T--NTNU-Trondheim--design_2_h2s_detection.png
+https://2021.igem.org/wiki/images/thumb/c/cc/T--NTNU-Trondheim--design_2_h2s_detection.png/320px-T--NTNU-Trondheim--design_2_h2s_detection.png
+
+https://2021.igem.org/File:T--NTNU-Trondheim--pigeon_design_2.png
+https://2021.igem.org/wiki/images/8/84/T--NTNU-Trondheim--pigeon_design_2.png
+https://2021.igem.org/wiki/images/thumb/8/84/T--NTNU-Trondheim--pigeon_design_2.png/798px-T--NTNU-Trondheim--pigeon_design_2.png
+https://2021.igem.org/wiki/images/thumb/8/84/T--NTNU-Trondheim--pigeon_design_2.png/320px-T--NTNU-Trondheim--pigeon_design_2.png
+
+##########################
+         CSS
+##########################
+
+### Header ###
+https://2021.igem.org/Template:NTNU-Trondheim/Martin/header
+https://2021.igem.org/Template:NTNU-Trondheim/Martin/header?action=edit
+
+### Navbar ###
+https://2021.igem.org/Template:NTNU-Trondheim/Martin/navbar
+https://2021.igem.org/Template:NTNU-Trondheim/Martin/navbar?action=edit
+
+### Content ###
+https://2021.igem.org/Template:NTNU-Trondheim/Martin/content
+https://2021.igem.org/Template:NTNU-Trondheim/Martin/content?action=edit
+
+### Bottom ###
+https://2021.igem.org/Template:NTNU-Trondheim/Martin/bottom
+https://2021.igem.org/Template:NTNU-Trondheim/Martin/bottom?action=edit
+
+### Fix Things ###
+https://2021.igem.org/Template:NTNU-Trondheim/Martin/fixthings
+https://2021.igem.org/Template:NTNU-Trondheim/Martin/fixthings?action=edit
+
+### Navigationbar |###
+https://2021.igem.org/Template:NTNU-Trondheim/Martin/NavigationBar
+https://2021.igem.org/Template:NTNU-Trondheim/Martin/NavigationBar?action=edit
+
+### BottomSponsorSocial ###
+https://2021.igem.org/Template:NTNU-Trondheim/Martin/BottomSponsorSocial
+https://2021.igem.org/Template:NTNU-Trondheim/Martin/BottomSponsorSocial?action=edit
+
+##########################
+         JS
+##########################
+
+### TeamList ###
+https://2021.igem.org/Template:NTNU-Trondheim/Test/TeamList
+https://2021.igem.org/Template:NTNU-Trondheim/Test/TeamList?action=raw&ctype=text/javascript
+https://2021.igem.org/Template:NTNU-Trondheim/Test/TeamList?action=edit
+
+### MiniGame ###
+https://2021.igem.org/Template:NTNU-Trondheim/Test/MiniGame
+https://2021.igem.org/Template:NTNU-Trondheim/Test/MiniGame?action=raw&ctype=text/javascript
+https://2021.igem.org/Template:NTNU-Trondheim/Test/MiniGame?action=edit
+
+
+### Navbar ###
+https://2021.igem.org/Template:NTNU-Trondheim/Test/navbarJS
+https://2021.igem.org/Template:NTNU-Trondheim/Test/navbarJS?action=raw&ctype=text/javascript
+https://2021.igem.org/Template:NTNU-Trondheim/Test/navbarJS?action=edit
