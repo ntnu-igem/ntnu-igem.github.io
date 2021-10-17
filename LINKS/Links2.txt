@@ -219,6 +219,30 @@ https://2021.igem.org/wiki/images/9/90/T--NTNU-Trondheim--AquaNor_stand.png
 
 
 
+https://2021.igem.org/File:T--NTNU-Trondheim--dCod.png
+https://2021.igem.org/wiki/images/9/93/T--NTNU-Trondheim--dCod.png
+https://2021.igem.org/wiki/images/thumb/9/93/T--NTNU-Trondheim--dCod.png/800px-T--NTNU-Trondheim--dCod.png
+https://2021.igem.org/wiki/images/thumb/9/93/T--NTNU-Trondheim--dCod.png/320px-T--NTNU-Trondheim--dCod.png
+
+
+https://2021.igem.org/File:T--NTNU-Trondheim--Kari.png
+https://2021.igem.org/wiki/images/5/5c/T--NTNU-Trondheim--Kari.png
+https://2021.igem.org/wiki/images/thumb/5/5c/T--NTNU-Trondheim--Kari.png/546px-T--NTNU-Trondheim--Kari.png
+https://2021.igem.org/wiki/images/thumb/5/5c/T--NTNU-Trondheim--Kari.png/219px-T--NTNU-Trondheim--Kari.png
+
+https://2021.igem.org/File:T--NTNU-Trondheim--nofima.jpg
+https://2021.igem.org/wiki/images/d/db/T--NTNU-Trondheim--nofima.jpg
+https://2021.igem.org/wiki/images/thumb/d/db/T--NTNU-Trondheim--nofima.jpg/450px-T--NTNU-Trondheim--nofima.jpg
+https://2021.igem.org/wiki/images/thumb/d/db/T--NTNU-Trondheim--nofima.jpg/180px-T--NTNU-Trondheim--nofima.jpg
+
+
+https://2021.igem.org/File:T--NTNU-Trondheim--roger.png
+https://2021.igem.org/wiki/images/a/ae/T--NTNU-Trondheim--roger.png
+https://2021.igem.org/wiki/images/thumb/a/ae/T--NTNU-Trondheim--roger.png/800px-T--NTNU-Trondheim--roger.png
+https://2021.igem.org/wiki/images/thumb/a/ae/T--NTNU-Trondheim--roger.png/320px-T--NTNU-Trondheim--roger.png
+
+
+
 
 ###### Improvement #######
 
@@ -272,7 +296,7 @@ https://2021.igem.org/wiki/images/thumb/8/8d/T--NTNU-Trondheim--Results2.jpg/320
 https://2021.igem.org/File:T--NTNU-Trondheim--Results3.jpg
 https://2021.igem.org/wiki/images/9/9a/T--NTNU-Trondheim--Results3.jpg
 
-https://2021.igem.org/wiki/images/c/c1/800px-T--NTNU-Trondheim--Results_13.png
+https://2021.igem.org/wiki/images/c/c1/T--NTNU-Trondheim--Results_13.png
 
 https://2021.igem.org/File:T--NTNU-Trondheim--Results4.jpg
 https://2021.igem.org/wiki/images/c/ca/T--NTNU-Trondheim--Results4.jpg
@@ -457,9 +481,9 @@ https://2021.igem.org/wiki/images/thumb/8/84/T--NTNU-Trondheim--pigeon_design_2.
 
 
 http://parts.igem.org/File:T--NTNU-Trondheim--YFP_LOV_pENZ0004_plasmid.png
-http://parts.igem.org/wiki/images/3/33/T--NTNU-Trondheim--YFP_LOV_pENZ0004_plasmid.png
-[[File:T--NTNU-Trondheim--YFP_LOV_pENZ0004_plasmid.png|600px|center|alt text]]
+http://parts.igem.org/wiki/images/3/33/T--NTNU-Trondheim--YFP_LOV_pENZ0004_plasmid.png  
 
+[[File:T--NTNU-Trondheim--YFP_LOV_pENZ0004_plasmid.png|600px|center|alt text]]
 
 
 https://2021.igem.org/File:T--NTNU-Trondheim--sfGFPResultMatrix.png
