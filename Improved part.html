@@ -6,14 +6,40 @@ __NOTOC__
 A generator using the well chararcterized "superfolder GFP driven by T7 promoter" <partinfo>BBa_I746909</partinfo> where the sfGFP is replaced with the YFP_LOV from GO_Paris-Saclay <partinfo>BBa_K3427000</partinfo>
 
 
+We wanted to modify an existing part where the improvement was in its added utility so that it would fit the
+needs of future teams whose project has aspects that require it to work under hypoxic conditions or where the
+availability of molecular oxygen is low.
 
-
-
-
+<html><p>
+    Our chosen part was the well characterized signal generator “superfolder GFP driven by T7 promoter” <a
+        href="http://parts.igem.org/Part:BBa_I746909">BBa_I746909</a> by Cambridge 2007 in which we replaced its
+    sfGFP with the “heat stable fluorescent YFP_LOV protein” <a
+        href="http://parts.igem.org/Part:BBa_K3427000">BBa_K3427000</a> from GO_Paris-Saclay’s 2020 team.
+</p></html>
 
 
 <html>
-<table>
+    <h3>Characterization</h3>
+
+
+    <p>
+        The linear fragment of <a href="http://parts.igem.org/Part:BBa_K3762010">BBa_K3762010</a> was cloned using
+        Gibson assembly into a pENZ004 plasmid provided by the PhotoSyn lab at NTNU. We proceeded to transform the
+        plasmid into our <em>E. coli</em> <em>BL21</em> cells and selected using ampicillin resistance.
+    </p>
+    <p>
+        <strong>Fluorescence measurement settings using a Tecan Infinite 200 Pro:</strong>
+    </p>
+    <br>
+    <br>
+    <p>
+        <center> <strong>Table 1:</strong>
+             Tecan Infinite 200 Pro settings for measuring fluorescence intensity in BBa_I746909</center>
+        
+    </p>
+    <br>
+<center>
+        <table>
             <tr>
                 <td><strong>Setting</strong>
                 </td>
@@ -81,70 +107,292 @@ A generator using the well chararcterized "superfolder GFP driven by T7 promoter
                 </td>
             </tr>
         </table>
-        </html>
+    </center>
 
-        <center>
-            <table>
-                <tr>
-                    <td><strong>Sample</strong>
-                    </td>
-                    <td><strong>Plasmid</strong>
-                    </td>
-                    <td><strong>Inducer (IPTG)</strong>
-                    </td>
-                    <td><strong>Fluorescence </strong>
-                    </td>
-                </tr>
-                <tr>
-                    <td>Negative
-                    </td>
-                    <td>No
-                    </td>
-                    <td>No
-                    </td>
-                    <td>No
-                    </td>
-                </tr>
-                <tr>
-                    <td>Control
-                    </td>
-                    <td>Yes
-                    </td>
-                    <td>No
-                    </td>
-                    <td>Yes
-                    </td>
-                </tr>
-                <tr>
-                    <td>40 uM IPTG
-                    </td>
-                    <td>Yes
-                    </td>
-                    <td>Yes
-                    </td>
-                    <td>Yes
-                    </td>
-                </tr>
-                <tr>
-                    <td>400 uM IPTG
-                    </td>
-                    <td>Yes
-                    </td>
-                    <td>Yes
-                    </td>
-                    <td>Yes
-                    </td>
-                </tr>
-            </table>
-        </center>
 
-<html><p><center> <br>
-    Table 5: Result matrix for our experiment with BBa_I746909</center></p></html>
+    <p>
+       <center><strong>Table 2:</strong>
+     Tecan Infinite 200 Pro settings for measuring fluorescence intensity in BBa_K3762010 in accordance with
+        the characterization protocol in <a href="http://parts.igem.org/Part:BBa_K3427000">BBa_K3427000</a></center>
+<br>
+        
+    </p>
+    <center>
+        <table>
+            <tr>
+                <td><strong>Setting</strong>
+                </td>
+                <td><strong>Value</strong>
+                </td>
+            </tr>
+            <tr>
+                <td>Excitation Wavelength
+                </td>
+                <td>488 nm
+                </td>
+            </tr>
+            <tr>
+                <td>Emission Wavelength
+                </td>
+                <td>536 nm
+                </td>
+            </tr>
+            <tr>
+                <td>Excitation Bandwidth
+                </td>
+                <td>9 nm
+                </td>
+            </tr>
+            <tr>
+                <td>Emission Bandwidth
+                </td>
+                <td>20
+                </td>
+            </tr>
+            <tr>
+                <td>Gain
+                </td>
+                <td>100
+                </td>
+            </tr>
+            <tr>
+                <td>Number of flashes
+                </td>
+                <td>22
+                </td>
+            </tr>
+            <tr>
+                <td>Integration Time
+                </td>
+                <td>20 us
+                </td>
+            </tr>
+            <tr>
+                <td>Lag time
+                </td>
+                <td>0 us
+                </td>
+            </tr>
+            <tr>
+                <td>Settle time
+                </td>
+                <td>0 ms
+                </td>
+            </tr>
+            <tr>
+                <td>Z-position
+                </td>
+                <td>20000 um
+                </td>
+            </tr>
+        </table>
+    </center>
+
+<h3>Results</h3>
+
+
+    <p>
+
+
+
+
+        <center><img src="https://2021.igem.org/wiki/images/2/22/T--NTNU-Trondheim--YFP_paralell_3.png" width="30%"
+                alt="alt_text" title="image_tooltip"></center>
+
+
+    </p>
+    <p><center><strong>Figure 3:</strong>
+         An edited .tiff image taken from a Bio-Rad GelDoc showing the difference in fluorescent color between
+        the negative culture; <em>E. coli</em> <em>BL21 cells </em>and samples with our construct containing YFP_LOV
+        under T7 control; Control, 40 &micro;M IPTG & 400 &micro;M IPTG.</center>
+        
+    </p>
+    <br>
+    <p>
+
+
+
+
+        <center><img
+                src="https://2021.igem.org/wiki/images/thumb/2/2a/T--NTNU-Trondheim--Graph_YFP_LOV.png/800px-T--NTNU-Trondheim--Graph_YFP_LOV.png"
+                width="" alt="alt_text" title="image_tooltip"></center>
+
+
+
+
+    <p><center><strong>Figure 4:</strong> Fluorescence intensity plot for four parallels of BBa_K3762010.</center>
+        
+    </p>
+    <br>
+    <p>
+        <center><strong>Table 3:</strong> Result matrix for our experiment with BBa_K3762010</center>
+        
+    </p>
+    <center>
+        <table>
+            <tr>
+                <td><strong>Sample</strong>
+                </td>
+                <td><strong>Plasmid</strong>
+                </td>
+                <td><strong>Inducer (IPTG)</strong>
+                </td>
+                <td><strong>Fluorescence </strong>
+                </td>
+            </tr>
+            <tr>
+                <td>Negative
+                </td>
+                <td>No
+                </td>
+                <td>No
+                </td>
+                <td>No
+                </td>
+            </tr>
+            <tr>
+                <td>Control
+                </td>
+                <td>Yes
+                </td>
+                <td>No
+                </td>
+                <td>Yes
+                </td>
+            </tr>
+            <tr>
+                <td>40 &micro;M IPTG
+                </td>
+                <td>Yes
+                </td>
+                <td>Yes
+                </td>
+                <td>Yes
+                </td>
+            </tr>
+            <tr>
+                <td>400 &micro;M IPTG
+                </td>
+                <td>Yes
+                </td>
+                <td>Yes
+                </td>
+                <td>Yes
+                </td>
+            </tr>
+        </table>
+    </center>
+
+
+
+    <center><img src="https://2021.igem.org/wiki/images/f/fb/T--NTNU-Trondheim--GFP_paralell_1.png" width="30%"
+            alt="alt_text" title="image_tooltip"></center>
+
+    <p><center> <strong>Figure 5: </strong> An edited .tiff image taken from a Bio-Rad GelDoc showing the difference in fluorescent color between
+        the negative culture; <em>E. coli</em> <em>BL21 cells </em>and samples with Cambridge 2007’s sfGFP driven by T7;
+        Control, 40 &micro; IPTG & 400 &micro; IPTG.</center>
+       
+    </p>
+    <p>
+
+        <center> <img
+                src="https://2021.igem.org/wiki/images/thumb/3/3b/T--NTNU-Trondheim--Graph_sfGFP.png/800px-T--NTNU-Trondheim--Graph_sfGFP.png"
+                width="" alt="alt_text" title="image_tooltip"></center>
+
+<br>
+    <p> <center><strong>Figure 6: </strong> Fluorescence intensity plot for two parallels of BBa_I746909. Excitation: 470 nm. Emission: 520 nm. </center>
+        
+    </p>
+    <p>
+       <center><strong>Table 4:</strong> Result matrix for our experiment with BBa_I746909</center> 
+    </p>
+
+    <center>
+        <table>
+            <tr>
+                <td><strong>Sample</strong>
+                </td>
+                <td><strong>Plasmid</strong>
+                </td>
+                <td><strong>Inducer (IPTG)</strong>
+                </td>
+                <td><strong>Fluorescence </strong>
+                </td>
+            </tr>
+            <tr>
+                <td>Negative
+                </td>
+                <td>No
+                </td>
+                <td>No
+                </td>
+                <td>No
+                </td>
+            </tr>
+            <tr>
+                <td>Control
+                </td>
+                <td>Yes
+                </td>
+                <td>No
+                </td>
+                <td>Yes
+                </td>
+            </tr>
+            <tr>
+                <td>40 &micro; IPTG
+                </td>
+                <td>Yes
+                </td>
+                <td>Yes
+                </td>
+                <td>Yes
+                </td>
+            </tr>
+            <tr>
+                <td>400 &micro; IPTG
+                </td>
+                <td>Yes
+                </td>
+                <td>Yes
+                </td>
+                <td>Yes
+                </td>
+            </tr>
+        </table>
+    </center>
+
+    <p>
+        Sequencing results from Eurofins confirmed successful insert of plasmids with each respective construct.
+    </p>
+    <h3>Conclusions</h3>
+
+
+    <p>
+        Sequencing confirmed successful insert in the pENZ0004 plasmid and results indicate that we were able to clone
+        our construct into our <em>E. coli</em> <em>BL21</em> cells.
+    </p>
+    <p>
+        Results indicate that BBa_K3762010 is not as fluorescent as BBa_I746909 but does exhibit similar behavior with
+        and without inducers in our inducer concentration range [40 - 400 &micro; IPTG].
+    </p>
+    <p>
+        Due to how flavin-based fluorescent protein does not require molecular oxygen to attain its fluorescent form,
+        the case for the improvement over sfGFP lies in its function in hypoxic conditions. Potential applications can
+        be in microfluidics or a diagnostic setting where the environment has low or none molecular oxygen availability.
+    </p>
+
+
        
 
 
 <html><center><img src="http://parts.igem.org/wiki/images/3/33/T--NTNU-Trondheim--YFP_LOV_pENZ0004_plasmid.png" alt=""></center></html>
-
+<center><br>
+    <p>
+    <strong>Figure 7:</strong>
+         Plasmid map of the pENZ004 plasmid and our construct BBa_k3762010.
+    </p>
+</center>
 
 <!-- Add more about the biology of this part here
 ===Usage and Biology===
