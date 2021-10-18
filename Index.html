@@ -94,11 +94,11 @@
         }
 
         /* Fading animation */
-        /*.fade {
+        .fade {
             -webkit-animation-name: fade;
-            -webkit-animation-duration: 1.5s;
+            -webkit-animation-duration: 3s;
             animation-name: fade;
-            animation-duration: 1.5s;
+            animation-duration: 3s;
         }
 
         @-webkit-keyframes fade {
@@ -119,7 +119,7 @@
             to {
                 opacity: 1
             }
-        }*/
+        }
     </style>
 
 </head>
@@ -128,15 +128,15 @@
 <div class="slideshow-container">
 
     <!-- Full-width images with number and caption text -->
-    <div class="mySlides">
+    <div class="mySlides fade">
         <img src="https://2021.igem.org/wiki/images/b/b9/T--NTNU-Trondheim--NTNU_index_slideshow.jpg" style="width:100%">
     </div>
 
-    <div class="mySlides">
+    <div class="mySlides fade">
         <img src="https://2021.igem.org/wiki/images/6/66/T--NTNU-Trondheim--lab7_slideshow_smaller.png" style="width:100%">
     </div>
 
-    <div class="mySlides">
+    <div class="mySlides fade">
         <img src="https://2021.igem.org/wiki/images/e/e8/T--NTNU-Trondheim--rn_slideshow.jpg" style="width:100%">
     </div>
 
@@ -199,7 +199,7 @@
             slideIndex++;
             if (slideIndex > slides.length) { slideIndex = 1 }
             slides[slideIndex - 1].style.display = "block";
-            setTimeout(showSlides, 3000); // Change image every 3 seconds
+            setTimeout(showSlides, 4000); // Change image every 4 seconds
         }
     </script>
 
