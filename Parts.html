@@ -20,81 +20,83 @@
         </div>
     </div>
 
-    <main>
-
-        <p>
+    <main style="padding:3rem 16rem">
+        <h2 style="font-size:23px;text-align:center;color:var(--color-8)">Parts Overview</h2>
+        <p style="font-size:16px;">
             Table 1 shows an overview on the composite parts designed by our team.
         </p>
-        <p>
-            <strong>Table 1:</strong> Parts overview
+        <br>
+        <p style="font-size:14px;text-align: center;">
+            <strong>Table 1:</strong> Parts overview.
         </p>
-
-        <table>
-            <tr>
-                <td><strong>Name</strong>
-                </td>
-                <td><strong>Type</strong>
-                </td>
-                <td><strong>Description</strong>
-                </td>
-                <td><strong>Length [bp]</strong>
-                </td>
-            </tr>
-            <tr>
-                <td><a href="http://parts.igem.org/Part:BBa_K3762005">Part:BBa_K3762005</a>
-                </td>
-                <td>Composite
-                </td>
-                <td>Hydrogen sulfide sensor to be used with a sulfide oxidising component, with CreiLov reporter.
-                </td>
-                <td>985
-                </td>
-            </tr>
-            <tr>
-                <td><a href="http://parts.igem.org/Part:BBa_K3762006">Part:BBa_K3762006</a>
-                </td>
-                <td>Composite
-                </td>
-                <td>Hydrogen sulfide sensor to be used with a sulfide oxidising component, with CreiLov reporter.
-                </td>
-                <td>985
-                </td>
-            </tr>
-            <tr>
-                <td><a href="http://parts.igem.org/Part:BBa_K3762007">Part:BBa_K3762007</a>
-                </td>
-                <td>Composite
-                </td>
-                <td>Hydrogen sulfide sensor to be used with a sulfide oxidising component, with GFP reporter.
-                </td>
-                <td>1342
-                </td>
-            </tr>
-            <tr>
-                <td><a href="http://parts.igem.org/Part:BBa_K3762008">Part:BBa_K3762008</a>
-                </td>
-                <td>Composite
-                </td>
-                <td>Whole-cell hydrogen sulfide sensor, with CreiLov reporter.
-                </td>
-                <td>2492
-                </td>
-            </tr>
-        </table>
-
-
-        <p>
+        <center>
+            <table>
+                <tr>
+                    <td><strong>Name</strong>
+                    </td>
+                    <td><strong>Type</strong>
+                    </td>
+                    <td><strong>Description</strong>
+                    </td>
+                    <td><strong>Length [bp]</strong>
+                    </td>
+                </tr>
+                <tr>
+                    <td><a href="http://parts.igem.org/Part:BBa_K3762005">Part:BBa_K3762005</a>
+                    </td>
+                    <td>Composite
+                    </td>
+                    <td>Hydrogen sulfide sensor to be used with a sulfide oxidising component, with CreiLov reporter.
+                    </td>
+                    <td>985
+                    </td>
+                </tr>
+                <tr>
+                    <td><a href="http://parts.igem.org/Part:BBa_K3762006">Part:BBa_K3762006</a>
+                    </td>
+                    <td>Composite
+                    </td>
+                    <td>Hydrogen sulfide sensor to be used with a sulfide oxidising component, with CreiLov reporter.
+                    </td>
+                    <td>985
+                    </td>
+                </tr>
+                <tr>
+                    <td><a href="http://parts.igem.org/Part:BBa_K3762007">Part:BBa_K3762007</a>
+                    </td>
+                    <td>Composite
+                    </td>
+                    <td>Hydrogen sulfide sensor to be used with a sulfide oxidising component, with GFP reporter.
+                    </td>
+                    <td>1342
+                    </td>
+                </tr>
+                <tr>
+                    <td><a href="http://parts.igem.org/Part:BBa_K3762008">Part:BBa_K3762008</a>
+                    </td>
+                    <td>Composite
+                    </td>
+                    <td>Whole-cell hydrogen sulfide sensor, with CreiLov reporter.
+                    </td>
+                    <td>2492
+                    </td>
+                </tr>
+            </table>
+        </center>
+        <br>
+        <p style="font-size:16px;">
             All our composite parts were designed to be used as hydrogen sulfide sensors. Parts BBa_K3762005,
             BBa_K3762006, and BBa_K3762007 are sensors for reactive sulfur species and must therefore be used in
             conjunction with a component that oxidises sulfide to S<sup>0</sup>, whilst Part BBa_K3762008 is a sensor
             for sulfide.
-        </p>
-        <p>
+        </p><br>
+        <p style="font-size:16px;">
             All the composite parts were ordered fully synthesized from IDT as a linear sequence, and subsequently
             cloned into a pENZ004 plasmid vector using Gibson assembly, and transformed into <em>E. coli DH5-alpha</em>
             cells.
         </p>
-        <p>
+        <br>
+        <p style="font-size:16px;">
             Both part designs take advantage of the characteristics of the repressor protein SqrR. SqrR is a repressor
             protein that is involved in sulfide-dependent gene expression in the bacterium <em>Rhodobacter
                 capsulatus</em>[1]. When no sulfide is present, SqrR binds to the Psqr promoter, inhibiting the
@@ -105,10 +107,11 @@
             reduces its DNA binding affinity. RSS thereby functions as inducers of the genes under control of the Psqr
             promoter that is repressed by SqrR.[1]
         </p>
-        <p>
-            <strong>Hydrogen sulfide sensors to be used with a sulfide oxidising component</strong>
-        </p>
-        <p>
+        <br>
+        <h2 style="font-size:23px;text-align:center;color:var(--color-8)">Hydrogen sulfide sensors to be used with a
+            sulfide oxidising component</h2>
+
+        <p style="font-size:16px;">
             Parts BBa_K3762005, BBa_K3762006, and BBa_K3762007 take advantage of the sulfide-binding properties of SqrR,
             as well as its repressor function, so as to function as a sensor for hydrogen sulfide. When RSS are present,
             reaction with SqrR induces the expression of the reporter gene. However, in order to function as a hydrogen
@@ -116,97 +119,92 @@
             SQR. In our project, oxidised glutathione (GSSG) was reacted with sulfide to form glutathione persulfide
             (GSSH), a RSS. This is summarized in figure 1.
         </p>
-        <p>
+        <br>
+        <center><img
+                src="https://2021.igem.org/wiki/images/thumb/c/c5/T--NTNU-Trondheim--design_1_h2s_detection.png/800px-T--NTNU-Trondheim--design_1_h2s_detection.png"
+                width="500px" height="500px" alt="alt_text" title="image_tooltip">
+        </center>
 
-
-        
-
-
-        <img src="https://2021.igem.org/wiki/images/thumb/c/c5/T--NTNU-Trondheim--design_1_h2s_detection.png/800px-T--NTNU-Trondheim--design_1_h2s_detection.png" width="" alt="alt_text" title="image_tooltip">
-
-        </p>
-        <p>
-            <strong>Figure 1</strong>: Method of hydrogen sulfide detection by
+        <p style="font-size:14px;text-align: center;">
+            <strong>Figure 1: </strong>Method of hydrogen sulfide detection by
             parts BBa_K3762005, BBa_K3762006, and BBa_K3762007.
         </p>
-        <p>
+        <br>
+        <p style="font-size:16px;">
             The parts consist of a fluorescent reporter gene placed under control of the Psqr promoter, sqrR, the gene
             that encodes SqrR, placed under control of a constitutive promoter, as well as biobrick ribosomal binding
             sites and terminators. Figure 2 shows the components of the composite parts.
         </p>
-       
+        <br>
+        <center><img
+                src="https://2021.igem.org/wiki/images/thumb/a/a1/T--NTNU-Trondheim--pigeon_design_1.png/800px-T--NTNU-Trondheim--pigeon_design_1.png"
+                width="600px" height="150px" alt="alt_text" title="image_tooltip"></center>
 
 
-        
-
-        <img src="https://2021.igem.org/wiki/images/thumb/a/a1/T--NTNU-Trondheim--pigeon_design_1.png/800px-T--NTNU-Trondheim--pigeon_design_1.png" width="" alt="alt_text" title="image_tooltip">
-
-        
-        <p>
-           <strong>Figure 2</strong>: Components of composite parts BBa_K3762005,
+        <p style="font-size:14px;text-align: center;">
+            <strong>Figure 2: </strong>Components of composite parts BBa_K3762005,
             BBa_K3762006, and BBa_K3762007. <em>Figure</em> <em>designed using Pigeon [2].</em>
         </p>
-        <p>
+        <br>
+        <p style="font-size:16px;">
             The main difference between the three parts is that in Parts BBa_K3762005 and BBa_K3762006, the reporter
             gene is the fluorescent protein CreiLov, whilst in part BBa_K3762007 the reporter gene is GFP. The relative
             strength of the constitutive promoters used for sqrR expression also varies, with the promoter used for
             BBa_K3762005 being relatively stronger.
-        </p>
-        <p>
+        </p><br>
+        <p style="font-size:16px;">
             This was done because we wanted to test wherever the expression level of SqrR affected the sensitivity of
             the parts.
         </p>
-        <p>
-            <strong>Part BBa_K3762008 is a whole-cell hydrogen sulfide sensor</strong>
-        </p>
-        <p>
+        <br>
+        <h2 style="font-size:23px;text-align:center;color:var(--color-8)">Part BBa_K3762008 is a whole-cell hydrogen
+            sulfide sensor</h2>
+
+        <p style="font-size:16px;">
             Part BBa_K3762008 takes advantage of the sulfide-binding properties of SqrR, as well as its repressor
             function, so as to function as a sensor for hydrogen sulfide. The part consists of the fluorescent reporter
             gene CreiLov placed under control of the Psqr promoter, sqr, the gene that encodes SQR, placed under control
             of a constitutive promoter, sqrR, the gene that encodes SqrR, placed under control of a constitutive
-            promoter, as well as biobrick ribosomal
+            promoter, as well as biobrick ribosomal binding sites and terminators. The components of the composite part
+            are shown in figure 3.
         </p>
-        <p>
-            binding sites and terminators. The components of the composite part are shown in figure 3.
-        </p>
-       
+        <br>
+        <center><img
+                src="https://2021.igem.org/wiki/images/thumb/8/84/T--NTNU-Trondheim--pigeon_design_2.png/798px-T--NTNU-Trondheim--pigeon_design_2.png"
+                width="600px" height="150px" alt="alt_text" title="image_tooltip"></center>
 
-
-        <img src="https://2021.igem.org/wiki/images/thumb/8/84/T--NTNU-Trondheim--pigeon_design_2.png/798px-T--NTNU-Trondheim--pigeon_design_2.png" width="" alt="alt_text" title="image_tooltip">
-
-        </p>
-        <p>
-            <strong>Figure 3</strong>: Components of composite part BBa_K3762008.
+        <p style="font-size:14px;text-align: center;">
+            <strong>Figure 3: </strong>Components of composite part BBa_K3762008.
             <em>Figure designed using Pigeon [2].</em>
         </p>
-        <p>
+        <br>
+        <p style="font-size:16px;">
             When hydrogen sulfide diffuses across the cell membrane, the constitutively expressed SQR oxidises sulfide
             to S0. The oxidized S0 can then react with SqrR, inducing the expression of the reporter protein. This is
             illustrated in figure 4.
         </p>
-        <p>
+        <br>
+        <center><img
+                src="https://2021.igem.org/wiki/images/thumb/c/cc/T--NTNU-Trondheim--design_2_h2s_detection.png/800px-T--NTNU-Trondheim--design_2_h2s_detection.png"
+                width="600px" height="300px" alt="alt_text" title="image_tooltip"></center>
 
 
-        
 
-        <img src="https://2021.igem.org/wiki/images/thumb/c/cc/T--NTNU-Trondheim--design_2_h2s_detection.png/800px-T--NTNU-Trondheim--design_2_h2s_detection.png" width="" alt="alt_text" title="image_tooltip">
-
-      
-        <p>
-           <strong>Figure 4</strong>: Method of hydrogen sulfide detection by
+        <p style="font-size:14px;text-align: center;">
+            <strong>Figure 4: </strong>Method of hydrogen sulfide detection by
             part BBa_K3762008.
         </p>
-        <p>
-            <strong>References</strong>:
-        </p>
-        <p>
+        <br>
+        <h4>References</h4>:
+
+        <p style="font-size:16px;">
             [1] Shimizu, T., Shen, J., Fang, M., Zhang, Y., Hori, K., Trinidad, J. C., Bauer, C. E., Giedroc, D. P., &
             Masuda, S. (2017). Sulfide-responsive transcriptional repressor SqrR functions as a master regulator of
             sulfide-dependent photosynthesis. Proceedings of the National Academy of Sciences of the United States of
             America, 114(9), 2355–2360. <a
                 href="https://doi.org/10.1073/pnas.1614133114">https://doi.org/10.1073/pnas.1614133114</a>
         </p>
-        <p>
+        <p style="font-size:16px;">
             [2] Bhatia, S. & Densmore, D. Pigeon: a design visualizer for synthetic biology. ACS Synth. Biol. 2, 348–350
             (2013).
         </p>
