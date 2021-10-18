@@ -630,14 +630,14 @@ https://2021.igem.org/wiki/images/a/af/T--NTNU-Trondheim--UiO_Mai.png # Partners
 
 ################# Index ######################
 
-https://2021.igem.org/File:T--NTNU-Trondheim--landingpage_lab7.png 
-https://2021.igem.org/wiki/images/2/24/T--NTNU-Trondheim--landingpage_lab7.png
+https://2021.igem.org/File:T--NTNU-Trondheim--index_slideshow.png
+https://2021.igem.org/wiki/images/6/68/T--NTNU-Trondheim--index_slideshow.png
 
-https://2021.igem.org/File:T--NTNU-Trondheim--landingpage_RN.jpeg
-https://2021.igem.org/wiki/images/9/9f/T--NTNU-Trondheim--landingpage_RN.jpeg
+https://2021.igem.org/File:T--NTNU-Trondheim--rn_slideshow.jpg
+https://2021.igem.org/wiki/images/e/e8/T--NTNU-Trondheim--rn_slideshow.jpg
 
-https://2021.igem.org/File:T--NTNU-Trondheim--NTNU_index_slideshow.jpg
-https://2021.igem.org/wiki/images/b/b9/T--NTNU-Trondheim--NTNU_index_slideshow.jpg
+https://2021.igem.org/File:T--NTNU-Trondheim--lab7_slideshow_smaller.png
+https://2021.igem.org/wiki/images/6/66/T--NTNU-Trondheim--lab7_slideshow_smaller.png
 
 
 ##########################
