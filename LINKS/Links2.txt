@@ -636,6 +636,9 @@ https://2021.igem.org/wiki/images/2/24/T--NTNU-Trondheim--landingpage_lab7.png
 https://2021.igem.org/File:T--NTNU-Trondheim--landingpage_RN.jpeg
 https://2021.igem.org/wiki/images/9/9f/T--NTNU-Trondheim--landingpage_RN.jpeg
 
+https://2021.igem.org/File:T--NTNU-Trondheim--NTNU_index_slideshow.jpg
+https://2021.igem.org/wiki/images/b/b9/T--NTNU-Trondheim--NTNU_index_slideshow.jpg
+
 
 ##########################
          CSS
