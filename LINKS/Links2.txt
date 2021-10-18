@@ -628,6 +628,14 @@ https://2021.igem.org/wiki/images/a/af/T--NTNU-Trondheim--UiO_Mai.png # Partners
 
 
 
+################# Index ######################
+
+https://2021.igem.org/File:T--NTNU-Trondheim--landingpage_lab7.png 
+https://2021.igem.org/wiki/images/2/24/T--NTNU-Trondheim--landingpage_lab7.png
+
+https://2021.igem.org/File:T--NTNU-Trondheim--landingpage_RN.jpeg
+https://2021.igem.org/wiki/images/9/9f/T--NTNU-Trondheim--landingpage_RN.jpeg
+
 
 ##########################
          CSS
