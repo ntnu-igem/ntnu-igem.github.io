@@ -650,6 +650,21 @@ https://2021.igem.org/wiki/images/e/e8/T--NTNU-Trondheim--rn_slideshow.jpg
 https://2021.igem.org/File:T--NTNU-Trondheim--lab7_slideshow_smaller.png
 https://2021.igem.org/wiki/images/6/66/T--NTNU-Trondheim--lab7_slideshow_smaller.png
 
+https://2021.igem.org/File:T--NTNU-Trondheim--FRET.jpeg
+https://2021.igem.org/wiki/images/e/ed/T--NTNU-Trondheim--FRET.jpeg
+
+https://2021.igem.org/File:T--NTNU-Trondheim--landingpage_lab6.png
+https://2021.igem.org/wiki/images/7/7b/T--NTNU-Trondheim--landingpage_lab6.png
+
+https://2021.igem.org/File:T--NTNU-Trondheim--Lunsj.jpeg
+https://2021.igem.org/wiki/images/c/c1/T--NTNU-Trondheim--Lunsj.jpeg
+
+https://2021.igem.org/File:T--NTNU-Trondheim--landingpage_lab5.png
+https://2021.igem.org/wiki/images/0/0c/T--NTNU-Trondheim--landingpage_lab5.png
+
+https://2021.igem.org/File:T--NTNU-Trondheim--lab_eline.jpeg
+https://2021.igem.org/wiki/images/0/02/T--NTNU-Trondheim--lab_eline.jpeg
+
 
 ##########################
          CSS
