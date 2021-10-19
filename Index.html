@@ -20,6 +20,7 @@
             max-width: 100%;
             position: relative;
             margin: auto;
+            height: 575px;
         }
 
         /* Hide the images by default */
@@ -129,29 +130,62 @@
 
     <!-- Full-width images with number and caption text -->
     <div class="mySlides fade">
-        <img src="https://2021.igem.org/wiki/images/b/b9/T--NTNU-Trondheim--NTNU_index_slideshow.jpg" style="width:100%">
+        <img src="https://2021.igem.org/wiki/images/b/b9/T--NTNU-Trondheim--NTNU_index_slideshow.jpg"
+            style="width: 100%; height: 100%; object-fit: cover; position: absolute;">
     </div>
 
     <div class="mySlides fade">
-        <img src="https://2021.igem.org/wiki/images/6/66/T--NTNU-Trondheim--lab7_slideshow_smaller.png" style="width:100%">
+        <img src="https://2021.igem.org/wiki/images/6/66/T--NTNU-Trondheim--lab7_slideshow_smaller.png"
+            style="width: 100%; height: 100%; position: absolute;">
     </div>
 
     <div class="mySlides fade">
-        <img src="https://2021.igem.org/wiki/images/e/e8/T--NTNU-Trondheim--rn_slideshow.jpg" style="width:100%">
+        <img src="https://2021.igem.org/wiki/images/e/e8/T--NTNU-Trondheim--rn_slideshow.jpg"
+            style="width: 100%; height: 100%; object-fit: cover; position: absolute;">
+    </div>
+
+    <div class="mySlides fade">
+        <img src="https://2021.igem.org/wiki/images/e/ed/T--NTNU-Trondheim--FRET.jpeg"
+            style="width: 100%; height: 100%; object-fit: cover; position: absolute;">
+    </div>
+
+    <div class="mySlides fade">
+        <img src="https://2021.igem.org/wiki/images/7/7b/T--NTNU-Trondheim--landingpage_lab6.png"
+            style="width: 100%; height: 100%; object-fit: cover; position: absolute;">
+    </div>
+
+    <div class="mySlides fade">
+        <img src="https://2021.igem.org/wiki/images/c/c1/T--NTNU-Trondheim--Lunsj.jpeg"
+            style="width: 100%; height: 100%; object-fit: cover; position: absolute;">
+    </div>
+
+    <div class="mySlides fade">
+        <img src="https://2021.igem.org/wiki/images/0/0c/T--NTNU-Trondheim--landingpage_lab5.png"
+            style="width: 100%; height: 100%; object-fit: cover; position: absolute;">
+    </div>
+
+    <div class="mySlides fade">
+        <img src="https://2021.igem.org/wiki/images/0/02/T--NTNU-Trondheim--lab_eline.jpeg"
+            style="width: 100%; height: 100%; object-fit: cover; position: absolute;">
     </div>
 
 </div>
 
-<br>
 
 <!-- The dots/circles -->
-<div style="text-align:center; color: var(--color-4);">
+<div style="text-align:center; background-color: var(--color-1);">
+    <br>
     <span class="dot" onclick="currentSlide(1)"></span>
     <span class="dot" onclick="currentSlide(2)"></span>
     <span class="dot" onclick="currentSlide(3)"></span>
+    <span class="dot" onclick="currentSlide(4)"></span>
+    <span class="dot" onclick="currentSlide(5)"></span>
+    <span class="dot" onclick="currentSlide(6)"></span>
+    <span class="dot" onclick="currentSlide(7)"></span>
+    <span class="dot" onclick="currentSlide(8)"></span>
+    <br>
 </div>
 
-<br>
 
 <main>
 
@@ -162,20 +196,21 @@
     <br>
 
 
-        <p style="font-size:16px; text-align: center;">
-            <strong>SulFind: A biosensor for sensitive hydrogen sulfide measurements in recirculating
-                    aquaculture systems</strong></p><br>
     <p style="font-size:16px; text-align: center;">
-            With SulFind, we are addressing acute fish death caused by hydrogen sulfide (H2S) poisoning in recirculating
-            aquaculture systems (RAS). Our goal is to design a biosensor that would satisfy industry standards as
-            present technologies for H2S detection are often insufficiently sensitive for toxic H2S levels. Two
-            biosensor systems were attempted, a whole-cell system and a system based on heme proteins. Our heme-based
-            sensor exploits the protein's sulfide-binding capabilities. We use fluorescence intensity to evaluate the
-            conformational change in fluorophore-tagged myoglobin protein bound to H2S. The sensing device will be
-            embedded in a microfluidic chip, which will be compatible with existing methods for monitoring water quality
-            in RAS facilities. As a result, our study seeks to reduce acute fish mortality in RAS facilities, making RAS
-            more sustainable and economical.
-        </p>
+        <strong>SulFind: A biosensor for sensitive hydrogen sulfide measurements in recirculating
+            aquaculture systems</strong>
+    </p><br>
+    <p style="font-size:16px; text-align: center;">
+        With SulFind, we are addressing acute fish death caused by hydrogen sulfide (H2S) poisoning in recirculating
+        aquaculture systems (RAS). Our goal is to design a biosensor that would satisfy industry standards as
+        present technologies for H2S detection are often insufficiently sensitive for toxic H2S levels. Two
+        biosensor systems were attempted, a whole-cell system and a system based on heme proteins. Our heme-based
+        sensor exploits the protein's sulfide-binding capabilities. We use fluorescence intensity to evaluate the
+        conformational change in fluorophore-tagged myoglobin protein bound to H2S. The sensing device will be
+        embedded in a microfluidic chip, which will be compatible with existing methods for monitoring water quality
+        in RAS facilities. As a result, our study seeks to reduce acute fish mortality in RAS facilities, making RAS
+        more sustainable and economical.
+    </p>
 
 
 </main>
@@ -187,8 +222,6 @@
 <body>
 
     <script>
-        var slideIndex = 0;
-        showSlides();
 
         function showSlides() {
             var i;
@@ -201,6 +234,18 @@
             slides[slideIndex - 1].style.display = "block";
             setTimeout(showSlides, 4000); // Change image every 4 seconds
         }
+
+
+        var slideIndex = 0;
+        showSlides();
+
+
+        // Thumbnail image controls
+        function currentSlide(n) {
+            slideIndex = n;
+            showSlides();
+        }
+
     </script>
 
     <script src="https://2021.igem.org/Template:NTNU-Trondheim/Test/navbarJS?action=raw&ctype=text/javascript"></script>
